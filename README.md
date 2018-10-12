@@ -50,7 +50,7 @@ adhere to the following:
 For now, the only output format supported is Markdown, which you can obtain via the following:
 
 ```bash
-$ $ ./render_datasets.py mir-datasets.yaml datasets.md
+$ ./render_datasets.py mir-datasets.yaml datasets.md
 ```
 
 Which will produce the output [data-sets.md](https://github.com/ismir/mir-datasets/blob/master/outputs/data-sets.md) file contained in this repository. Note that this output file **should not** be modified directly:
