@@ -53,7 +53,7 @@ For now, the only output format supported is Markdown, which you can obtain via 
 $ $ ./render_datasets.py mir-datasets.yaml datasets.md
 ```
 
-Which will produce the output [datasets.md](https://github.com/ismir/mir-datasets/blob/master/data-sets.md) file contained in this repository. Note that this output file **should not** be modified directly:
+Which will produce the output [data-sets.md](https://github.com/ismir/mir-datasets/blob/master/outputs/data-sets.md) file contained in this repository. Note that this output file **should not** be modified directly:
 
 * If the information is incorrect, update the source YAML file
 * If the formatting is wrong, please help fix the script (or [open an issue](https://github.com/ismir/mir-datasets/issues))
