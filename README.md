@@ -10,6 +10,11 @@ in a standardized, structured way. There are multiple consumers of this data:
 Importantly, [mir-datasets.yaml](https://github.com/ismir/mir-datasets/blob/master/mir-datasets.yaml) file is the **One Source of Truth** – all other formats and representations of this data (markdown, HTML, latex tables, what have you) should be derived from this master object. If there is some format for this table you would like to see, feel free to submit a [pull request](https://github.com/ismir/mir-datasets/pulls)!
 
 
+## Acknowledgement
+
+This effort extends years of effort by [Alexander Lerch](https://github.com/alexanderlerch) to maintain a rolling list of MIR datasets on his [website](http://audiocontentanalysis.org/data-sets/). Many thanks and high fives for the diligent work and foresight to recognize the value this collection has to the ISMIR community and beyond!
+
+
 ## Schema
 
 Each record in the [mir-datasets.yaml](https://github.com/ismir/mir-datasets/blob/master/mir-datasets.yaml) file adheres to one of the following formats:
