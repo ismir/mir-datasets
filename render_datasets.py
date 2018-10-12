@@ -3,7 +3,7 @@
 
 Example usage
 -------------
-$ ./render_datasets.py mir-datasets.yaml datasets.md
+$ ./render_datasets.py mir-datasets.yaml datasets.md --format markdown
 """
 
 import argparse
@@ -11,13 +11,13 @@ import os
 import sys
 import yaml
 
-WORDPRESS_TEMPLATE = '''
+MARKDOWN_TEMPLATE = '''
 dataset |  meta data |  contents |  with audio
 --- | --- | --- | ---
 '''
 
-WORDPRESS_RECORD = ('<a title="{key}" href="{url}" target="_blank" rel="noopener">{title}</a> '
-                    '| {metadata} | {contents} | {audio}')
+MARKDOWN_RECORD = ('<a title="{key}" href="{url}" target="_blank" rel="noopener">{title}</a> '
+                   '| {metadata} | {contents} | {audio}')
 
 
 def render_one(key, record):
@@ -29,19 +29,18 @@ def render_one(key, record):
         for item in metadata:
             if isinstance(item, dict):
                 meta = list(item.keys())[0]
-                item = '<a href="{}">{}</a>'.format(item[meta], meta)
+                item = '[{}]({})'.format(meta, item[meta])
             fields.append(item)
         metadata = ', '.join(fields)
 
-    return WORDPRESS_RECORD.format(key=key, title=title, metadata=metadata, **record)
+    return MARKDOWN_RECORD.format(key=key, title=title, metadata=metadata, **record)
 
 
 def render(records, format):
 
-    records = sorted(records.items(), key=lambda x: x[0])
-
+    records = sorted(records.items(), key=lambda x: x[0].lower())
     lines = [render_one(key, record) for key, record in records]
-    return WORDPRESS_TEMPLATE + '\n'.join(lines)
+    return MARKDOWN_TEMPLATE + '\n'.join(lines)
 
 
 if __name__ == '__main__':
@@ -55,7 +54,7 @@ if __name__ == '__main__':
                         metavar="output_file", type=str,
                         help="Path to rendered output.")
     parser.add_argument("--format",
-                        metavar="format", type=str, default='html',
+                        metavar="format", type=str, default='markdown',
                         help="Desired markdown format.")
 
     args = parser.parse_args()
