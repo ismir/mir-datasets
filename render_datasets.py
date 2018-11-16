@@ -3,10 +3,13 @@
 
 Example usage
 -------------
-$ ./render_datasets.py mir-datasets.yaml datasets.md --format markdown
+$ ./render_datasets.py mir-datasets.yaml datasets.md
+$ ./render_datasets.py mir-datasets.yaml datasets.js
 """
 
 import argparse
+import markdown
+import json
 import os
 import sys
 import yaml
@@ -36,11 +39,35 @@ def render_one(key, record):
     return MARKDOWN_RECORD.format(key=key, title=title, metadata=metadata, **record)
 
 
-def render(records, format):
+def render(records, output_format):
+    '''Render a number of records to the given output format.
 
+    Parameters
+    ----------
+    records : dict
+        Dataset records
+
+    output_format : str
+        One of ['md', 'js']
+
+    Returns
+    -------
+    data : str
+        String data to write to file.
+    '''
     records = sorted(records.items(), key=lambda x: x[0].lower())
     lines = [render_one(key, record) for key, record in records]
-    return MARKDOWN_TEMPLATE + '\n'.join(lines)
+    md = MARKDOWN_TEMPLATE + '\n'.join(lines)
+
+    if output_format == 'js':
+        html = markdown.markdown(md, extensions=['extra', 'smarty'], output_format='html5')
+        output = "document.write({})".format(json.dumps(html.replace('\n', '')))
+    elif output_format == 'md':
+        output = md
+    else:
+        raise ValueError("unsupported output format: {}".format(output_format))
+
+    return output
 
 
 if __name__ == '__main__':
@@ -53,14 +80,12 @@ if __name__ == '__main__':
     parser.add_argument("output_file",
                         metavar="output_file", type=str,
                         help="Path to rendered output.")
-    parser.add_argument("--format",
-                        metavar="format", type=str, default='markdown',
-                        help="Desired markdown format.")
 
     args = parser.parse_args()
     dataset = yaml.load(open(args.dataset_file))
 
+    output_format = os.path.splitext(args.output_file)[-1].strip('.')
     with open(args.output_file, 'w') as fp:
-        fp.write(render(dataset, format=args.format))
+        fp.write(render(dataset, format=output_format))
 
     sys.exit(0 if os.path.exists(args.output_file) else 1)
