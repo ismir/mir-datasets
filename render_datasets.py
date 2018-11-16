@@ -86,6 +86,6 @@ if __name__ == '__main__':
 
     output_format = os.path.splitext(args.output_file)[-1].strip('.')
     with open(args.output_file, 'w') as fp:
-        fp.write(render(dataset, format=output_format))
+        fp.write(render(dataset, output_format))
 
     sys.exit(0 if os.path.exists(args.output_file) else 1)
