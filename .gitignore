@@ -105,3 +105,4 @@ venv.bak/
 
 .sass-cache/
 _site/
+Gemfile.lock

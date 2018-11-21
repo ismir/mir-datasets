@@ -55,7 +55,9 @@ adhere to the following:
 The provided YAML dataset is automatically rendered to javascript via the following:
 
 ```bash
-$ ./render_datasets.py mir-datasets.yaml docs/assets/js/mir-datasets.js
+$ ./render_datasets.py \
+    mir-datasets.yaml \
+    docs/assets/js/mir-datasets.js
 ```
 
 This will produce the output [mir-datasets.js](https://github.com/ismir/mir-datasets/blob/master/docs/assets/js/mir-datasets.js) file, which is served via GitHub pages.
