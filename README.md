@@ -50,6 +50,15 @@ adhere to the following:
 * **Make sure that you've added valid YAML.** We ([will](https://github.com/ismir/mir-datasets/issues/1)) have tests, and they will (eventually) fail on Travis.
 
 
+### Tests
+
+There are some basic tests to ensure that the datasets YAML file is well formed, and the YAML->JS converter is able to keep producing (and deploying) good data. They will (eventually) run as part of the CI/CD build, but you can make sure everything works locally via the following:
+
+```bash
+$ py.test -vs tests --cov=.
+```
+
+
 ## Deployment
 
 The provided YAML dataset is automatically rendered to javascript via the following:
