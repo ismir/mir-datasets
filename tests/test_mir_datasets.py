@@ -15,7 +15,7 @@ def mir_datasets(mir_datasets_file):
 
 def validate_entries(obj):
     assert str(obj['url']).startswith('http')
-    assert str(obj['audio']) in ['yes', 'no']
+    assert len(str(obj['audio'])) > 0
     assert len(str(obj['contents'])) > 0
     meta = obj.get('metadata', [])
     if isinstance(meta, str):
@@ -35,4 +35,4 @@ def validate_entries(obj):
 
 def test_entries(mir_datasets):
     for key, entry in mir_datasets.items():
-        yield (validate_entries, entry)
+        validate_entries(entry)
