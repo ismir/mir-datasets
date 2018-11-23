@@ -8,11 +8,6 @@ def test_load_yaml(mir_datasets_file):
     assert len(dataset) > 100
 
 
-@pytest.fixture()
-def mir_datasets(mir_datasets_file):
-    return yaml.load(open(mir_datasets_file))
-
-
 def validate_entries(obj):
     assert str(obj['url']).startswith('http')
     assert len(str(obj['audio'])) > 0

@@ -18,7 +18,7 @@ def test_render_one_list_meta():
     rec = dict(url='http://ismir.net', metadata=['beats', 'bars', 'sections'],
                audio='yes', contents='40 bajillion songs')
     md = render_datasets.render_one(key, rec)
-    assert len(md) > (''.join(rec.values()))
+    assert len(md) > len(''.join(rec.values()))
     for v in rec.values():
         assert v in md
 
