@@ -25,13 +25,13 @@ def test_render_one_list_meta():
         assert v in md
 
 
-def test_render_md(mir_datasets):
+def test_render(mir_datasets):
     for fmt in ('md', 'js'):
         res = render_datasets.render(mir_datasets, fmt)
         assert len(res) > len(''.join(str(mir_datasets.values())))
 
 
-def test_main_call(mir_datasets_file, tmpdir, root_dir):
+def test_render_datasets_main(mir_datasets_file, tmpdir, root_dir):
     script = os.path.join(root_dir, 'render_datasets.py')
     for fmt in ('md', 'js'):
         output_file = os.path.join(str(tmpdir), 'test_output.{}'.format(fmt))
