@@ -692,6 +692,13 @@ MedleyDB:
     - instrument activation
   contents: 122 songs
   audio: 'yes'
+  
+Medley-solos-DB:
+   title: "Medley-solos-DB: a cross-collection dataset for musical instrument recognition"
+   url: https://zenodo.org/record/2582103
+   metadata: 8 instruments
+   contents: 21572 excerpts
+   audio: 'yes'
 
 MIR-1K:
   url: https://sites.google.com/site/unvoicedsoundseparation/mir-1k
