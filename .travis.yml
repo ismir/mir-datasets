@@ -1,0 +1,23 @@
+sudo: false
+
+cache:
+    directories:
+        - $HOME/env
+
+language: python
+
+python:
+    - "3.6"
+
+before_install:
+    - bash .travis_dependencies.sh
+    - export PATH="$HOME/env/miniconda$TRAVIS_PYTHON_VERSION/bin:$PATH";
+    - hash -r
+    - source activate test-environment
+
+install:
+    - pip install -r tests/requirements.txt
+
+script:
+    - python --version
+    - py.test tests -v
