@@ -5,6 +5,12 @@ import pytest
 
 d = yaml.load(open("mir-datasets.yaml"))
 
+required_fields = [
+    'url',
+    'metadata',
+    'contents',
+    'audio'
+]
 
 def datasets():
     for name, values in d.items():
@@ -27,6 +33,9 @@ def test_datasets(dataset):
     assert ' ' not in [name[0], name[-1]]
 
     # check if website is up
-    code = urllib.request.urlopen(values['url']).getcode()
+    code = urllib.request.urlopen(values['url'], timeout=5).getcode()
     assert code == 200
-        
+
+    # check if all required fields are there
+    for field in required_fields:
+        assert field in list(values.keys())
