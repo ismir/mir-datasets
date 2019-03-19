@@ -200,6 +200,13 @@ Cross-Era:
   contents: 2000 chromagrams and chord labels
   audio: 'no'
 
+DALI:
+    url: https://github.com/gabolsgabs/DALI
+    title: Dataset of synchronised Audio, LyrIcs and vocal notes
+    metadata: aligned notes and lyrics 
+    contents: 5358 songs 
+    audio: 'no'
+
 DAMP:
   url: https://ccrma.stanford.edu/damp/
   metadata:
@@ -554,7 +561,7 @@ JAAH:
   audio: 'no'
 
 Jamendo-VAD:
-  url: http://www.mathieuramona.com/wp/data/jamendo
+  url: https://jobim.ofai.at/download/jamendo.tgz
   metadata: voice activity
   contents: 61+16+16 songs
   audio: 'yes'
