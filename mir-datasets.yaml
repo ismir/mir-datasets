@@ -14,6 +14,7 @@ ADC2004:
   metadata: predominant pitch
   contents: 20 excerpts
   audio: 'yes'
+  reference: https://doi.org/10.5281/zenodo.1414796
 
 AcousticBrainz-Genre:
   url: https://multimediaeval.github.io/2018-AcousticBrainz-Genre-Task/
@@ -27,6 +28,7 @@ AED:
   metadata: 28 event classes
   contents: 5223 audio snippets
   audio: 'yes'
+  reference: http://dx.doi.org/10.21437/Interspeech.2016-805
 
 Amg1608:
   url: https://amg1608.blogspot.ch
@@ -46,24 +48,28 @@ APL:
   metadata: piano practice
   contents: 620 segments
   audio: 'yes'
+  reference: https://doi.org/10.5281/zenodo.1416224
 
 artist20:
   url: http://labrosa.ee.columbia.edu/projects/artistid
   metadata: 20 artists
   contents: 1413 songs
   audio: 'no'
+  reference: https://doi.org/10.5281/zenodo.1416906
 
 AudioSet:
   url: https://research.google.com/audioset/index.html
   metadata: 632 event classes
   contents: 2084320 clips (10s)
   audio: 'no'
+  reference: https://doi.org/10.1109/ICASSP.2017.7952261
 
 bach10:
   url: http://music.cs.northwestern.edu/data/Bach10.html
   metadata: aligned multitrack MIDI
   contents: 10 chorales
   audio: 'yes'
+  reference: https://doi.org/10.1109/TASL.2010.2042119
 
 ballroom:
   url: http://mtg.upf.edu/ismir2004/contest/tempoContest/node5.html
@@ -87,18 +93,21 @@ BPS-FH:
   metadata: functional annotation
   contents: 32 sonatas
   audio: 'no'
+  reference: ismir 2018 doi missing
 
 C224a:
   url: http://www.cp.jku.at/people/schedl/datasets.html
   metadata: 14 genres
   contents: 224 artists
   audio: 'no'
+  reference: https://doi.org/10.5281/zenodo.1417189
 
 C3ka:
   url: http://www.cp.jku.at/people/schedl/datasets.html
   metadata: 18 genres
   contents: 3000 artists
   audio: 'no'
+  reference: https://doi.org/10.1109/ICDIM.2007.369245
 
 C49ka-C111ka:
   url: http://www.cp.jku.at/people/schedl/datasets.html
@@ -125,6 +134,7 @@ CarnaticRhythm:
     - beats
   contents: 176 pieces
   audio: on request
+  reference: https://doi.org/10.1109/ICASSP.2014.6854598
 
 CASD:
   title: Chordify Annotator Subjectivity Dataset
@@ -141,6 +151,7 @@ CCMixter:
     - background track
   contents: 50 mixes
   audio: 'yes'
+  reference: https://doi.org/10.1049/cp.2014.0655
 
 Chopin22:
   url: http://iwk.mdw.ac.at/goebl/mp3.html
@@ -148,6 +159,7 @@ Chopin22:
     - aligned MIDI
   contents: 44 recordings
   audio: 'yes'
+  reference: http://dx.doi.org/10.1121/1.1376133
 
 CMMSD:
   url: http://intelligent-noise-solutions.de/research/cmmsd/
@@ -157,12 +169,14 @@ CMMSD:
     - vibrato
   contents: 36 excerpts
   audio: 'no'
+  reference: http://www.aes.org/e-lib/browse.cfm?elib=17099 
 
 Coidach:
   url: http://jmir.sourceforge.net/Codaich.html
   metadata: 55 genres
   contents: 26420 songs
   audio: 'no'
+  reference: https://doi.org/10.5281/zenodo.1416652
 
 corpusCOFLA:
   url: http://www.cofla-project.com/?page_id=170
@@ -171,6 +185,7 @@ corpusCOFLA:
     - predominant melody
   contents: 1800 flamenco recordings
   audio: 'no'
+  reference: https://doi.org/10.1145/2875428
 
 covers80:
   url: http://labrosa.ee.columbia.edu/projects/coversongs/covers80/
@@ -199,13 +214,15 @@ Cross-Era:
     - instrumentation
   contents: 2000 chromagrams and chord labels
   audio: 'no'
+  reference: https://dx.doi.org/10.1177/1029864918757595
 
 DALI:
-    url: https://github.com/gabolsgabs/DALI
-    title: Dataset of synchronised Audio, LyrIcs and vocal notes
-    metadata: aligned notes and lyrics 
-    contents: 5358 songs 
-    audio: 'no'
+  url: https://github.com/gabolsgabs/DALI
+  title: Dataset of synchronised Audio, LyrIcs and vocal notes
+  metadata: aligned notes and lyrics 
+  contents: 5358 songs
+  audio: 'no'
+  reference: ismir 2018 doi missing
 
 DAMP:
   url: https://ccrma.stanford.edu/damp/
@@ -231,6 +248,7 @@ DEAPDataset:
     - physiological data
   contents: 120 music video excerpts
   audio: 'no'
+  reference: https://doi.org/10.1109/T-AFFC.2011.15
 
 DREANSS:
   url: http://mtg.upf.edu/download/datasets/dreanss
@@ -245,6 +263,7 @@ DrumPt:
   metadata: 4 playing techniques
   contents: app. 2000 annotations
   audio: yes (see ENST)
+  reference: https://doi.org/10.5281/zenodo.1416680
 
 DSD100:
   url: https://sigsep.github.io/datasets/dsd100.html
@@ -565,6 +584,7 @@ Jamendo-VAD:
   metadata: voice activity
   contents: 61+16+16 songs
   audio: 'yes'
+  reference: https://doi.org/10.1109/ICASSP.2008.4518002
 
 JGDB:
   url: https://ccrma.stanford.edu/~jga/ismir2010/ismir2010.html
