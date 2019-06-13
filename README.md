@@ -4,7 +4,7 @@ This repository exists solely for tracking MIR datasets and their corresponding 
 in a standardized, structured way. There are multiple consumers of this data:
 
 * [audiocontentanalysis](http://audiocontentanalysis.org/data-sets/)
-* [ISMIR datasets page](tbd)
+* [ISMIR datasets page](http://www.ismir.net/resources/datasets/)
 * `<your instance here!>`
 
 Importantly, [mir-datasets.yaml](https://github.com/ismir/mir-datasets/blob/master/mir-datasets.yaml) file is the **One Source of Truth** – all other formats and representations of this data (markdown, HTML, latex tables, what have you) should be derived from this master object. If there is some format for this table you would like to see, feel free to submit a [pull request](https://github.com/ismir/mir-datasets/pulls)!
