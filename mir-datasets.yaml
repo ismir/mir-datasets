@@ -239,6 +239,14 @@ DrumPt:
   contents: app. 2000 annotations
   audio: yes (see ENST)
 
+DSD100:
+  url: https://sigsep.github.io/datasets/dsd100.html
+  metadata: 
+    - multitrack recordings
+    - stems for vocals, drums, bass and accompaniment
+  contents: 100 songs
+  audio: 'yes'
+
 emoMusic:
   url: http://cvml.unige.ch/databases/emoMusic
   metadata: arousal & valence
@@ -498,12 +506,6 @@ iKala:
   contents: 252 excerpts (30s)
   audio: 'yes'
 
-INRIA:DSD100:
-  url: http://musicdata.gforge.inria.fr/structureAnnotation.html
-  metadata: multitrack
-  contents: 100 songs
-  audio: 'yes'
-
 INRIA:EuroVision:
   url: http://musicdata.gforge.inria.fr/structureAnnotation.html
   metadata: structure
@@ -692,6 +694,13 @@ MedleyDB:
     - instrument activation
   contents: 122 songs
   audio: 'yes'
+  
+Medley-solos-DB:
+   title: "Medley-solos-DB: a cross-collection dataset for musical instrument recognition"
+   url: https://zenodo.org/record/2582103
+   metadata: 8 instruments
+   contents: 21572 excerpts
+   audio: 'yes'
 
 MIR-1K:
   url: https://sites.google.com/site/unvoicedsoundseparation/mir-1k
@@ -785,6 +794,14 @@ MTG-QBH:
     - artist
   contents: 118 queries/481 songs
   audio: yes/no
+
+MUSDB18:
+  url: https://sigsep.github.io/datasets/musdb.html
+  metadata: 
+    - multitrack recordings
+    - stems for vocals, drums, bass and accompaniment
+  contents: 150 songs
+  audio: 'yes'
 
 musiclef2012:
   url: http://www.cp.jku.at/datasets/musiclef/index.html
