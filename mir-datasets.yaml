@@ -442,6 +442,16 @@ GTZAN:
   contents: 1000 excerpts (30s)
   audio: 'yes'
 
+GuitarSet:
+  url: https://guitarset.weebly.com/
+  metadata: 
+    - midi 
+    - pitch 
+    - beat
+    - chords
+  contents: 360 guitar excerpts (30s) with hexaphonic audio
+  audio: 'yes'
+
 Hainsworth:
   url: http://www.marsyas.info/tempo/ # This seems wrong?
   metadata: tempo
@@ -667,6 +677,15 @@ magnatagatune:
   url: http://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset
   metadata: similarity   # Doesn't it have tags too?
   contents: 25863 excerpts (30s)
+  audio: 'yes'
+
+MAESTRO:
+  url: https://magenta.tensorflow.org/datasets/maestro
+  metadata: 
+    - audio aligned midi 
+    - velocity 
+    - sustain
+  contents: 172 hours of piano
   audio: 'yes'
 
 MAPS:
@@ -1041,7 +1060,7 @@ RWC:
 SALAMI:
   url: http://ddmal.music.mcgill.ca/research/salami/annotations
   metadata: structure
-  contents: 779 songs
+  contents: 1447 songs
   audio: 'no'
 
 Sargon:
