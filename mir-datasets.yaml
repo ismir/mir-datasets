@@ -776,6 +776,18 @@ MSD:
   contents: 1000000 songs
   audio: 'no'
 
+MSMD:
+  url: https://github.com/CPJKU/msmd
+  title: Multimodal Sheet Music Dataset
+  metadata:
+    - piano notes/chords/pieces
+    - synthetic audio
+    - aligned MIDI
+    - aligned sheet music images
+    - OMR
+  contents: 497 pieces
+  audio: 'yes'
+
 MTC:
   url: http://www.liederenbank.nl/mtc/
   title: The Meertens Tune Collections
