@@ -1,5 +1,6 @@
 200DrumMachines:
   url: http://www.hexawe.net/mess/200.Drum.Machines
+  metadata: samples
   contents: 7371 one-shots
   audio: 'yes'
 
