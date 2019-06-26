@@ -432,14 +432,8 @@ HHDS:
   contents: 18 songs
   audio: 'yes'
 
-HJDB:
-  url: http://ddmal.music.mcgill.ca/breakscience/dbeat/
-  metadata: downbeat
-  contents: 236 excerpts
-  audio: 'yes'
-
 holzapfel:onset:
-  url: http://www.rhythmos.org/Datasets.html
+  url: https://kth.box.com/s/o151l3rqtglhmeszah06wmvpcmpat6w9
   metadata: onset times
   contents: 78 excerpts
   audio: 'yes'

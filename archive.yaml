@@ -1,0 +1,7 @@
+HJDB:
+  url: http://ddmal.music.mcgill.ca/breakscience/dbeat/
+  metadata: downbeat
+  contents: 236 excerpts
+  audio: 'yes'
+  reason: Part of the MIREX downbeat task.
+
