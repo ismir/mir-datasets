@@ -338,10 +338,13 @@ FMA-full:
   audio: 'yes'
 
 Fugue:
-  url: http://algomus.fr/datasets/index.html
-  title: Fugue Analyses
-  metadata: fugue analysis
-  contents: 36 pieces
+  url: http://algomus.fr/data
+  title: Bach & Shostakovich Fugue Analyses
+  metadata:
+    - fugue structure
+    - patterns
+    - cadences
+  contents: 36 fugues
   audio: 'no'
 
 GiantStepsTempo:
@@ -767,6 +770,15 @@ MLPMF:
   contents: 5000 audio files
   audio: 'yes'
 
+MozartStringQuartets:
+    url: http://algomus.fr/data
+    title: Mozart's String Quartets
+    metadata:
+      - sonata from structure
+      - cadences
+    contents: 32 movements
+    audio: 'no'
+
 MSD:
   url: http://labrosa.ee.columbia.edu/millionsong/
   title: Million Song Dataset
@@ -1145,6 +1157,13 @@ Su-AMT:
     - pitch
   contents: 10 excerpts
   audio: 'yes'
+
+TextureStringQuartets:
+  url: http://algomus.fr/data
+  title: Texture in String Quartets
+  metadata: texture
+  contents: 11 movements
+  audio: 'no'
 
 TFD:
   title: Traditional Flute Dataset
