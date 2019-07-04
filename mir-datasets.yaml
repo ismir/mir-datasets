@@ -1085,6 +1085,12 @@ Seyerlehner:Unique:
   contents: 3115 excerpts (30s)
   audio: 'yes'
 
+SHS100K:
+  url: https://github.com/NovaFrost/SHS100K
+  metadata: cover songs
+  contents: ca. 10,000 songs with 100,000 tracks
+  audio: 'yes'
+
 SISEC2013:
   url: http://sisec2011.wiki.irisa.fr/tiki-index165d.html?page=Professionally+produced+music+recordings
   metadata:
