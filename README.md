@@ -1,5 +1,7 @@
 # mir-datasets
 
+[![Build Status](https://travis-ci.com/ismir/mir-datasets.svg?branch=master)](https://travis-ci.com/ismir/mir-datasets)
+
 This repository exists solely for tracking MIR datasets and their corresponding metadata
 in a standardized, structured way. There are multiple consumers of this data:
 
