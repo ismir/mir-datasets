@@ -1,5 +1,6 @@
 200DrumMachines:
   url: http://www.hexawe.net/mess/200.Drum.Machines
+  metadata: audio samples
   contents: 7371 one-shots
   audio: 'yes'
 
@@ -366,8 +367,10 @@ FMA-full:
 Fugue:
   url: http://algomus.fr/datasets/index.html
   title: Fugue Analyses
-  metadata: fugue analysis
-  contents: 36 pieces
+  metadata: 
+    - fugue structure
+    - cadences
+  contents: 36 fugues (Bach & Shostakovich)
   audio: 'no'
 
 GiantStepsTempo:
@@ -474,7 +477,7 @@ HJDB:
   audio: 'yes'
 
 holzapfel:onset:
-  url: http://www.rhythmos.org/Datasets.html
+  url: https://kth.box.com/s/o151l3rqtglhmeszah06wmvpcmpat6w9
   metadata: onset times
   contents: 78 excerpts
   audio: 'yes'
@@ -812,6 +815,27 @@ MLPMF:
   metadata: 7 perceptual features
   contents: 5000 audio files
   audio: 'yes'
+  
+MozartStringQuartets:
+    url: http://algomus.fr/data
+    title: Mozart's String Quartets
+    metadata:
+      - structure
+      - cadences
+    contents: 32 movements
+    audio: 'no'
+    
+MSMD:
+  url: https://zenodo.org/record/2597505/
+  title: Multimodal Sheet Music Dataset
+  metadata:
+    - piano notes/chords/pieces
+    - synthetic audio
+    - aligned MIDI
+    - aligned sheet music images
+    - OMR
+  contents: 497 pieces
+  audio: 'no'
 
 MSD:
   url: http://labrosa.ee.columbia.edu/millionsong/
@@ -1131,6 +1155,12 @@ Seyerlehner:Unique:
   contents: 3115 excerpts (30s)
   audio: 'yes'
 
+SHS100K:
+  url: https://github.com/NovaFrost/SHS100K
+  metadata: cover songs
+  contents: ca. 10,000 songs with 100,000 tracks
+  audio: 'no'
+
 SISEC2013:
   url: http://sisec2011.wiki.irisa.fr/tiki-index165d.html?page=Professionally+produced+music+recordings
   metadata:
@@ -1185,7 +1215,14 @@ Su-AMT:
     - pitch
   contents: 10 excerpts
   audio: 'yes'
-
+  
+TextureStringQuartets:
+  url: http://algomus.fr/data
+  title: Texture in String Quartets
+  metadata: texture
+  contents: 11 movements
+  audio: 'no'
+  
 TFD:
   title: Traditional Flute Dataset
   url: https://www.kaggle.com/jbraga/traditional-flute-dataset/home
