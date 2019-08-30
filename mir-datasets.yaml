@@ -955,6 +955,14 @@ Onset_Leveau:
   contents: 21 excerpts
   audio: 'yes'
 
+OpenBMAT:
+  url: https://zenodo.org/record/3381249
+  title: Open Broadcast Media Audio from TV
+  metadata: 6 classes for music presence
+  contents: 1647 excerpts (60s)
+  audio: 'yes'
+  reference: https://doi.org/10.5334/tismir.29
+
 OpenMIC-2018:
   url: https://github.com/cosmir/openmic-2018
   metadata: 20 instruments
