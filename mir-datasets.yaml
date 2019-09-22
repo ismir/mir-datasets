@@ -1177,6 +1177,14 @@ SISEC2013:
   contents: 5 excerpts
   audio: 'yes'
 
+SLAKH:
+  url: http://www.slakh.com/
+  metadata:
+    - MIDI
+    - synthesized audio (tracks + mix)
+  contents: 2100 mixes
+  audio: 'yes'
+
 SMC:MIREX:
   url: http://smc.inescporto.pt/research/data-2/
   metadata:
