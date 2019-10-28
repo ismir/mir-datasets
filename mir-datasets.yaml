@@ -162,6 +162,14 @@ Chopin22:
   audio: 'yes'
   reference: http://dx.doi.org/10.1121/1.1376133
 
+Clotho:
+  url: https://zenodo.org/record/3490684
+  metadata:
+    - 5 descriptive captions
+  contents: 4981 snippets
+  audio: 'yes'
+  reference: http://doi.org/10.5281/zenodo.3490684
+
 CMMSD:
   url: http://intelligent-noise-solutions.de/research/cmmsd/
   metadata:
