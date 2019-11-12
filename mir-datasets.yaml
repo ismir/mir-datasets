@@ -18,9 +18,9 @@ ADC2004:
   reference: https://doi.org/10.5281/zenodo.1414796
 
 AcousticBrainz-Genre:
-  url: https://multimediaeval.github.io/2018-AcousticBrainz-Genre-Task/
-  metadata: 15-31 genres
-  contents: audio features for about 1000000 songs
+  url: https://mtg.github.io/acousticbrainz-genre-dataset/
+  metadata: 15-31 genres with 265-745 subgenres
+  contents: audio features for about 2000000 songs
   audio: 'no'
 
 AED:
@@ -241,6 +241,12 @@ DAMP:
     - pronunciation assessment: https://drive.google.com/drive/folders/19JPEWSBAM0ssatjBIJzAzjClxi2abt8w
   contents: 34000 monophonic recordings
   audio: 'yes'
+
+Da-TACOS:
+  url: https://mtg.github.io/da-tacos/
+  metadata: cover songs
+  contents: 25000 songs
+  audio: 'no'
 
 DEAM:
   url: http://cvml.unige.ch/databases/DEAM
@@ -468,6 +474,15 @@ Hainsworth:
   metadata: tempo
   contents: 245 excerpts (60s)
   audio: 'yes'
+
+HarmonixSet:
+  url: https://github.com/urinieto/harmonixset
+  metadata: 
+    - beats 
+    - downbeats
+    - structure
+  contents: 912 pop songs
+  audio: 'no'
 
 HHDS:
   url: http://goo.gl/5Hu51y
@@ -862,7 +877,14 @@ MTC:
     - key
     - meter
   contents: 18000 melodies
-  audio: partially
+  audio: 'partially'
+
+MTG-Jamendo:
+  url: https://mtg.github.io/mtg-jamendo-dataset/
+  title: MTG-Jamendo
+  metadata: tags (genre, instruments, mood)
+  contents: 55000 tracks
+  audio: 'yes'
 
 MTG-QBH:
   url: http://mtg.upf.edu/download/datasets/mtg-qbh
@@ -871,7 +893,7 @@ MTG-QBH:
     - title
     - artist
   contents: 118 queries/481 songs
-  audio: yes/no
+  audio: 'yes/no'
 
 MUSDB18:
   url: https://sigsep.github.io/datasets/musdb.html
@@ -1339,4 +1361,10 @@ RobbieWilliamsAnnotations:
     - keys
     - beats
   contents: 65 songs
+  audio: 'no'
+
+YousicianUkulele:
+  url: https://yousician.com/open-data
+  metadata: evaluated notes and chords
+  contents: 500000 exercises by 1000 users
   audio: 'no'
