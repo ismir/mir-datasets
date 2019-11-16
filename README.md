@@ -64,3 +64,14 @@ Which will produce the output [data-sets.md](https://github.com/ismir/mir-datase
 
 * If the information is incorrect, update the source YAML file
 * If the formatting is wrong, please help fix the script (or [open an issue](https://github.com/ismir/mir-datasets/issues))
+
+## ISMIR-Home
+
+This repository serves the datasets information on the ISMIR website. We have made a conscious choice to make this work with static web technologies. While this makes serving easier, it requires that the ISMIR website consume this table as a JS source. This repository achieves this through the following:
+
+* maintain a markdown table here
+* when updated, render it as JS 
+* commit to the repository (manually)
+* serve as an asset via github pages
+
+There is opportunity to automate this via e.g. Travis-CI, but the velocity on this repository hasn't been high enough to warrant it yet.
