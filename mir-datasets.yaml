@@ -1105,6 +1105,16 @@ SISEC2013:
     - mix
   contents: 5 excerpts
   audio: 'yes'
+  
+SLAKH:
+  url: http://www.slakh.com/
+  title: Synthesized Lakh Dataset (Slakh)
+  metadata:
+    - MIDI
+    - audio
+    - transcription
+  contents: 2100 songs, midi files, 145 hours
+  audio: 'yes'
 
 SMC:MIREX:
   url: http://smc.inescporto.pt/research/data-2/
