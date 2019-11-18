@@ -59,7 +59,7 @@ def render_one(key, record):
                                   status=status, **record)
 
 
-def render(records, output_format, n_jobs=-1):
+def render(records, output_format, n_jobs=-1, verbose=0):
     '''Render a number of records to the given output format.
 
     Parameters
@@ -75,10 +75,10 @@ def render(records, output_format, n_jobs=-1):
     data : str
         String data to write to file.
     '''
-    records = sorted(records.items(), key=lambda x: x[0].lower())[:10]
+    records = sorted(records.items(), key=lambda x: x[0].lower())
     
     # Fan out
-    pool = joblib.Parallel(n_jobs=n_jobs, verbose=20)
+    pool = joblib.Parallel(n_jobs=n_jobs, verbose=verbose)
     dfx = joblib.delayed(render_one)
     lines = pool(dfx(key, record) for key, record in records)
 
@@ -108,12 +108,16 @@ if __name__ == '__main__':
     parser.add_argument("--n_jobs",
                         metavar="n_jobs", type=int, default=1,
                         help="Number of CPUs to use for parallelization (-1 for all).")
+    parser.add_argument("--verbose",
+                        metavar="verbose", type=int, default=0,
+                        help="Verbosity level, 0 for nothing, >1 for something.")
 
     args = parser.parse_args()
     dataset = yaml.load(open(args.dataset_file))
 
     output_format = os.path.splitext(args.output_file)[-1].strip('.')
     with open(args.output_file, 'w') as fp:
-        fp.write(render(dataset, output_format, n_jobs=args.n_jobs))
+        fp.write(render(dataset, output_format, 
+                        n_jobs=args.n_jobs, verbose=args.verbose))
 
     sys.exit(0 if os.path.exists(args.output_file) else 1)
