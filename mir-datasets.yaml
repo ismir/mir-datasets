@@ -201,6 +201,23 @@ Cross-Era:
   contents: 2000 chromagrams and chord labels
   audio: 'no'
 
+DALI:
+  url: https://zenodo.org/record/2577915
+  metadata:
+    - aligned lyrics at notes (the phonemes underlying a given note), words, lines, and paragraphs levels
+    - aligned notes for the vocal melody
+    - artist
+    - title
+    - album
+    - release_date
+    - album cover
+    - genres
+    - language
+    - alignment scores
+    - youtube url
+  contents: 5358 songs
+  audio: 'no'
+
 DAMP:
   url: https://ccrma.stanford.edu/damp/
   metadata:
@@ -242,7 +259,7 @@ DrumPt:
 
 DSD100:
   url: https://sigsep.github.io/datasets/dsd100.html
-  metadata: 
+  metadata:
     - multitrack recordings
     - stems for vocals, drums, bass and accompaniment
   contents: 100 songs
@@ -692,7 +709,7 @@ MedleyDB:
     - instrument activation
   contents: 122 songs
   audio: 'yes'
-  
+
 Medley-solos-DB:
    title: "Medley-solos-DB: a cross-collection dataset for musical instrument recognition"
    url: https://zenodo.org/record/2582103
@@ -804,7 +821,7 @@ MTG-QBH:
 
 MUSDB18:
   url: https://sigsep.github.io/datasets/musdb.html
-  metadata: 
+  metadata:
     - multitrack recordings
     - stems for vocals, drums, bass and accompaniment
   contents: 150 songs
@@ -1105,7 +1122,7 @@ SISEC2013:
     - mix
   contents: 5 excerpts
   audio: 'yes'
-  
+
 SLAKH:
   url: http://www.slakh.com/
   title: Synthesized Lakh Dataset (Slakh)
