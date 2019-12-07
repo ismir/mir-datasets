@@ -157,7 +157,7 @@ dataset |  meta data |  contents |  with audio
 <a title="SPAM" href="https://github.com/urinieto/msaf-data/tree/master/SPAM/references" target="_blank" rel="noopener">SPAM</a> | structure | 50 songs | no
 <a title="SRD-O" href="https://purl.stanford.edu/fj396zz8014" target="_blank" rel="noopener">Shazam Research Dataset Offsets</a> | in-song query times | 188M queries over 20 songs | no
 <a title="Su-AMT" href="https://sites.google.com/site/lisupage/research/new-methodology-of-building-polyphonic-datasets-for-amt" target="_blank" rel="noopener">Su-AMT</a> | onset times, pitch | 10 excerpts | yes
-<a title="TFD" href="https://www.kaggle.com/jbraga/traditional-flute-dataset/home" target="_blank" rel="noopener">Traditional Flute Dataset</a> | audio, aligned MIDI | 30 excerpts | yes
+<a title="TFD" href="https://www.kaggle.com/jbraga/traditional-flute-dataset" target="_blank" rel="noopener">Traditional Flute Dataset</a> | audio, aligned MIDI | 30 excerpts | yes
 <a title="ThisIsMyJam" href="https://archive.org/details/thisismyjam-datadump" target="_blank" rel="noopener">ThisIsMyJam</a> | favorite songs, artists | 131k users | no
 <a title="TONAS" href="http://mtg.upf.edu/download/datasets/tonas" target="_blank" rel="noopener">TONAS</a> | pitch | 72 single-voiced excerpts | yes
 <a title="TPD" href="http://mir.ilsp.gr/track_popularity.html" target="_blank" rel="noopener">Track Popularity</a> | popularity rating | 23385 songs | no
