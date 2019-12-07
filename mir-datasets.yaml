@@ -1271,7 +1271,7 @@ TextureStringQuartets:
   
 TFD:
   title: Traditional Flute Dataset
-  url: https://www.kaggle.com/jbraga/traditional-flute-dataset/home
+  url: https://www.kaggle.com/jbraga/traditional-flute-dataset
   metadata:
     - audio
     - aligned MIDI
