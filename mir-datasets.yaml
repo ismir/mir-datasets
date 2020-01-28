@@ -378,6 +378,12 @@ FMA-full:
   contents: 106574 songs
   audio: 'yes'
 
+FSD-Kaggle2019:
+  url: https://zenodo.org/record/3612637
+  metadata: 80 tags
+  contents: 29000 clips
+  audio: 'yes'
+
 Fugue:
   url: http://algomus.fr/datasets/index.html
   title: Fugue Analyses
