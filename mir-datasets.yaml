@@ -265,6 +265,12 @@ DEAPDataset:
   audio: 'no'
   reference: https://doi.org/10.1109/T-AFFC.2011.15
 
+DESED:
+  url: https://github.com/turpaultn/DESED
+  metadata:10 audio event classes
+  contents: pprox 20k 10s clips (unlabeled, weakly/strongly labeled)
+  audio: 'yes'
+
 DREANSS:
   url: http://mtg.upf.edu/download/datasets/dreanss
   metadata:
@@ -1291,6 +1297,17 @@ ThisIsMyJam:
     - artists
   contents: 131k users
   audio: 'no'
+
+TinySOL:
+  url: https://zenodo.org/record/3632192
+  title: TinySOL: an audio dataset of isolated musical notes
+  metadata:
+    - instrument
+    - pitch
+    - dynamics
+    - string number (if applicable)
+  contents: 2913 isolated notes
+  audio: 'yes'
 
 TONAS:
   url: http://mtg.upf.edu/download/datasets/tonas
