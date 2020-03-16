@@ -66,7 +66,7 @@ AudioSet:
   reference: https://doi.org/10.1109/ICASSP.2017.7952261
 
 bach10:
-  url: http://music.cs.northwestern.edu/data/Bach10.html
+  url: http://www2.ece.rochester.edu/projects/air/resource.html
   metadata: aligned multitrack MIDI
   contents: 10 chorales
   audio: 'yes'
