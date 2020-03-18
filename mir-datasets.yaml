@@ -171,7 +171,7 @@ Clotho:
   reference: http://doi.org/10.5281/zenodo.3490684
 
 CMMSD:
-  url: http://intelligent-noise-solutions.de/research/cmmsd/
+  url: https://sourceforge.net/projects/segmentationgt/
   metadata:
     - note/rest/transition
     - onsets
