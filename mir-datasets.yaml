@@ -31,6 +31,13 @@ AED:
   audio: 'yes'
   reference: http://dx.doi.org/10.21437/Interspeech.2016-805
 
+AIST-Dance-DB:
+  url: https://aistdancedb.ongaaccel.jp
+  title: AIST Dance Video Database
+  metadata: street dance videos
+  contents: 13,940 videos for 60 pieces
+  audio: 'yes'
+
 Amg1608:
   url: https://amg1608.blogspot.ch
   metadata: valence & arousal
@@ -144,6 +151,13 @@ CASD:
     - chords by 4 annotators
   contents: 50 songs
   audio: 'no'
+
+CBFdataset:
+  url: https://zenodo.org/record/3250223
+  metadata:
+    - 4 playing techniques (Chinese Bamboo Flute)
+  contents: 10 performers
+  audio: 'yes'
 
 CCMixter:
   url: http://www.loria.fr/~aliutkus/kam/
@@ -711,11 +725,11 @@ LMD - Latin:
   contents: 3160 songs
   audio: 'no'
 
-magnatagatune:
-  url: http://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset
-  metadata: similarity   # Doesn't it have tags too?
-  contents: 25863 excerpts (30s)
-  audio: 'yes'
+M-DJCUE:
+  url: https://github.com/MZehren/M-DJCUE
+  metadata: cue points
+  contents: 134 tracks
+  audio: 'no'
 
 MAESTRO:
   url: https://magenta.tensorflow.org/datasets/maestro
@@ -724,6 +738,14 @@ MAESTRO:
     - velocity 
     - sustain
   contents: 172 hours of piano
+  audio: 'yes'
+
+magnatagatune:
+  url: http://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset
+  metadata: 
+    - similarity   
+    - tags
+  contents: 25863 excerpts (30s)
   audio: 'yes'
 
 MAPS:
@@ -753,6 +775,12 @@ MAST:
   metadata: vocal performance assessment
   contents: 1018 performances
   audio: 'no'
+
+MAST-Rhythm:
+  url: https://zenodo.org/record/2620357
+  metadata: rhythm performance assessment
+  contents: 3721 performances
+  audio: 'yes'
 
 McGill Billboard:
   url: http://ddmal.music.mcgill.ca/billboard
@@ -1137,6 +1165,15 @@ SALAMI:
   contents: 1447 songs
   audio: 'no'
 
+SAMBASET:
+  url: http://www02.smt.ufrj.br/~starel/sambaset/
+  metadata: 
+    - recording date
+    - escolas
+    - beats
+  contents: 392
+  audio: 'no'
+
 Sargon:
   url: https://github.com/urinieto/msaf-data/tree/cbf0ad50aa5c179c1ab7ac0f25031581f595847e/Sargon
   metadata: structure
@@ -1273,6 +1310,13 @@ Su-AMT:
     - pitch
   contents: 10 excerpts
   audio: 'yes'
+
+SUPRA-RW:
+  url: https://supra.stanford.edu/download/
+  metadata: piano roll performances
+  contents: 478 performances
+  audio: 'yes'
+
   
 TextureStringQuartets:
   url: http://algomus.fr/data
