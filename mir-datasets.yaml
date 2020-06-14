@@ -444,7 +444,15 @@ GMD:
     - valence
     - arousal
   contents: 1400 songs
-  audio: downloadable
+  audio: 'downloadable'
+
+GrooveMD:
+  url: https://magenta.tensorflow.org/datasets/groove
+  title: Groove MIDI Dataset
+  metadata:
+    - drum timing
+  contents: 1150 MIDI recordings
+  audio: 'rendered'
 
 GSD:
   url: https://github.com/ashispati/GuitarSoloDetection/tree/master/Dataset
@@ -633,6 +641,14 @@ JGDB:
     - multitrack
     - MIDI
   contents: random generated excerpts
+  audio: 'yes'
+
+JKU-ScoFo:
+  url: http://www.cp.jku.at/resources/2019_RLScoFo_TISMIR
+  metadata:
+    - audio
+    - MIDI
+  contents: 16 recordings
   audio: 'yes'
 
 Jordan:Classical:
