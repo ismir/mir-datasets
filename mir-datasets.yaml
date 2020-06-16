@@ -222,6 +222,16 @@ Cross-Era:
   contents: 2000 chromagrams and chord labels
   audio: 'no'
 
+CSD:
+  url: https://zenodo.org/record/2649950
+  title: Choral Singing Dataset
+  metadata:
+    - f0
+    - MIDI
+  contents: 48 recordings
+  audio: 'yes'
+<a title="Choral Singing Dataset" href="" target="_blank" rel="noopener">CSD</a> | pitch | 48 recordings | yes
+
 DALI:
   url: https://github.com/gabolsgabs/DALI
   title: Dataset of synchronised Audio, LyrIcs and vocal notes
@@ -1047,6 +1057,16 @@ Phenicx-Anechoic:
   contents: 4 pieces
   audio: 'yes'
 
+PGD:
+  url: https://gitlab.doc.gold.ac.uk/expressive-musical-gestures/dataset/-/tree/master/piano
+  title: Piano Gestures Dataset
+  metadata:
+    - video
+    - intentions
+    - audio
+  contents: 210 clips
+  audio: 'yes'
+
 Phonation:
   url: https://osf.io/pa3ha
   metadata:
@@ -1407,6 +1427,16 @@ uspop2002:
     - chords: https://github.com/tmc323/Chord-Annotations
   contents: 8752 songs
   audio: 'no'
+ 
+VGD:
+  url: https://gitlab.doc.gold.ac.uk/expressive-musical-gestures/dataset/-/tree/master/violin
+  title: Violin Gestures Dataset
+  metadata:
+    - EMG
+    - playing techniques
+    - audio
+  contents: 960 recordings
+  audio: 'yes'
 
 VocalSet:
   url: https://zenodo.org/record/1442513#.W7OaFBNKjx4
