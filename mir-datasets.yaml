@@ -818,6 +818,12 @@ Medley-solos-DB:
    metadata: 8 instruments
    contents: 21572 excerpts
    audio: 'yes'
+  
+MER500:
+   url: https://www.kaggle.com/makvel/mer500
+   metadata: emotion
+   contents: 500 clips
+   audio: 'yes'
 
 MIR-1K:
   url: https://sites.google.com/site/unvoicedsoundseparation/mir-1k
@@ -947,6 +953,14 @@ MUSDB18:
     - stems for vocals, drums, bass and accompaniment
   contents: 150 songs
   audio: 'yes'
+
+MUSIC4ALL:
+  url: https://sites.google.com/view/contact4music4all
+  metadata: 
+    - tags
+    - lyrics
+  contents: 109,269 excerpts (30s)
+  audio: 'on request'
 
 musiclef2012:
   url: http://www.cp.jku.at/datasets/musiclef/index.html
