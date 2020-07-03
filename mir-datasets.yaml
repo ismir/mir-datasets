@@ -230,7 +230,6 @@ CSD:
     - MIDI
   contents: 48 recordings
   audio: 'yes'
-<a title="Choral Singing Dataset" href="" target="_blank" rel="noopener">CSD</a> | pitch | 48 recordings | yes
 
 DALI:
   url: https://github.com/gabolsgabs/DALI
@@ -272,7 +271,7 @@ DEAPDataset:
 
 DESED:
   url: https://github.com/turpaultn/DESED
-  metadata:10 audio event classes
+  metadata: 10 audio event classes
   contents: pprox 20k 10s clips (unlabeled, weakly/strongly labeled)
   audio: 'yes'
 
