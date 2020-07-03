@@ -394,10 +394,11 @@ FSD-Kaggle2019:
   audio: 'yes'
 
 Fugue:
-  url: http://algomus.fr/datasets/index.html
+  url: http://algomus.fr/data
   title: Fugue Analyses
   metadata: 
     - fugue structure
+    - patterns
     - cadences
   contents: 36 fugues (Bach & Shostakovich)
   audio: 'no'
@@ -514,12 +515,6 @@ HHDS:
     - style
     - tempo
   contents: 18 songs
-  audio: 'yes'
-
-HJDB:
-  url: http://ddmal.music.mcgill.ca/breakscience/dbeat/
-  metadata: downbeat
-  contents: 236 excerpts
   audio: 'yes'
 
 holzapfel:onset:
@@ -910,6 +905,15 @@ MSMD:
   contents: 497 pieces
   audio: 'no'
 
+MozartStringQuartets:
+    url: http://algomus.fr/data
+    title: Mozart's String Quartets
+    metadata:
+      - sonata from structure
+      - cadences
+    contents: 32 movements
+    audio: 'no'
+
 MSD:
   url: http://labrosa.ee.columbia.edu/millionsong/
   title: Million Song Dataset
@@ -1282,6 +1286,16 @@ SISEC2013:
     - mix
   contents: 5 excerpts
   audio: 'yes'
+  
+SLAKH:
+  url: http://www.slakh.com/
+  title: Synthesized Lakh Dataset (Slakh)
+  metadata:
+    - MIDI
+    - audio
+    - transcription
+  contents: 2100 songs, midi files, 145 hours
+  audio: 'yes'
 
 SLAKH:
   url: http://www.slakh.com/
@@ -1344,14 +1358,13 @@ SUPRA-RW:
   contents: 478 performances
   audio: 'yes'
 
-  
 TextureStringQuartets:
   url: http://algomus.fr/data
   title: Texture in String Quartets
   metadata: texture
   contents: 11 movements
   audio: 'no'
-  
+
 TFD:
   title: Traditional Flute Dataset
   url: https://www.kaggle.com/jbraga/traditional-flute-dataset

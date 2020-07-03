@@ -1,10 +1,12 @@
 # mir-datasets
 
+[![Build Status](https://travis-ci.com/ismir/mir-datasets.svg?branch=master)](https://travis-ci.com/ismir/mir-datasets)
+
 This repository exists solely for tracking MIR datasets and their corresponding metadata
 in a standardized, structured way. There are multiple consumers of this data:
 
 * [audiocontentanalysis](http://audiocontentanalysis.org/data-sets/)
-* [ISMIR datasets page](tbd)
+* [ISMIR datasets page](http://www.ismir.net/resources/datasets/)
 * `<your instance here!>`
 
 Importantly, [mir-datasets.yaml](https://github.com/ismir/mir-datasets/blob/master/mir-datasets.yaml) file is the **One Source of Truth** – all other formats and representations of this data (markdown, HTML, latex tables, what have you) should be derived from this master object. If there is some format for this table you would like to see, feel free to submit a [pull request](https://github.com/ismir/mir-datasets/pulls)!
@@ -62,3 +64,14 @@ Which will produce the output [data-sets.md](https://github.com/ismir/mir-datase
 
 * If the information is incorrect, update the source YAML file
 * If the formatting is wrong, please help fix the script (or [open an issue](https://github.com/ismir/mir-datasets/issues))
+
+## ISMIR-Home
+
+This repository serves the datasets information on the ISMIR website. We have made a conscious choice to make this work with static web technologies. While this makes serving easier, it requires that the ISMIR website consume this table as a JS source. This repository achieves this through the following:
+
+* maintain a markdown table here
+* when updated, render it as JS 
+* commit to the repository (manually)
+* serve as an asset via github pages
+
+There is opportunity to automate this via e.g. Travis-CI, but the velocity on this repository hasn't been high enough to warrant it yet.
