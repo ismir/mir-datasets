@@ -330,6 +330,17 @@ ENST-Drums:
   contents: 318 segments
   audio: 'yes'
 
+Erkomaishvili:
+  url: https://www.audiolabs-erlangen.de/resources/MIR/2019-GeorgianMusic-Erkomaishvili
+  title: Erkomaishvili Dataset
+  metadata:
+    - sheet music
+    - structure
+    - F0
+    - note onsets
+  contents: 118 tracks
+  audio: 'yes'
+
 Extendedballroom:
   url: http://anasynth.ircam.fr/home/media/ExtendedBallroom/
   metadata:

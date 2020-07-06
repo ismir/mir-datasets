@@ -48,6 +48,7 @@ status| dataset |  metadata |  contents |  with audio
 &#x2705; | <a title="Emotify" href="http://www.projects.science.uu.nl/memotion/emotifydata" target="_blank" rel="noopener">Emotify</a> | induced emotion | 400 excerpts | yes
 &#x2705; | <a title="EMusic" href="http://cvml.unige.ch/databases/emoMusic" target="_blank" rel="noopener">EMusic</a> | arousal & valence | 100 excerpts (experimental music) | yes
 &#x2705; | <a title="ENST-Drums" href="http://www.tsi.telecom-paristech.fr/aao/en/2010/02/19/enst-drums-an-extensive-audio-visual-database-for-drum-signals-processing/" target="_blank" rel="noopener">ENST-Drums</a> | onset times, perc. instruments, [playing technique](https://github.com/cwu307/DrumPtDataset) | 318 segments | yes
+&#x2705; | <a title="Erkomaishvili" href="https://www.audiolabs-erlangen.de/resources/MIR/2019-GeorgianMusic-Erkomaishvili" target="_blank" rel="noopener">Erkomaishvili Dataset</a> | sheet music, structure, F0, note onsets | 118 tracks | yes
 &#x2705; | <a title="Extendedballroom" href="http://anasynth.ircam.fr/home/media/ExtendedBallroom/" target="_blank" rel="noopener">Extendedballroom</a> | 9 genres, tempo | 4000 excerpts (30s) | downloadable
 &#x2620; | <a title="ExtraSensory" href="http://extrasensory.ucsd.edu/" target="_blank" rel="noopener">ExtraSensory</a> | 51 context labels | 300000 sensor recordings from 60 users | yes
 &#x2620; | <a title="ffuhrmann" href="http://www.dtic.upf.edu/~ffuhrmann/PhD/data" target="_blank" rel="noopener">ffuhrmann</a> | 11 predom. instr. | 6951 excerpts from 220 songs | yes/no
