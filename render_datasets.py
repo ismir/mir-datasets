@@ -36,7 +36,7 @@ def get_url_status(url):
     try:
         response = requests.get(url, timeout=3)
         status_code = response.status_code
-    except requests.exceptions.ConnectionError as derp:
+    except (requests.exceptions.ConnectionError, requests.exceptions.ReadTimeout) as derp:
         status_code = 666
     return HEALTH[status_code >= 400]
 
