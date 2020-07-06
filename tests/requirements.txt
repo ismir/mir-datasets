@@ -1,3 +1,5 @@
 pytest
+Markdown
 PyYAML
+requests
 pytest-tldr
