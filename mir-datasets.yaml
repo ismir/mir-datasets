@@ -1382,17 +1382,6 @@ ThisIsMyJam:
   contents: 131k users
   audio: 'no'
   
- TinySOL:
-  url: https://zenodo.org/record/3632192
-  title: TinySOL: an audio dataset of isolated musical notes
-  metadata:
-    - instrument
-    - pitch
-    - dynamics
-    - string number (if applicable)
-  contents: 2913 isolated notes
-  audio: 'yes'
-
 TinySOL:
   url: https://zenodo.org/record/3632192
   title: TinySOL, an audio dataset of isolated musical notes
