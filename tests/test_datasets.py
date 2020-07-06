@@ -1,11 +1,10 @@
-import yaml
-import urllib.request
 import pytest
-from fake_useragent import UserAgent
 
+import urllib.request
+from urllib.error import HTTPError
+import warnings
+import yaml
 
-# get fake user agent
-ua = UserAgent()
 
 # open dataset file
 with open('mir-datasets.yaml', 'rb') as hdl:
@@ -46,8 +45,6 @@ def test_metadata(dataset):
 def test_url(dataset):
     values = dataset[1]
 
-    # check if website is up
-    req = urllib.request.Request(values['url'], headers={'User-Agent' : ua.random}) 
-    code = urllib.request.urlopen(req, timeout=5).getcode()
+    parts = urllib.parse.urlparse(values['url'])
+    assert parts.scheme.startswith('http')
 
-    assert (code == 200)
