@@ -1,23 +1,30 @@
 sudo: false
-
 cache:
-    directories:
-        - $HOME/env
-
+  directories:
+  - "$HOME/env"
 language: python
-
 python:
-    - "3.6"
-
+- '3.6'
 before_install:
-    - bash .travis_dependencies.sh
-    - export PATH="$HOME/env/miniconda$TRAVIS_PYTHON_VERSION/bin:$PATH";
-    - hash -r
-    - source activate test-environment
-
+- bash .travis_dependencies.sh
+- export PATH="$HOME/env/miniconda$TRAVIS_PYTHON_VERSION/bin:$PATH";
+- hash -r
+- source activate test-environment
 install:
-    - pip install -r tests/requirements.txt
-
+- pip install -r tests/requirements.txt
 script:
-    - python --version
-    - py.test tests -v
+- python --version
+- py.test tests -v
+- ./render_datasets.py mir-datasets.yaml outputs/data-sets.md
+- ./render_datasets.py mir-datasets.yaml outputs/mir-datasets.js
+env:
+  global:
+    secure: ft5VtuoE8/Zn++w7qhRDsBBW0tzYrB/4vq1ViRHyqLoooWjCh7/x/JL7EevZ3+Tj3V7iv5ygh+As6E0q/Gls235u17GPJ/voNuZgtQ8jODNncYYNjl8diQuJJNCisjLQrwyKMA8RN25tvppN0zvimp2roCI0sPJMzMmN00+8vxtxJZ/MHADaclXOkc8msDLqBfcvBmflhD1R2zg57z4jT/t1a0BXwBL4eYQ66mFQAmM51sV7qV+ef8O1jlk1Jh0IcpLGmH5EvoolEuUpFcgVgRwtovcB21fRR7JEcTRpCScImVrfbpq0+AVxHQNcGhcEQFv9ZDyNWaQn/fI73JtwqAnGKCvDWKb5MC9FrPtAK+VqleiBGX7Rm1UFCVI0gi664OMkiOfb7BfvcRlvs9cOj3HToUh8/h5ubO6l/3Qde4lq8TvfgA5dmQ1sgaIjR7C8Gi7r2d0n4Rq07k9xah07zuZg8rhEl4t6TwYGzAWRVjp3ENOe6kxgXG9SaKkVmt/r4KIK3kanYQcpx9Q66JwPNkg57Ff9PwqLoWFCk7mio5/t1s9F029N5h2pfPHACNTCQIps6V/TwpHy9SEkuj24uWQ5+cblcdm3Ye3f4qkQRntFV5fyruWtmsV+t+fYSkngZ3YPIvtJ0GwEpeDnBWvrE1jJ0eLQZwMmvzECYNG12Qw=
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: master
