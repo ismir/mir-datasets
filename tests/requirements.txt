@@ -2,4 +2,5 @@ pytest
 Markdown
 PyYAML
 requests
+joblib
 pytest-tldr
