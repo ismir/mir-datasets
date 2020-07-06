@@ -43,7 +43,6 @@ def get_url_status(url):
 
 def render_one(key, record):
     title = record.pop('title', key)
-    print(key)
 
     status = get_url_status(record['url'])
     metadata = record.pop('metadata', '')
