@@ -60,7 +60,7 @@ You can render the output as either Markdown or Javascript by specifying the cor
 $ ./render_datasets.py mir-datasets.yaml outputs/mir-datasets.js
 ```
 
-Which will produce the output [data-sets.md](https://github.com/ismir/mir-datasets/blob/master/outputs/mir-datasets.js) file contained in this repository. Note that this output file **should not** be modified directly:
+Which will produce the output [data-sets.md](https://github.com/ismir/mir-datasets/blob/master/outputs/mir-datasets.md) file contained in this repository. Note that this output file **should not** be modified directly:
 
 * If the information is incorrect, update the source YAML file
 * If the formatting is wrong, please help fix the script (or [open an issue](https://github.com/ismir/mir-datasets/issues))
