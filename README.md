@@ -57,7 +57,7 @@ adhere to the following:
 You can render the output as either Markdown or Javascript by specifying the correct output format, via the following:
 
 ```bash
-$ ./render_datasets.py mir-datasets.yaml outputs/mir-datasets.js
+$ ./render_datasets.py mir-datasets.yaml outputs/mir-datasets.md
 ```
 
 Which will produce the output [data-sets.md](https://github.com/ismir/mir-datasets/blob/master/outputs/mir-datasets.md) file contained in this repository. Note that this output file **should not** be modified directly:
