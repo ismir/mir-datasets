@@ -1,3 +1,4 @@
 PyYAML
 Markdown
 joblib
+requests
