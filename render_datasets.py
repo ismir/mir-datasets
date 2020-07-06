@@ -34,7 +34,7 @@ HEALTH = {
 
 def get_url_status(url):
     try:
-        response = requests.get(url)
+        response = requests.get(url, timeout=3)
         status_code = response.status_code
     except requests.exceptions.ConnectionError as derp:
         status_code = 666
@@ -43,6 +43,7 @@ def get_url_status(url):
 
 def render_one(key, record):
     title = record.pop('title', key)
+    print(key)
 
     status = get_url_status(record['url'])
     metadata = record.pop('metadata', '')
@@ -113,7 +114,7 @@ if __name__ == '__main__':
                         help="Verbosity level, 0 for nothing, >1 for something.")
 
     args = parser.parse_args()
-    dataset = yaml.load(open(args.dataset_file))
+    dataset = yaml.load(open(args.dataset_file), Loader=yaml.FullLoader)
 
     output_format = os.path.splitext(args.output_file)[-1].strip('.')
     with open(args.output_file, 'w') as fp:
