@@ -234,7 +234,7 @@ CSD:
 DALI:
   url: https://github.com/gabolsgabs/DALI
   title: Dataset of synchronised Audio, LyrIcs and vocal notes
-  metadata: aligned notes and lyrics 
+  metadata: aligned notes and lyrics
   contents: 5358 songs
   audio: 'no'
 
@@ -252,6 +252,16 @@ Da-TACOS:
   metadata: cover songs
   contents: 25000 songs
   audio: 'no'
+
+DCS:
+  url: https://www.audiolabs-erlangen.de/resources/MIR/2020-DagstuhlChoirSet
+  title: Dagstuhl ChoirSet
+  metadata:
+    - beats
+    - time-aligned scores
+    - F0
+  contents: 81 takes
+  audio: 'yes'
 
 DEAM:
   url: http://cvml.unige.ch/databases/DEAM
@@ -291,7 +301,7 @@ DrumPt:
 
 DSD100:
   url: https://sigsep.github.io/datasets/dsd100.html
-  metadata: 
+  metadata:
     - multitrack recordings
     - stems for vocals, drums, bass and accompaniment
   contents: 100 songs
@@ -407,7 +417,7 @@ FSD-Kaggle2019:
 Fugue:
   url: http://algomus.fr/data
   title: Fugue Analyses
-  metadata: 
+  metadata:
     - fugue structure
     - patterns
     - cadences
@@ -496,9 +506,9 @@ GTZAN:
 
 GuitarSet:
   url: https://guitarset.weebly.com/
-  metadata: 
-    - midi 
-    - pitch 
+  metadata:
+    - midi
+    - pitch
     - beat
     - chords
   contents: 360 guitar excerpts (30s) with hexaphonic audio
@@ -512,8 +522,8 @@ Hainsworth:
 
 HarmonixSet:
   url: https://github.com/urinieto/harmonixset
-  metadata: 
-    - beats 
+  metadata:
+    - beats
     - downbeats
     - structure
   contents: 912 pop songs
@@ -743,17 +753,17 @@ M-DJCUE:
 
 MAESTRO:
   url: https://magenta.tensorflow.org/datasets/maestro
-  metadata: 
-    - audio aligned midi 
-    - velocity 
+  metadata:
+    - audio aligned midi
+    - velocity
     - sustain
   contents: 172 hours of piano
   audio: 'yes'
 
 magnatagatune:
   url: http://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset
-  metadata: 
-    - similarity   
+  metadata:
+    - similarity
     - tags
   contents: 25863 excerpts (30s)
   audio: 'yes'
@@ -816,14 +826,14 @@ MedleyDB:
     - instrument activation
   contents: 122 songs
   audio: 'yes'
-  
+
 Medley-solos-DB:
    title: "Medley-solos-DB: a cross-collection dataset for musical instrument recognition"
    url: https://zenodo.org/record/2582103
    metadata: 8 instruments
    contents: 21572 excerpts
    audio: 'yes'
-  
+
 MER500:
    url: https://www.kaggle.com/makvel/mer500
    metadata: emotion
@@ -894,7 +904,7 @@ MLPMF:
   metadata: 7 perceptual features
   contents: 5000 audio files
   audio: 'yes'
-  
+
 MozartStringQuartets:
     url: http://algomus.fr/data
     title: Mozart's String Quartets
@@ -903,7 +913,7 @@ MozartStringQuartets:
       - cadences
     contents: 32 movements
     audio: 'no'
-    
+
 MSMD:
   url: https://zenodo.org/record/2597505/
   title: Multimodal Sheet Music Dataset
@@ -962,7 +972,7 @@ MTG-QBH:
 
 MUSDB18:
   url: https://sigsep.github.io/datasets/musdb.html
-  metadata: 
+  metadata:
     - multitrack recordings
     - stems for vocals, drums, bass and accompaniment
   contents: 150 songs
@@ -970,7 +980,7 @@ MUSDB18:
 
 MUSIC4ALL:
   url: https://sites.google.com/view/contact4music4all
-  metadata: 
+  metadata:
     - tags
     - lyrics
   contents: 109,269 excerpts (30s)
@@ -1209,7 +1219,7 @@ SALAMI:
 
 SAMBASET:
   url: http://www02.smt.ufrj.br/~starel/sambaset/
-  metadata: 
+  metadata:
     - recording date
     - escolas
     - beats
@@ -1297,7 +1307,7 @@ SISEC2013:
     - mix
   contents: 5 excerpts
   audio: 'yes'
-  
+
 SLAKH:
   url: http://www.slakh.com/
   title: Synthesized Lakh Dataset (Slakh)
@@ -1392,7 +1402,7 @@ ThisIsMyJam:
     - artists
   contents: 131k users
   audio: 'no'
-  
+
 TinySOL:
   url: https://zenodo.org/record/3632192
   title: TinySOL, an audio dataset of isolated musical notes
@@ -1464,7 +1474,7 @@ uspop2002:
     - chords: https://github.com/tmc323/Chord-Annotations
   contents: 8752 songs
   audio: 'no'
- 
+
 VGD:
   url: https://gitlab.doc.gold.ac.uk/expressive-musical-gestures/dataset/-/tree/master/violin
   title: Violin Gestures Dataset

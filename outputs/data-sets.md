@@ -2,7 +2,7 @@
 status| dataset |  metadata |  contents |  with audio
 --- | --- | --- | --- | ---
 &#x2620; | <a title="200DrumMachines" href="http://www.hexawe.net/mess/200.Drum.Machines" target="_blank" rel="noopener">200DrumMachines</a> | audio samples | 7371 one-shots | yes
-&#x2705; | <a title="ACM_MIRUM" href="http://www.marsyas.info/tempo" target="_blank" rel="noopener">ACM_MIRUM</a> | tempo | 1410 excerpts (60s) | yes
+&#x2620; | <a title="ACM_MIRUM" href="http://www.marsyas.info/tempo" target="_blank" rel="noopener">ACM_MIRUM</a> | tempo | 1410 excerpts (60s) | yes
 &#x2705; | <a title="AcousticBrainz-Genre" href="https://mtg.github.io/acousticbrainz-genre-dataset/" target="_blank" rel="noopener">AcousticBrainz-Genre</a> | 15-31 genres with 265-745 subgenres | audio features for about 2000000 songs | no
 &#x2705; | <a title="ADC2004" href="http://labrosa.ee.columbia.edu/projects/melody" target="_blank" rel="noopener">ADC2004</a> | predominant pitch | 20 excerpts | yes
 &#x2620; | <a title="AED" href="https://data.vision.ee.ethz.ch/cvl/ae_dataset/" target="_blank" rel="noopener">Acoustic Event Dataset</a> | 28 event classes | 5223 audio snippets | yes
@@ -37,6 +37,7 @@ status| dataset |  metadata |  contents |  with audio
 &#x2705; | <a title="Da-TACOS" href="https://mtg.github.io/da-tacos/" target="_blank" rel="noopener">Da-TACOS</a> | cover songs | 25000 songs | no
 &#x2705; | <a title="DALI" href="https://github.com/gabolsgabs/DALI" target="_blank" rel="noopener">Dataset of synchronised Audio, LyrIcs and vocal notes</a> | aligned notes and lyrics | 5358 songs | no
 &#x2705; | <a title="DAMP" href="https://ccrma.stanford.edu/damp/" target="_blank" rel="noopener">DAMP</a> | karaoke performances, [aligned lyrics](https://drive.google.com/drive/folders/1hGuE0Drv3tbN-YNRDzJJMHfzKH6e4O2A), [pronunciation assessment](https://drive.google.com/drive/folders/19JPEWSBAM0ssatjBIJzAzjClxi2abt8w) | 34000 monophonic recordings | yes
+&#x2705; | <a title="DCS" href="https://www.audiolabs-erlangen.de/resources/MIR/2020-DagstuhlChoirSet" target="_blank" rel="noopener">Dagstuhl ChoirSet</a> | beats, time-aligned scores, F0 | 81 takes | yes
 &#x2705; | <a title="DEAM" href="http://cvml.unige.ch/databases/DEAM" target="_blank" rel="noopener">DEAM - The MediaEval Database for Emotional Analysis of Music</a> | valence & arousal | 1802 excerpts | yes
 &#x2705; | <a title="DEAPDataset" href="http://www.eecs.qmul.ac.uk/mmv/datasets/deap/readme.html" target="_blank" rel="noopener">DEAPDataset</a> | valence & arousal, dominance, physiological data | 120 music video excerpts | no
 &#x2705; | <a title="DESED" href="https://github.com/turpaultn/DESED" target="_blank" rel="noopener">DESED</a> | 10 audio event classes | pprox 20k 10s clips (unlabeled, weakly/strongly labeled) | yes
@@ -68,9 +69,9 @@ status| dataset |  metadata |  contents |  with audio
 &#x2705; | <a title="GPT" href="http://mac.citi.sinica.edu.tw/GuitarTranscription" target="_blank" rel="noopener">GPT</a> | 7 guitar playing techniques | 6580 clips | yes
 &#x2705; | <a title="GrooveMD" href="https://magenta.tensorflow.org/datasets/groove" target="_blank" rel="noopener">Groove MIDI Dataset</a> | drum timing | 1150 MIDI recordings | rendered
 &#x2705; | <a title="GSD" href="https://github.com/ashispati/GuitarSoloDetection/tree/master/Dataset" target="_blank" rel="noopener">Guitar Solo Dataset</a> | start/stop of guitar solos | 60 songs | no
-&#x2705; | <a title="GTZAN" href="http://marsyas.info/downloads/datasets.html" target="_blank" rel="noopener">GTZAN</a> | 10 genres, [tempo labels](http://www.marsyas.info/tempo/), [key labels (lerch)](https://github.com/alexanderlerch/data_set), [key labels (li)](http://visal.cs.cityu.edu.hk/downloads/#gtzankeys), [beat/downbeat](http://anasynth.ircam.fr/home/media/GTZAN-rhythm), [metrical levels](http://www.isophonics.net/content/metrical-structure-annotations-gtzan-dataset) | 1000 excerpts (30s) | yes
+&#x2620; | <a title="GTZAN" href="http://marsyas.info/downloads/datasets.html" target="_blank" rel="noopener">GTZAN</a> | 10 genres, [tempo labels](http://www.marsyas.info/tempo/), [key labels (lerch)](https://github.com/alexanderlerch/data_set), [key labels (li)](http://visal.cs.cityu.edu.hk/downloads/#gtzankeys), [beat/downbeat](http://anasynth.ircam.fr/home/media/GTZAN-rhythm), [metrical levels](http://www.isophonics.net/content/metrical-structure-annotations-gtzan-dataset) | 1000 excerpts (30s) | yes
 &#x2705; | <a title="GuitarSet" href="https://guitarset.weebly.com/" target="_blank" rel="noopener">GuitarSet</a> | midi, pitch, beat, chords | 360 guitar excerpts (30s) with hexaphonic audio | yes
-&#x2705; | <a title="Hainsworth" href="http://www.marsyas.info/tempo/" target="_blank" rel="noopener">Hainsworth</a> | tempo | 245 excerpts (60s) | yes
+&#x2620; | <a title="Hainsworth" href="http://www.marsyas.info/tempo/" target="_blank" rel="noopener">Hainsworth</a> | tempo | 245 excerpts (60s) | yes
 &#x2705; | <a title="HarmonixSet" href="https://github.com/urinieto/harmonixset" target="_blank" rel="noopener">HarmonixSet</a> | beats, downbeats, structure | 912 pop songs | no
 &#x2705; | <a title="HHDS" href="http://goo.gl/5Hu51y" target="_blank" rel="noopener">HHDS</a> | multitrack, style, tempo | 18 songs | yes
 &#x2620; | <a title="holzapfel:onset" href="https://kth.box.com/s/o151l3rqtglhmeszah06wmvpcmpat6w9" target="_blank" rel="noopener">holzapfel:onset</a> | onset times | 78 excerpts | yes
@@ -147,7 +148,7 @@ status| dataset |  metadata |  contents |  with audio
 &#x2705; | <a title="OpenBMAT" href="https://zenodo.org/record/3381249" target="_blank" rel="noopener">Open Broadcast Media Audio from TV</a> | 6 classes for music presence | 1647 excerpts (60s) | yes
 &#x2705; | <a title="OpenMIC-2018" href="https://github.com/cosmir/openmic-2018" target="_blank" rel="noopener">OpenMIC-2018</a> | 20 instruments | 20000 excerpts (10s) | yes
 &#x2705; | <a title="Orchset" href="http://mtg.upf.edu/download/datasets/orchset" target="_blank" rel="noopener">Orchset</a> | predominant pitch | 64 excerpts | yes
-&#x2705; | <a title="PGD" href="https://gitlab.doc.gold.ac.uk/expressive-musical-gestures/dataset/-/tree/master/piano" target="_blank" rel="noopener">Piano Gestures Dataset</a> | video, intentions, audio | 210 clips | yes
+&#x2620; | <a title="PGD" href="https://gitlab.doc.gold.ac.uk/expressive-musical-gestures/dataset/-/tree/master/piano" target="_blank" rel="noopener">Piano Gestures Dataset</a> | video, intentions, audio | 210 clips | yes
 &#x2705; | <a title="Phenicx-Anechoic" href="http://mtg.upf.edu/download/datasets/phenicx-anechoic" target="_blank" rel="noopener">Phenicx-Anechoic</a> | audio, aligned MIDI | 4 pieces | yes
 &#x2705; | <a title="Phonation" href="https://osf.io/pa3ha" target="_blank" rel="noopener">Phonation</a> | pitch, vowel, phonation mode | 900 monophonic snippets | yes
 &#x2705; | <a title="PlaylistDataset" href="http://www.cs.cornell.edu/~shuochen/lme/data_page.html" target="_blank" rel="noopener">PlaylistDataset</a> | playlists | 75262 songs/2840553 transitions | no
@@ -199,6 +200,6 @@ status| dataset |  metadata |  contents |  with audio
 &#x2705; | <a title="UrbanSound8k" href="http://urbansounddataset.weebly.com/" target="_blank" rel="noopener">UrbanSound8k</a> | 10 event classes | 8732 slices | yes
 &#x2705; | <a title="URMP" href="http://www2.ece.rochester.edu/projects/air/projects/URMP.html" target="_blank" rel="noopener">Multi-modal Music Performance</a> | score-aligned video and audio | 44 recordings | yes
 &#x2705; | <a title="uspop2002" href="http://labrosa.ee.columbia.edu/projects/musicsim/uspop2002.html" target="_blank" rel="noopener">uspop2002</a> | tags, genre, [chords](https://github.com/tmc323/Chord-Annotations) | 8752 songs | no
-&#x2705; | <a title="VGD" href="https://gitlab.doc.gold.ac.uk/expressive-musical-gestures/dataset/-/tree/master/violin" target="_blank" rel="noopener">Violin Gestures Dataset</a> | EMG, playing techniques, audio | 960 recordings | yes
+&#x2620; | <a title="VGD" href="https://gitlab.doc.gold.ac.uk/expressive-musical-gestures/dataset/-/tree/master/violin" target="_blank" rel="noopener">Violin Gestures Dataset</a> | EMG, playing techniques, audio | 960 recordings | yes
 &#x2705; | <a title="VocalSet" href="https://zenodo.org/record/1442513#.W7OaFBNKjx4" target="_blank" rel="noopener">VocalSet</a> | 17 vocal techniques | 3560 recordings | yes
 &#x2705; | <a title="YousicianUkulele" href="https://yousician.com/open-data" target="_blank" rel="noopener">YousicianUkulele</a> | evaluated notes and chords | 500000 exercises by 1000 users | no
