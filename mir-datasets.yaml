@@ -492,8 +492,19 @@ GrooveMD:
   url: https://magenta.tensorflow.org/datasets/groove
   title: Groove MIDI Dataset
   metadata:
+    - drummer/session id
     - drum timing
   contents: 1150 MIDI recordings
+  audio: 'rendered'
+
+ExpandedGrooveMD:
+  url: https://g.co/magenta/e-gmd
+  title: Expanded Groove MIDI Dataset
+  metadata:
+    - drummer/session id
+    - drum timing
+    - kit name
+  contents: 45537 midi/audio pairs
   audio: 'rendered'
 
 GSD:
