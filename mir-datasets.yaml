@@ -1090,7 +1090,7 @@ Orchset:
 Phenicx-Anechoic:
   url: http://mtg.upf.edu/download/datasets/phenicx-anechoic
   metadata:
-    - audio
+    - multi-track audio (orchestral music)
     - aligned MIDI
   contents: 4 pieces
   audio: 'yes'
