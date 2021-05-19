@@ -730,7 +730,7 @@ LFM-1b:
   audio: 'no'
 
 LMD:
-  url: http://labrosa.ee.columbia.edu/sounds/music/
+  url: https://colinraffel.com/projects/lmd/
   title: Lakh MIDI Dataset
   metadata:
     - MIDI
