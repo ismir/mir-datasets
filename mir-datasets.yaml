@@ -954,6 +954,18 @@ MTC:
   contents: 18000 melodies
   audio: 'partially'
 
+MTD:
+  url: https://www.audiolabs-erlangen.de/resources/MIR/MTD
+  title: A Multimodal Dataset of Musical Themes for MIR Research
+  metadata:
+    - sheet music
+    - symbolic encodings
+    - audio snippets
+    - symbolic-audio alignments
+    - composer, work, recording, and theme characteristics
+  contents: 2067 Themes
+  audio: 'yes'
+
 MTG-Jamendo:
   url: https://mtg.github.io/mtg-jamendo-dataset/
   title: MTG-Jamendo
