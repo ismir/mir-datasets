@@ -21,7 +21,7 @@ status| dataset |  metadata |  contents |  with audio
 &#x2705; | <a title="C49ka-C111ka" href="http://www.cp.jku.at/people/schedl/datasets.html" target="_blank" rel="noopener">C49ka-C111ka</a> | genres | 48800/110588 artists | no
 &#x2705; | <a title="CAL10k" href="http://calab1.ucsd.edu/~datasets/" target="_blank" rel="noopener">CAL10k</a> | tags | 10870 songs | no
 &#x2705; | <a title="CAL500" href="http://calab1.ucsd.edu/~datasets/" target="_blank" rel="noopener">CAL500</a> | tags | 502 songs | yes
-&#x2620; | <a title="CarnaticRhythm" href="http://compmusic.upf.edu/carnatic-rhythm-dataset" target="_blank" rel="noopener">CarnaticRhythm</a> | sama, beats | 176 pieces | on request
+&#x2705; | <a title="CarnaticRhythm" href="http://compmusic.upf.edu/carnatic-rhythm-dataset" target="_blank" rel="noopener">CarnaticRhythm</a> | sama, beats | 176 pieces | on request
 &#x2705; | <a title="CASD" href="https://github.com/chordify/CASD" target="_blank" rel="noopener">Chordify Annotator Subjectivity Dataset</a> | chords by 4 annotators | 50 songs | no
 &#x2705; | <a title="CBFdataset" href="https://zenodo.org/record/3250223" target="_blank" rel="noopener">CBFdataset</a> | 4 playing techniques (Chinese Bamboo Flute) | 10 performers | yes
 &#x2705; | <a title="CCMixter" href="http://www.loria.fr/~aliutkus/kam/" target="_blank" rel="noopener">CCMixter</a> | vocal track, background track | 50 mixes | yes
@@ -187,6 +187,7 @@ status| dataset |  metadata |  contents |  with audio
 &#x2705; | <a title="SRD-O" href="https://purl.stanford.edu/fj396zz8014" target="_blank" rel="noopener">Shazam Research Dataset Offsets</a> | in-song query times | 188M queries over 20 songs | no
 &#x2705; | <a title="Su-AMT" href="https://sites.google.com/site/lisupage/research/new-methodology-of-building-polyphonic-datasets-for-amt" target="_blank" rel="noopener">Su-AMT</a> | onset times, pitch | 10 excerpts | yes
 &#x2705; | <a title="SUPRA-RW" href="https://supra.stanford.edu/download/" target="_blank" rel="noopener">SUPRA-RW</a> | piano roll performances | 478 performances | yes
+&#x2705; | <a title="SWD" href="https://zenodo.org/record/4122060#.YPkxv-gzaUl" target="_blank" rel="noopener">Schubert Winterreise Dataset (SWD)</a> | lyrics, scores (image, symbolic, MIDI), audio, measures, chords, local keys, global keys, structure | 24 songs, 9 performances | yes
 &#x2705; | <a title="TextureStringQuartets" href="http://algomus.fr/data" target="_blank" rel="noopener">Texture in String Quartets</a> | texture | 11 movements | no
 &#x2705; | <a title="TFD" href="https://www.kaggle.com/jbraga/traditional-flute-dataset" target="_blank" rel="noopener">Traditional Flute Dataset</a> | audio, aligned MIDI | 30 excerpts | yes
 &#x2705; | <a title="ThisIsMyJam" href="https://archive.org/details/thisismyjam-datadump" target="_blank" rel="noopener">ThisIsMyJam</a> | favorite songs, artists | 131k users | no

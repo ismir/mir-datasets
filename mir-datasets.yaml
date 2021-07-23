@@ -1391,6 +1391,18 @@ SUPRA-RW:
   contents: 478 performances
   audio: 'yes'
 
+SWD:
+  url: https://zenodo.org/record/4122060#.YPkxv-gzaUl
+  title: Schubert Winterreise Dataset (SWD)
+  metadata:
+    - lyrics
+    - scores (image, symbolic, MIDI)
+    - audio
+    - measures
+    - chords, local keys, global keys, structure
+  contents: 24 songs, 9 performances
+  audio: 'yes'
+
 TextureStringQuartets:
   url: http://algomus.fr/data
   title: Texture in String Quartets
