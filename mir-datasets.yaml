@@ -730,7 +730,7 @@ LFM-1b:
   audio: 'no'
 
 LMD:
-  url: http://labrosa.ee.columbia.edu/sounds/music/
+  url: https://colinraffel.com/projects/lmd/
   title: Lakh MIDI Dataset
   metadata:
     - MIDI
@@ -953,6 +953,18 @@ MTC:
     - meter
   contents: 18000 melodies
   audio: 'partially'
+
+MTD:
+  url: https://www.audiolabs-erlangen.de/resources/MIR/MTD
+  title: A Multimodal Dataset of Musical Themes for MIR Research
+  metadata:
+    - sheet music
+    - symbolic encodings
+    - audio snippets
+    - symbolic-audio alignments
+    - composer, work, recording, and theme characteristics
+  contents: 2067 Themes
+  audio: 'yes'
 
 MTG-Jamendo:
   url: https://mtg.github.io/mtg-jamendo-dataset/
@@ -1377,6 +1389,18 @@ SUPRA-RW:
   url: https://supra.stanford.edu/download/
   metadata: piano roll performances
   contents: 478 performances
+  audio: 'yes'
+
+SWD:
+  url: https://zenodo.org/record/4122060#.YPkxv-gzaUl
+  title: Schubert Winterreise Dataset (SWD)
+  metadata:
+    - lyrics
+    - scores (image, symbolic, MIDI)
+    - audio
+    - measures
+    - chords, local keys, global keys, structure
+  contents: 24 songs, 9 performances
   audio: 'yes'
 
 TextureStringQuartets:
