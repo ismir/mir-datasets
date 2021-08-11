@@ -34,7 +34,7 @@ HEALTH = {
 
 def get_url_status(url):
     try:
-        response = requests.get(url, timeout=3)
+        response = requests.get(url, timeout=3, stream=True)
         status_code = response.status_code
     except (requests.exceptions.ConnectionError, requests.exceptions.ReadTimeout) as derp:
         status_code = 666
@@ -55,7 +55,7 @@ def render_one(key, record):
             fields.append(item)
         metadata = ', '.join(fields)
 
-    return MARKDOWN_RECORD.format(key=key, title=title, metadata=metadata, 
+    return MARKDOWN_RECORD.format(key=key, title=title, metadata=metadata,
                                   status=status, **record)
 
 
@@ -76,7 +76,7 @@ def render(records, output_format, n_jobs=-1, verbose=0):
         String data to write to file.
     '''
     records = sorted(records.items(), key=lambda x: x[0].lower())
-    
+
     # Fan out
     pool = joblib.Parallel(n_jobs=n_jobs, verbose=verbose)
     dfx = joblib.delayed(render_one)
@@ -117,7 +117,7 @@ if __name__ == '__main__':
 
     output_format = os.path.splitext(args.output_file)[-1].strip('.')
     with open(args.output_file, 'w') as fp:
-        fp.write(render(dataset, output_format, 
+        fp.write(render(dataset, output_format,
                         n_jobs=args.n_jobs, verbose=args.verbose))
 
     sys.exit(0 if os.path.exists(args.output_file) else 1)
