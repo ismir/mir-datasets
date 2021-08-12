@@ -11,6 +11,7 @@ status| dataset |  metadata |  contents |  with audio
 &#x2705; | <a title="AMT-pilot" href="https://github.com/chordify/CASD" target="_blank" rel="noopener">AMT-pilot</a> | structure by multiple annotators | 8 songs | yes
 &#x2705; | <a title="APL" href="https://archive.org/details/Automatic_Practice_Logging" target="_blank" rel="noopener">Automatic Practice Logging</a> | piano practice | 620 segments | yes
 &#x2620; | <a title="artist20" href="http://labrosa.ee.columbia.edu/projects/artistid" target="_blank" rel="noopener">artist20</a> | 20 artists | 1413 songs | no
+&#x2705; | <a title="ASAP" href="https://github.com/fosfrancesco/asap-dataset" target="_blank" rel="noopener">ASAP</a> | aligned MIDI/audio performances and MIDI/XML scores, beats, downbeats, time signatures, key signatures | 1068 MIDI performances, 520 audio performances, 222 scores | yes (see MAESTRO)
 &#x2705; | <a title="AudioSet" href="https://research.google.com/audioset/index.html" target="_blank" rel="noopener">AudioSet</a> | 632 event classes | 2084320 clips (10s) | no
 &#x2705; | <a title="bach10" href="http://www2.ece.rochester.edu/projects/air/resource.html" target="_blank" rel="noopener">bach10</a> | aligned multitrack MIDI | 10 chorales | yes
 &#x2705; | <a title="ballroom" href="http://mtg.upf.edu/ismir2004/contest/tempoContest/node5.html" target="_blank" rel="noopener">ballroom</a> | 8 genres, tempo, [beats](https://github.com/CPJKU/BallroomAnnotations), [bars / downbeats](https://github.com/CPJKU/BallroomAnnotations) | 698 excerpts (30s) | yes
@@ -90,7 +91,7 @@ status| dataset |  metadata |  contents |  with audio
 &#x2620; | <a title="ISMIR2004Genre" href="http://ismir2004.ismir.net/genre_contest/index.html" target="_blank" rel="noopener">ISMIR2004Genre</a> | 6 genres | 729 excerpts (30s) | yes
 &#x2705; | <a title="ISMIR2004Tempo" href="http://mtg.upf.edu/ismir2004/contest/tempoContest/node6.html" target="_blank" rel="noopener">ISMIR2004Tempo</a> | tempo | 465 excerpts (20s) | yes
 &#x2705; | <a title="JAAH" href="https://github.com/MTG/JAAH" target="_blank" rel="noopener">Jazz Audio-Aligned Harmony Dataset</a> | structure, key, chords, beats | 113 songs | no
-&#x2620; | <a title="Jamendo-VAD" href="https://jobim.ofai.at/download/jamendo.tgz" target="_blank" rel="noopener">Jamendo-VAD</a> | voice activity | 61+16+16 songs | yes
+&#x2705; | <a title="Jamendo-VAD" href="https://jobim.ofai.at/download/jamendo.tgz" target="_blank" rel="noopener">Jamendo-VAD</a> | voice activity | 61+16+16 songs | yes
 &#x2705; | <a title="JGDB" href="https://ccrma.stanford.edu/~jga/ismir2010/ismir2010.html" target="_blank" rel="noopener">JGDB</a> | multitrack, MIDI | random generated excerpts | yes
 &#x2705; | <a title="JKU-ScoFo" href="http://www.cp.jku.at/resources/2019_RLScoFo_TISMIR" target="_blank" rel="noopener">JKU-ScoFo</a> | audio, MIDI | 16 recordings | yes
 &#x2705; | <a title="JLSDD" href="https://github.com/ELVIS-Project/mass-duos-corpus-josquin-larue/tree/Methodologies-for-Creating-Symbolic-Music-Corpora" target="_blank" rel="noopener">Josquin La Rue Secure Duo Dataset</a> | symbolic scores | 77 duos (Josquin & La Rue) | no
@@ -108,7 +109,7 @@ status| dataset |  metadata |  contents |  with audio
 &#x2705; | <a title="magnatagatune" href="http://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset" target="_blank" rel="noopener">magnatagatune</a> | similarity, tags | 25863 excerpts (30s) | yes
 &#x2620; | <a title="MAPS" href="http://www.tsi.telecom-paristech.fr/aao/en/2010/07/08/maps-database-a-piano-database-for-multipitch-estimation-and-automatic-transcription-of-music/" target="_blank" rel="noopener">MAPS</a> | piano notes/chords/pieces, [tempo/key](http://c4dm.eecs.qmul.ac.uk/ycart/a-maps.html) | 238 pieces | yes
 &#x2705; | <a title="MARD" href="http://mtg.upf.edu/download/datasets/mard" target="_blank" rel="noopener">MARD</a> | album reviews | 66566 songs | no
-&#x2705; | <a title="MARG-AMT" href="http://marg.snu.ac.kr/?page_id=767" target="_blank" rel="noopener">MARG-AMT</a> | MIDI pitch, onset/offset times | 30 melodies | yes
+&#x2620; | <a title="MARG-AMT" href="http://marg.snu.ac.kr/?page_id=767" target="_blank" rel="noopener">MARG-AMT</a> | MIDI pitch, onset/offset times | 30 melodies | yes
 &#x2705; | <a title="MAST" href="https://github.com/barisbozkurt/MASTmelody_dataset" target="_blank" rel="noopener">MAST</a> | vocal performance assessment | 1018 performances | no
 &#x2705; | <a title="MAST-Rhythm" href="https://zenodo.org/record/2620357" target="_blank" rel="noopener">MAST-Rhythm</a> | rhythm performance assessment | 3721 performances | yes
 &#x2705; | <a title="McGill Billboard" href="http://ddmal.music.mcgill.ca/billboard" target="_blank" rel="noopener">McGill Billboard</a> | chords | 740 songs | no
