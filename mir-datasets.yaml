@@ -419,6 +419,13 @@ FMA-full:
   contents: 106574 songs
   audio: 'yes'
 
+Freesound-Loop-Dataset:
+  url: https://zenodo.org/record/3967852
+  metadata: tempo, key, instrumentation, genre
+  contents: 3000 annotated loops, 9455 loops total
+  audio: 'yes'
+
+
 FSD-Kaggle2019:
   url: https://zenodo.org/record/3612637
   metadata: 80 tags
