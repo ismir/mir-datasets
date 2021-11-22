@@ -863,6 +863,16 @@ Medley-solos-DB:
    contents: 21572 excerpts
    audio: 'yes'
 
+MelonPlaylistDataset:
+  url: https://mtg.github.io/melon-playlist-dataset/
+  title: Melon Playlist Dataset
+  metadata:
+  - 148826 playlists
+  - 30 genres, 219 subgenres
+  - 30652 playlist tags
+  contents: mel-spectrograms for 649091 songs (20-50s segments)
+  audio: 'no'
+
 MER500:
    url: https://www.kaggle.com/makvel/mer500
    metadata: emotion
