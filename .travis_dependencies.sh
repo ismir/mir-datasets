@@ -23,7 +23,7 @@ if [ ! -d "$src" ]; then
     pushd $HOME/env
 
         # Download miniconda packages
-        wget http://repo.continuum.io/miniconda/Miniconda-3.16.0-Linux-x86_64.sh -O miniconda.sh;
+        wget https://repo.anaconda.com/miniconda/Miniconda3-py38_4.10.3-Linux-x86_64.sh -O miniconda.sh;
 
         # Install both environments
         bash miniconda.sh -b -p $src
@@ -31,9 +31,9 @@ if [ ! -d "$src" ]; then
         export PATH="$src/bin:$PATH"
         conda_create
 
-        source activate $ENV_NAME
+        activate $ENV_NAME
 
-        source deactivate
+        deactivate
     popd
 else
     echo "Using cached dependencies"
