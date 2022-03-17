@@ -739,9 +739,9 @@ LabROSA:MIDI:
   audio: 'yes'
 
 last.fm:
-  url: http://www.dtic.upf.edu/~ocelma/MusicRecommendationDataset/lastfm-1K.html
-  title: last.fm data set
-  metadata: listening habits
+  url: https://zenodo.org/record/6090214
+  title: last.fm-1K and last.fm-360K
+  metadata: user listening habits from last.fm
   contents: 992 users
   audio: 'no'
 
