@@ -856,6 +856,17 @@ Medley-solos-DB:
    contents: 21572 excerpts
    audio: 'yes'
 
+MeloSol:
+  url: https://davidjohnbaker1.github.io/melosol/
+  metadata:
+    - melody
+    - monophonic
+    - symbolic
+    - kern
+    - key
+  contents: 783 melodies 
+  audio: 'no'
+
 MER500:
    url: https://www.kaggle.com/makvel/mer500
    metadata: emotion
