@@ -241,6 +241,16 @@ CSD:
     - MIDI
   contents: 48 recordings
   audio: 'yes'
+  
+dadaGP:
+  url: https://github.com/dada-bots/dadaGP
+  title: dadaGP dataset
+  metadata: 
+    - guitarPro tablatures
+    - encoder and decoder python tool to and from text and token format
+    - symbolic music generation
+  contents: a total of 26,181 songs in guitarPro/token format for symbolic music generation
+  audio: 'no'
 
 DALI:
   url: https://github.com/gabolsgabs/DALI
