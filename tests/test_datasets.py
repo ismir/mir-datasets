@@ -8,7 +8,7 @@ import yaml
 
 # open dataset file
 with open('mir-datasets.yaml', 'rb') as hdl:
-    d = yaml.load(hdl)
+    d = yaml.safe_load(hdl)
 
 required_fields = [
     'url',
@@ -47,4 +47,3 @@ def test_url(dataset):
 
     parts = urllib.parse.urlparse(values['url'])
     assert parts.scheme.startswith('http')
-
