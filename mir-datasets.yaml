@@ -863,6 +863,17 @@ Medley-solos-DB:
    contents: 21572 excerpts
    audio: 'yes'
 
+MeloSol:
+  url: https://davidjohnbaker1.github.io/melosol/
+  metadata:
+    - melody
+    - monophonic
+    - symbolic
+    - kern
+    - key
+  contents: 783 melodies
+  audio: 'no'
+
 MelonPlaylistDataset:
   url: https://mtg.github.io/melon-playlist-dataset/
   title: Melon Playlist Dataset
