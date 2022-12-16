@@ -3,7 +3,13 @@
   metadata: audio samples
   contents: 7371 one-shots
   audio: 'yes'
-
+  
+AccoMontage2:
+  url: https://github.com/billyblu2000/accomontage2
+  metadata: song harmonization and accompaniment arrangement based on a lead melody
+  contents: 
+  audio: 'no'
+  
 ACM_MIRUM:
   url: http://www.marsyas.info/tempo
   metadata: tempo
@@ -535,6 +541,12 @@ GuitarSet:
     - chords
   contents: 360 guitar excerpts (30s) with hexaphonic audio
   audio: 'yes'
+  
+GZ_IsoTech:
+  url: https://ccmusic-database.github.io/en/database/ccm.html#GZTech
+  metadata: Guzheng
+  contents: 2824
+  audio: 'yes'
 
 Hainsworth:
   url: http://www.marsyas.info/tempo/ # This seems wrong?
@@ -717,6 +729,12 @@ JLSDD:
   contents: 77 duos (Josquin & La Rue)
   audio: 'no'
 
+KUGDastgahi:
+  url: https://phaidra.kug.ac.at/view/o:127195
+  metadata: dastgahi music
+  contents: 213 solo recordings by four professional musicians
+  audio: 'audio'
+
 LabROSA:APT:
   url: http://labrosa.ee.columbia.edu/projects/piano/
   metadata: MIDI
@@ -766,6 +784,12 @@ LMD - Latin:
   metadata: 10 genres
   contents: 3160 songs
   audio: 'no'
+  
+Lyra:
+  url: https://github.com/pxaris/lyra-dataset
+  metadata: a dataset for Greek Traditional and Folk music that includes 1570 pieces
+  contents: 1570 songs
+  audio: 'yes'
 
 M-DJCUE:
   url: https://github.com/MZehren/M-DJCUE
@@ -1374,6 +1398,12 @@ SMD:
     - audio
     - aligned MIDI
   contents: 50 recordings
+  audio: 'yes'
+
+SongInterpretationDataset:
+  url: https://zenodo.org/record/7019124#.Y5yxwux_pTY
+  metadata: lyrics 
+  contents: 27,834 songs (30 seconds each, recorded at 44.1 kHz)
   audio: 'yes'
 
 SoundTracks:
