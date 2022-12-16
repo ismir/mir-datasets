@@ -1546,7 +1546,15 @@ RobbieWilliamsAnnotations:
     - beats
   contents: 65 songs
   audio: 'no'
-
+  
+YM2413-MDB:
+  url: https://github.com/jech2/YM2413-MDB
+  metadata: 
+    - retro video game symbolic music dataset with emotion annotations
+    - ismir 2022
+  contents: 669 songs
+  audio: 'no'
+  
 YousicianUkulele:
   url: https://yousician.com/open-data
   metadata: evaluated notes and chords
