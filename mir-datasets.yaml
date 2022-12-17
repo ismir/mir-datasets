@@ -273,6 +273,16 @@ CSD:
     - MIDI
   contents: 48 recordings
   audio: 'yes'
+  
+dadaGP:
+  url: https://github.com/dada-bots/dadaGP
+  title: dadaGP dataset
+  metadata: 
+    - guitarPro tablatures
+    - encoder and decoder python tool to and from text and token format
+    - symbolic music generation
+  contents: a total of 26,181 songs in guitarPro/token format for symbolic music generation
+  audio: 'no'
 
 DALI:
   url: https://github.com/gabolsgabs/DALI
@@ -465,6 +475,13 @@ FMA-full:
   metadata: 161 genres
   contents: 106574 songs
   audio: 'yes'
+
+Freesound-Loop-Dataset:
+  url: https://zenodo.org/record/3967852
+  metadata: tempo, key, instrumentation, genre
+  contents: 3000 annotated loops, 9455 loops total
+  audio: 'yes'
+
 
 FSD-Kaggle2019:
   url: https://zenodo.org/record/3612637
@@ -813,9 +830,9 @@ LabROSA:MIDI:
   audio: 'yes'
 
 last.fm:
-  url: http://www.dtic.upf.edu/~ocelma/MusicRecommendationDataset/lastfm-1K.html
-  title: last.fm data set
-  metadata: listening habits
+  url: https://zenodo.org/record/6090214
+  title: last.fm-1K and last.fm-360K
+  metadata: user listening habits from last.fm
   contents: 992 users
   audio: 'no'
 
@@ -948,6 +965,27 @@ Medley-solos-DB:
    metadata: 8 instruments
    contents: 21572 excerpts
    audio: 'yes'
+
+MeloSol:
+  url: https://davidjohnbaker1.github.io/melosol/
+  metadata:
+    - melody
+    - monophonic
+    - symbolic
+    - kern
+    - key
+  contents: 783 melodies
+  audio: 'no'
+
+MelonPlaylistDataset:
+  url: https://mtg.github.io/melon-playlist-dataset/
+  title: Melon Playlist Dataset
+  metadata:
+  - 148826 playlists
+  - 30 genres, 219 subgenres
+  - 30652 playlist tags
+  contents: mel-spectrograms for 649091 songs (20-50s segments)
+  audio: 'no'
 
 MER500:
    url: https://www.kaggle.com/makvel/mer500
@@ -1229,7 +1267,7 @@ Orchset:
 Phenicx-Anechoic:
   url: http://mtg.upf.edu/download/datasets/phenicx-anechoic
   metadata:
-    - audio
+    - multi-track audio (orchestral music)
     - aligned MIDI
   contents: 4 pieces
   audio: 'yes'
