@@ -869,7 +869,7 @@ LocalifyMusicEvents-USA-2019:
   url: https://github.com/JimiLab/LocalifyMusicEventData
   metadata: 
   contentes: 308051 music events that took place in 2019 and from 1139 US cities
-  audio: 'yes'
+  audio: 'no'
   
 Lyra:
   url: https://github.com/pxaris/lyra-dataset
