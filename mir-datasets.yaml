@@ -101,11 +101,11 @@ bach10:
   audio: 'yes'
   
 BAF:
-  url: https://zenodo.org/record/6868083#.Y52yT-x_pTZ
+  url: https://github.com/guillemcortes/baf-dataset/
   metadata: 
     - audio fingerprinting
     - music monitoring in broadcast
-  contents: 2,000 tracks from Epidemic Sounds private catalogue
+  contents: 2,000 tracks from Epidemic Sound and 3,425 TV audio recordings (60s)
   audio: 'yes'
 
 ballroom:
