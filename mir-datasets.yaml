@@ -1143,6 +1143,14 @@ MusAV:
   contents: 2,092 track previews covering 1,404 genres, with pairwise relative AV judgments by 20 annotators
   audio: 'yes'
 
+MusAV:
+  url: https://mtg.github.io/musav-dataset/
+  title: MusAV
+  metadata:
+    - arousal & valence (relative annotations)
+  contents: 2092 excerpts (30s)
+  audio: 'yes'
+
 MUSDB18:
   url: https://sigsep.github.io/datasets/musdb.html
   metadata:
