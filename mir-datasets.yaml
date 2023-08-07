@@ -4,6 +4,21 @@
   contents: 7371 one-shots
   audio: 'yes'
   
+AAM:
+  url: https://zenodo.org/record/5794629
+  metadata:
+    - onsets
+    - pitches
+    - instruments
+    - melody instrument
+    - keys
+    - chords
+    - tempos
+    - beats
+    - segments
+  contents: 3,000 music tracks (with single instrument multitracks)
+  audio: 'yes'
+
 AccoMontage2:
   url: https://github.com/billyblu2000/accomontage2
   metadata: song harmonization and accompaniment arrangement based on a lead melody
