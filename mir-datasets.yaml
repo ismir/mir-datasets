@@ -1208,6 +1208,20 @@ MusicNet:
   contents: 330 recordings
   audio: implicitly
 
+MuVi-Sync:
+  title: Multi-modal Dataset of Music Video
+  url: https://zenodo.org/records/10057093
+  metadata:
+    - chords / keys (music feature)
+    - note density (music feature)
+    - loudness (music feature)
+    - semantic (video feature)
+    - motion (video feature)
+    - emotion (video feature)
+    - scene offset (video feature)
+  contents: 748 music videos
+  audio: on request
+
 NES-MDB:
   url: https://github.com/chrisdonahue/nesmdb
   metadata:
