@@ -206,7 +206,17 @@ CCMixter:
     - background track
   contents: 50 mixes
   audio: 'yes'
-  
+
+ChoCo:
+  url: https://github.com/smashub/choco
+  title: ChoCo, the Chord Corpus
+  metadata:
+   - chords
+   - keys
+   - knowledge graph: https://polifonia.disi.unibo.it/choco/
+  contents: 20K+ songs/pieces
+  audio: 'no'
+
 ChoralMusicSeparation:
   url: https://github.com/RetroCirce/Choral_Music_Separation
   metadata: 
