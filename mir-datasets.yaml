@@ -783,6 +783,16 @@ JAAH:
   contents: 113 songs
   audio: 'no'
 
+jaCappella:
+  url: https://tomohikonakamura.github.io/jaCappella_corpus/
+  title: jaCappella corpus, Japanese a cappella vocal ensemble corpus
+  metadata:
+    - musical sheet (MusicXML)
+    - 10 genres
+    - singer ID
+  contents: 50 songs (6 voices), audio recordings of each voice part and mixture
+  audio: 'yes'
+
 Jamendo-VAD:
   url: https://jobim.ofai.at/download/jamendo.tgz
   metadata: voice activity

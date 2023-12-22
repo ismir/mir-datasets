@@ -2,6 +2,7 @@
 status| dataset |  metadata |  contents |  with audio
 --- | --- | --- | --- | ---
 &#x2620; | <a title="200DrumMachines" href="http://www.hexawe.net/mess/200.Drum.Machines" target="_blank" rel="noopener">200DrumMachines</a> | audio samples | 7371 one-shots | yes
+&#x2705; | <a title="AAM" href="https://zenodo.org/record/5794629" target="_blank" rel="noopener">AAM</a> | onsets, pitches, instruments, melody instrument, keys, chords, tempos, beats, segments | 3,000 music tracks (with single instrument multitracks) | yes
 &#x2705; | <a title="AccoMontage2" href="https://github.com/billyblu2000/accomontage2" target="_blank" rel="noopener">AccoMontage2</a> | song harmonization and accompaniment arrangement based on a lead melody | None | no
 &#x2620; | <a title="ACM_MIRUM" href="http://www.marsyas.info/tempo" target="_blank" rel="noopener">ACM_MIRUM</a> | tempo | 1410 excerpts (60s) | yes
 &#x2705; | <a title="AcousticBrainz-Genre" href="https://mtg.github.io/acousticbrainz-genre-dataset/" target="_blank" rel="noopener">AcousticBrainz-Genre</a> | 15-31 genres with 265-745 subgenres | audio features for about 2000000 songs | no
@@ -15,7 +16,7 @@ status| dataset |  metadata |  contents |  with audio
 &#x2705; | <a title="ASAP" href="https://github.com/fosfrancesco/asap-dataset" target="_blank" rel="noopener">ASAP</a> | aligned MIDI/audio performances and MIDI/XML scores, beats, downbeats, time signatures, key signatures | 1068 MIDI performances, 520 audio performances, 222 scores | yes (see MAESTRO)
 &#x2705; | <a title="ATEPP" href="https://zenodo.org/record/6564406#.Y5QnkezP3OQ" target="_blank" rel="noopener">ATEPP</a> | symbolic music MIDI, musicXML, classification tasks, expressive piano performances | 1742 performances (~1000 hours) by 49 pianists and covers 1580 movements by 25 composers | 
 &#x2705; | <a title="AudioSet" href="https://research.google.com/audioset/index.html" target="_blank" rel="noopener">AudioSet</a> | 632 event classes | 2084320 clips (10s) | no
-&#x2705; | <a title="bach10" href="http://www2.ece.rochester.edu/projects/air/resource.html" target="_blank" rel="noopener">bach10</a> | aligned multitrack MIDI | 10 chorales | yes
+&#x2620; | <a title="bach10" href="http://www2.ece.rochester.edu/projects/air/resource.html" target="_blank" rel="noopener">bach10</a> | aligned multitrack MIDI | 10 chorales | yes
 &#x2705; | <a title="BAF" href="https://github.com/guillemcortes/baf-dataset/" target="_blank" rel="noopener">BAF</a> | audio fingerprinting, music monitoring in broadcast | 2,000 tracks from Epidemic Sound and 3,425 TV audio recordings (60s) | yes
 &#x2705; | <a title="ballroom" href="http://mtg.upf.edu/ismir2004/contest/tempoContest/node5.html" target="_blank" rel="noopener">ballroom</a> | 8 genres, tempo, [beats](https://github.com/CPJKU/BallroomAnnotations), [bars / downbeats](https://github.com/CPJKU/BallroomAnnotations) | 698 excerpts (30s) | yes
 &#x2705; | <a title="beatboxset1" href="http://archive.org/details/beatboxset1" target="_blank" rel="noopener">beatboxset1</a> | percussion annotation | 14 clips | yes
@@ -67,8 +68,8 @@ status| dataset |  metadata |  contents |  with audio
 &#x2705; | <a title="FMA-large" href="https://github.com/mdeff/fma" target="_blank" rel="noopener">FMA-large</a> | 161 genres | 106574 excerpts (30s) | yes
 &#x2705; | <a title="FMA-medium" href="https://github.com/mdeff/fma" target="_blank" rel="noopener">FMA-medium</a> | 16 genres | 25000 excerpts (30s) | yes
 &#x2705; | <a title="FMA-small" href="https://github.com/mdeff/fma" target="_blank" rel="noopener">FMA-small</a> | 8 genres | 8000 excerpts (30s) | yes
-&#x2620; | <a title="Freesound-Loop-Dataset" href="https://zenodo.org/record/3967852" target="_blank" rel="noopener">Freesound-Loop-Dataset</a> | tempo, key, instrumentation, genre | 3000 annotated loops, 9455 loops total | yes
-&#x2620; | <a title="FSD-Kaggle2019" href="https://zenodo.org/record/3612637" target="_blank" rel="noopener">FSD-Kaggle2019</a> | 80 tags | 29000 clips | yes
+&#x2705; | <a title="Freesound-Loop-Dataset" href="https://zenodo.org/record/3967852" target="_blank" rel="noopener">Freesound-Loop-Dataset</a> | tempo, key, instrumentation, genre | 3000 annotated loops, 9455 loops total | yes
+&#x2705; | <a title="FSD-Kaggle2019" href="https://zenodo.org/record/3612637" target="_blank" rel="noopener">FSD-Kaggle2019</a> | 80 tags | 29000 clips | yes
 &#x2705; | <a title="Fugue" href="http://algomus.fr/data" target="_blank" rel="noopener">Fugue Analyses</a> | fugue structure, patterns, cadences | 36 fugues (Bach & Shostakovich) | no
 &#x2705; | <a title="GiantStepsKey" href="https://github.com/GiantSteps/giantsteps-key-dataset" target="_blank" rel="noopener">GiantStepsKey</a> | key | 604 files | no
 &#x2705; | <a title="GiantStepsTempo" href="https://github.com/GiantSteps/giantsteps-tempo-dataset" target="_blank" rel="noopener">GiantStepsTempo</a> | tempo | 664 files | no
@@ -85,12 +86,12 @@ status| dataset |  metadata |  contents |  with audio
 &#x2620; | <a title="Hainsworth" href="http://www.marsyas.info/tempo/" target="_blank" rel="noopener">Hainsworth</a> | tempo | 245 excerpts (60s) | yes
 &#x2705; | <a title="HarmonixSet" href="https://github.com/urinieto/harmonixset" target="_blank" rel="noopener">HarmonixSet</a> | beats, downbeats, structure | 912 pop songs | no
 &#x2705; | <a title="HED" href="http://coconuts-palm-lab.com/EH/HED.zip" target="_blank" rel="noopener">HED</a> | emotion annotations, harmonisation and tempo arrangements | 4000 tracks with emotion annotations | yes
-&#x2705; | <a title="HHDS" href="http://goo.gl/5Hu51y" target="_blank" rel="noopener">HHDS</a> | multitrack, style, tempo | 18 songs | yes
+&#x2620; | <a title="HHDS" href="http://goo.gl/5Hu51y" target="_blank" rel="noopener">HHDS</a> | multitrack, style, tempo | 18 songs | yes
 &#x2620; | <a title="holzapfel:onset" href="https://kth.box.com/s/o151l3rqtglhmeszah06wmvpcmpat6w9" target="_blank" rel="noopener">holzapfel:onset</a> | onset times | 78 excerpts | yes
 &#x2705; | <a title="homburg" href="http://www-ai.cs.uni-dortmund.de/audio.html" target="_blank" rel="noopener">homburg</a> | 9 genres | 1889 excerpts (10s) | yes
 &#x2705; | <a title="HookTheory" href="https://github.com/chrisdonahue/sheetsage" target="_blank" rel="noopener">HookTheory</a> | aligned melody and harmony annotations | 50 hours of aligned melody and harmony annotations | yes
 &#x2705; | <a title="IADS" href="http://csea.phhp.ufl.edu/media/iadsmessage.html" target="_blank" rel="noopener">IADS</a> | valence & arousal, dominance | 111 sound snippets | yes
-&#x2705; | <a title="IDMT-MT" href="https://www.jyu.fi/hytk/fi/laitokset/mutku/en/research/projects2/past-projects/coe/materials/Multitrack" target="_blank" rel="noopener">IDMT Multitrack</a> | multitrack, style | 12 songs | yes
+&#x2620; | <a title="IDMT-MT" href="https://www.jyu.fi/hytk/fi/laitokset/mutku/en/research/projects2/past-projects/coe/materials/Multitrack" target="_blank" rel="noopener">IDMT Multitrack</a> | multitrack, style | 12 songs | yes
 &#x2705; | <a title="IDMT-PIANO-MM" href="https://www.idmt.fraunhofer.de/en/publications/datasets/piano-mm.html" target="_blank" rel="noopener">IDMT-PIANO-MM</a> | classical and jazz piano recordings | 432 piano recordings (around four hours) | yes
 &#x2705; | <a title="IDMT-SMT-Audio-Effects" href="http://www.idmt.fraunhofer.de/en/business_units/smt/audio_effects.html" target="_blank" rel="noopener">IDMT-SMT-Audio-Effects</a> | effects on bass and guitar notes | 55044 recordings | yes
 &#x2705; | <a title="IDMT-SMT-Bass" href="http://www.idmt.fraunhofer.de/en/business_units/smt/bass.html" target="_blank" rel="noopener">IDMT-SMT-Bass</a> | bass performance styles | 4300 excerpts | yes
@@ -104,6 +105,7 @@ status| dataset |  metadata |  contents |  with audio
 &#x2620; | <a title="ISMIR2004Genre" href="http://ismir2004.ismir.net/genre_contest/index.html" target="_blank" rel="noopener">ISMIR2004Genre</a> | 6 genres | 729 excerpts (30s) | yes
 &#x2705; | <a title="ISMIR2004Tempo" href="http://mtg.upf.edu/ismir2004/contest/tempoContest/node6.html" target="_blank" rel="noopener">ISMIR2004Tempo</a> | tempo | 465 excerpts (20s) | yes
 &#x2705; | <a title="JAAH" href="https://github.com/MTG/JAAH" target="_blank" rel="noopener">Jazz Audio-Aligned Harmony Dataset</a> | structure, key, chords, beats | 113 songs | no
+&#x2705; | <a title="jaCappella" href="https://tomohikonakamura.github.io/jaCappella_corpus/" target="_blank" rel="noopener">jaCappella corpus, Japanese a cappella vocal ensemble corpus</a> | musical sheet (MusicXML), 10 genres, singer ID | 50 songs (6 voices), audio recordings of each voice part and mixture | yes
 &#x2620; | <a title="Jamendo-VAD" href="https://jobim.ofai.at/download/jamendo.tgz" target="_blank" rel="noopener">Jamendo-VAD</a> | voice activity | 61+16+16 songs | yes
 &#x2705; | <a title="JGDB" href="https://ccrma.stanford.edu/~jga/ismir2010/ismir2010.html" target="_blank" rel="noopener">JGDB</a> | multitrack, MIDI | random generated excerpts | yes
 &#x2705; | <a title="JKU-ScoFo" href="http://www.cp.jku.at/resources/2019_RLScoFo_TISMIR" target="_blank" rel="noopener">JKU-ScoFo</a> | audio, MIDI | 16 recordings | yes
@@ -133,7 +135,7 @@ status| dataset |  metadata |  contents |  with audio
 &#x2705; | <a title="Medley-solos-DB" href="https://zenodo.org/record/2582103" target="_blank" rel="noopener">Medley-solos-DB: a cross-collection dataset for musical instrument recognition</a> | 8 instruments | 21572 excerpts | yes
 &#x2705; | <a title="MedleyDB" href="http://medleydb.weebly.com" target="_blank" rel="noopener">MedleyDB</a> | multitrack, genre, melody f0, instrument activation | 122 songs | yes
 &#x2705; | <a title="MelonPlaylistDataset" href="https://mtg.github.io/melon-playlist-dataset/" target="_blank" rel="noopener">Melon Playlist Dataset</a> | 148826 playlists, 30 genres, 219 subgenres, 30652 playlist tags | mel-spectrograms for 649091 songs (20-50s segments) | no
-&#x2705; | <a title="MeloSol" href="https://davidjohnbaker1.github.io/melosol/" target="_blank" rel="noopener">MeloSol</a> | melody, monophonic, symbolic, kern, key | 783 melodies | no
+&#x2620; | <a title="MeloSol" href="https://davidjohnbaker1.github.io/melosol/" target="_blank" rel="noopener">MeloSol</a> | melody, monophonic, symbolic, kern, key | 783 melodies | no
 &#x2705; | <a title="MER500" href="https://www.kaggle.com/makvel/mer500" target="_blank" rel="noopener">MER500</a> | emotion | 500 clips | yes
 &#x2705; | <a title="MIR-1K" href="https://sites.google.com/site/unvoicedsoundseparation/mir-1k" target="_blank" rel="noopener">MIR-1K</a> | vocal tracks, background tracks | 1000 excerpts | yes
 &#x2705; | <a title="mirex05Train" href="http://labrosa.ee.columbia.edu/projects/melody/" target="_blank" rel="noopener">mirex05Train</a> | predominant pitch | 13 excerpts | yes
@@ -146,18 +148,19 @@ status| dataset |  metadata |  contents |  with audio
 &#x2620; | <a title="moodswings" href="http://music.ece.drexel.edu/research/emotion/moodswingsturk" target="_blank" rel="noopener">moodswings</a> | arousal & valence | 240 excerpts (30s) | no
 &#x2705; | <a title="MozartStringQuartets" href="http://algomus.fr/data" target="_blank" rel="noopener">Mozart's String Quartets</a> | sonata from structure, cadences | 32 movements | no
 &#x2705; | <a title="MSD" href="http://labrosa.ee.columbia.edu/millionsong/" target="_blank" rel="noopener">Million Song Dataset</a> | [metadata](http://www.tagtraum.com/msd_genre_datasets.html), proprietary features | 1000000 songs | no
-&#x2620; | <a title="MSMD" href="https://zenodo.org/record/2597505/" target="_blank" rel="noopener">Multimodal Sheet Music Dataset</a> | piano notes/chords/pieces, synthetic audio, aligned MIDI, aligned sheet music images, OMR | 497 pieces | no
+&#x2705; | <a title="MSMD" href="https://zenodo.org/record/2597505/" target="_blank" rel="noopener">Multimodal Sheet Music Dataset</a> | piano notes/chords/pieces, synthetic audio, aligned MIDI, aligned sheet music images, OMR | 497 pieces | no
 &#x2705; | <a title="MTC" href="http://www.liederenbank.nl/mtc/" target="_blank" rel="noopener">The Meertens Tune Collections</a> | phrases, key, meter | 18000 melodies | partially
 &#x2705; | <a title="MTD" href="https://www.audiolabs-erlangen.de/resources/MIR/MTD" target="_blank" rel="noopener">A Multimodal Dataset of Musical Themes for MIR Research</a> | sheet music, symbolic encodings, audio snippets, symbolic-audio alignments, composer, work, recording, and theme characteristics | 2067 Themes | yes
 &#x2705; | <a title="MTG-Jamendo" href="https://mtg.github.io/mtg-jamendo-dataset/" target="_blank" rel="noopener">MTG-Jamendo</a> | tags (genre, instruments, mood) | 55000 tracks | yes
 &#x2705; | <a title="MTG-QBH" href="http://mtg.upf.edu/download/datasets/mtg-qbh" target="_blank" rel="noopener">MTG-Query by Humming</a> | title, artist | 118 queries/481 songs | yes/no
-&#x2705; | <a title="MusAV" href="https://mtg.github.io/musav-dataset/" target="_blank" rel="noopener">MusAV</a> | arousal and valence | 2,092 track previews covering 1,404 genres, with pairwise relative AV judgments by 20 annotators | yes
+&#x2705; | <a title="MusAV" href="https://mtg.github.io/musav-dataset/" target="_blank" rel="noopener">MusAV</a> | arousal & valence (relative annotations) | 2092 excerpts (30s) | yes
 &#x2705; | <a title="musdb-XL" href="https://github.com/jeonchangbin49/musdb-XL" target="_blank" rel="noopener">musdb-XL</a> | source separation | musdb-XL is an eXtremely Loud version of musdb-hq evaluation dataset | yes
 &#x2705; | <a title="MUSDB18" href="https://sigsep.github.io/datasets/musdb.html" target="_blank" rel="noopener">MUSDB18</a> | multitrack recordings, stems for vocals, drums, bass and accompaniment | 150 songs | yes
 &#x2705; | <a title="MUSIC4ALL" href="https://sites.google.com/view/contact4music4all" target="_blank" rel="noopener">MUSIC4ALL</a> | tags, lyrics | 109,269 excerpts (30s) | on request
 &#x2705; | <a title="musiclef2012" href="http://www.cp.jku.at/datasets/musiclef/index.html" target="_blank" rel="noopener">musiclef2012</a> | tags | 1355 songs | no
 &#x2705; | <a title="MusicMicro" href="http://www.cp.jku.at/datasets/musicmicro/index.html" target="_blank" rel="noopener">MusicMicro</a> | music listening patterns | 136866 users | no
 &#x2620; | <a title="MusicNet" href="https://homes.cs.washington.edu/~thickstn/musicnet.html" target="_blank" rel="noopener">MusicNet</a> | pitch, onsets | 330 recordings | implicitly
+&#x2705; | <a title="MuVi-Sync" href="https://zenodo.org/records/10057093" target="_blank" rel="noopener">Multi-modal Dataset of Music Video</a> | chords / keys (music feature), note density (music feature), loudness (music feature), semantic (video feature), motion (video feature), emotion (video feature), scene offset (video feature) | 748 music videos | on request
 &#x2705; | <a title="NES-MDB" href="https://github.com/chrisdonahue/nesmdb" target="_blank" rel="noopener">NES-MDB</a> | multi-track MIDI, aligned audio | 5000 songs | on request
 &#x2620; | <a title="NIN" href="http://ninremixes.com/8/multitracks.php" target="_blank" rel="noopener">Nine Inch Nails Multitracks</a> | multitrack | 66 songs | yes
 &#x2705; | <a title="NMED-H" href="http://purl.stanford.edu/sd922db3535" target="_blank" rel="noopener">NMED-H - Naturalistic Music EEG Dataset Hindi</a> | EEG | 24 trials x 16 excerpts (4.5min) | no
@@ -184,7 +187,7 @@ status| dataset |  metadata |  contents |  with audio
 &#x2705; | <a title="QMUL:Zweieck" href="http://isophonics.net/content/reference-annotations-zweieck" target="_blank" rel="noopener">QMUL:Zweieck</a> | structure, key, chords, beats | 18 songs | no
 &#x2705; | <a title="QUASI" href="http://www.tsi.telecom-paristech.fr/aao/en/2012/03/12/quasi/" target="_blank" rel="noopener">QUASI</a> | multitrack | 11 songs | yes
 &#x2705; | <a title="RobbieWilliamsAnnotations" href="http://ispg.deib.polimi.it/mir-software.html" target="_blank" rel="noopener">RobbieWilliamsAnnotations</a> | chords, keys, beats | 65 songs | no
-&#x2705; | <a title="RockCorpus" href="http://rockcorpus.midside.com" target="_blank" rel="noopener">RockCorpus</a> | chords, melody, bars | 200 songs | no
+&#x2620; | <a title="RockCorpus" href="http://rockcorpus.midside.com" target="_blank" rel="noopener">RockCorpus</a> | chords, melody, bars | 200 songs | no
 &#x2705; | <a title="RWC" href="http://staff.aist.go.jp/m.goto/RWC-MDB/" target="_blank" rel="noopener">RWC</a> | lyrics, 10 genre, 50 instruments, [chords](https://github.com/tmc323/Chord-Annotations), [structure](http://musicdata.gforge.inria.fr/structureAnnotation.html), [aligned MIDI](https://staff.aist.go.jp/m.goto/RWC-MDB/AIST-Annotation/SyncRWC/) | 115 songs/50 classical/100 songs | yes
 &#x2705; | <a title="SALAMI" href="http://ddmal.music.mcgill.ca/research/salami/annotations" target="_blank" rel="noopener">SALAMI</a> | structure | 1447 songs | no
 &#x2705; | <a title="SAMBASET" href="http://www02.smt.ufrj.br/~starel/sambaset/" target="_blank" rel="noopener">SAMBASET</a> | recording date, escolas, beats | 392 | no
@@ -204,7 +207,7 @@ status| dataset |  metadata |  contents |  with audio
 &#x2620; | <a title="SMC:MIREX" href="http://smc.inescporto.pt/research/data-2/" target="_blank" rel="noopener">SMC:MIREX</a> | tempo, beats | 217 excerpts | yes
 &#x2705; | <a title="SMD" href="http://www.mpi-inf.mpg.de/resources/SMD/SMD_MIDI-Audio-Piano-Music.html" target="_blank" rel="noopener">SMD</a> | audio, aligned MIDI | 50 recordings | yes
 &#x2705; | <a title="SongInterpretationDataset" href="https://zenodo.org/record/7019124#.Y5yxwux_pTY" target="_blank" rel="noopener">SongInterpretationDataset</a> | lyrics | 27,834 songs (30 seconds each, recorded at 44.1 kHz) | yes
-&#x2705; | <a title="SoundTracks" href="https://www.jyu.fi/hytk/fi/laitokset/mutku/en/research/projects2/past-projects/coe/materials/emotion/soundtracks/Index" target="_blank" rel="noopener">SoundTracks</a> | valence, energy, tension, mood | 360+110 excerpts | yes
+&#x2620; | <a title="SoundTracks" href="https://www.jyu.fi/hytk/fi/laitokset/mutku/en/research/projects2/past-projects/coe/materials/emotion/soundtracks/Index" target="_blank" rel="noopener">SoundTracks</a> | valence, energy, tension, mood | 360+110 excerpts | yes
 &#x2705; | <a title="SPAM" href="https://github.com/urinieto/msaf-data/tree/master/SPAM/references" target="_blank" rel="noopener">SPAM</a> | structure | 50 songs | no
 &#x2705; | <a title="SRD-O" href="https://purl.stanford.edu/fj396zz8014" target="_blank" rel="noopener">Shazam Research Dataset Offsets</a> | in-song query times | 188M queries over 20 songs | no
 &#x2705; | <a title="Su-AMT" href="https://sites.google.com/site/lisupage/research/new-methodology-of-building-polyphonic-datasets-for-amt" target="_blank" rel="noopener">Su-AMT</a> | onset times, pitch | 10 excerpts | yes
@@ -218,13 +221,13 @@ status| dataset |  metadata |  contents |  with audio
 &#x2705; | <a title="TinySOL" href="https://zenodo.org/record/3632192" target="_blank" rel="noopener">TinySOL, an audio dataset of isolated musical notes</a> | instrument, pitch, dynamics, string number (if applicable) | 2913 isolated notes | yes
 &#x2705; | <a title="TONAS" href="http://mtg.upf.edu/download/datasets/tonas" target="_blank" rel="noopener">TONAS</a> | pitch | 72 single-voiced excerpts | yes
 &#x2705; | <a title="TPD" href="http://mir.ilsp.gr/track_popularity.html" target="_blank" rel="noopener">Track Popularity</a> | popularity rating | 23385 songs | no
-&#x2705; | <a title="Tunebot" href="http://music.cs.northwestern.edu/data/tunebot" target="_blank" rel="noopener">Tunebot</a> | title, artist | 10000 queries/? songs | yes/no
+&#x2620; | <a title="Tunebot" href="http://music.cs.northwestern.edu/data/tunebot" target="_blank" rel="noopener">Tunebot</a> | title, artist | 10000 queries/? songs | yes/no
 &#x2705; | <a title="UIOWA:MIS" href="http://theremin.music.uiowa.edu/MIS.html" target="_blank" rel="noopener">UIOWA:MIS</a> | single instrument notes | many | yes
 &#x2620; | <a title="UMA-Piano" href="http://extras.springer.com/2013/978-1-4614-7475-3" target="_blank" rel="noopener">UMA-Piano</a> | piano chords | 275040 recordings | yes
 &#x2705; | <a title="UnmixDB" href="https://zenodo.org/record/1422385#.W7R5zxMzYWo" target="_blank" rel="noopener">UnmixDB</a> | DJ mix parameters | 37 playlists | yes
 &#x2705; | <a title="URBAN-SED" href="http://urbansed.weebly.com/" target="_blank" rel="noopener">URBAN-SED</a> | 9 event classes | 10000 recordings | yes
 &#x2705; | <a title="UrbanSound8k" href="http://urbansounddataset.weebly.com/" target="_blank" rel="noopener">UrbanSound8k</a> | 10 event classes | 8732 slices | yes
-&#x2705; | <a title="URMP" href="http://www2.ece.rochester.edu/projects/air/projects/URMP.html" target="_blank" rel="noopener">Multi-modal Music Performance</a> | score-aligned video and audio | 44 recordings | yes
+&#x2620; | <a title="URMP" href="http://www2.ece.rochester.edu/projects/air/projects/URMP.html" target="_blank" rel="noopener">Multi-modal Music Performance</a> | score-aligned video and audio | 44 recordings | yes
 &#x2705; | <a title="uspop2002" href="http://labrosa.ee.columbia.edu/projects/musicsim/uspop2002.html" target="_blank" rel="noopener">uspop2002</a> | tags, genre, [chords](https://github.com/tmc323/Chord-Annotations) | 8752 songs | no
 &#x2705; | <a title="VGD" href="https://gitlab.doc.gold.ac.uk/expressive-musical-gestures/dataset/-/tree/master/violin" target="_blank" rel="noopener">Violin Gestures Dataset</a> | EMG, playing techniques, audio | 960 recordings | yes
 &#x2705; | <a title="ViolinEtudesf0Estimation" href="https://zenodo.org/record/6564408#.Y52slux_pTZ" target="_blank" rel="noopener">ViolinEtudesf0Estimation</a> | f0 estimation for Violin Etudes | 27.8-hours violin performance | yes
