@@ -1188,6 +1188,16 @@ MUSIC4ALL:
   contents: 109,269 excerpts (30s)
   audio: 'on request'
 
+MusicBench:
+  url: https://huggingface.co/datasets/amaai-lab/MusicBench
+  metadata:
+    - Augmented MusicCaps
+    - wav files
+    - description
+    - chords, beats, tempo, and key
+  contents: 52,768 training and 400 test samples
+  audio: 'yes'
+
 musiclef2012:
   url: http://www.cp.jku.at/datasets/musiclef/index.html
   metadata: tags
