@@ -1568,6 +1568,12 @@ SMD:
   contents: 50 recordings
   audio: 'yes'
 
+SongDescriberDataset:
+  url: https://doi.org/10.5281/zenodo.10072001
+  metadata: descriptive captions
+  contents: 706 music recordings (2 min)
+  audio: 'yes'
+
 SongInterpretationDataset:
   url: https://zenodo.org/record/7019124#.Y5yxwux_pTY
   metadata: lyrics 
