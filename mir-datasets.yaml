@@ -1203,6 +1203,7 @@ MusicBench:
   metadata:
     - Augmented MusicCaps
     - wav files
+    - text caption
     - description
     - chords, beats, tempo, and key
   contents: 52,768 training and 400 test samples
