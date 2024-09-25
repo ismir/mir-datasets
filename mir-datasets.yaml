@@ -163,7 +163,19 @@ C49ka-C111ka:
   metadata: genres
   contents: 48800/110588 artists
   audio: 'no'
-
+  
+CadenzaWoodwind:
+  url: https://zenodo.org/records/13829624
+  metadata: 
+    - Flute
+    - Clarinet
+    - Oboe
+    - Alto Saxophone
+    - Bassoon
+    - Multitrack
+  contents: 19 synthesized quartets with woodwind intruments
+  audio: 'yes'
+  
 CAL500:
   url: http://calab1.ucsd.edu/~datasets/
   metadata: tags
