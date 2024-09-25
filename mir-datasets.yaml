@@ -110,7 +110,7 @@ AudioSet:
   audio: 'no'
 
 bach10:
-  url: http://www2.ece.rochester.edu/projects/air/resource.html
+  url: https://labsites.rochester.edu/air/resource.html
   metadata: aligned multitrack MIDI
   contents: 10 chorales
   audio: 'yes'
