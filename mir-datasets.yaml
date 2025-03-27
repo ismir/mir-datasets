@@ -682,6 +682,14 @@ HookTheory:
   contents: 50 hours of aligned melody and harmony annotations
   audio: 'yes'
 
+HOTGAME:
+  url: https://zenodo.org/records/14958956
+  metadata:
+    - nation
+    - year
+  contents: recording studio features for >9000 house/techno tracks
+  audio: 'no'
+  
 IADS:
   url: http://csea.phhp.ufl.edu/media/iadsmessage.html
   metadata:
