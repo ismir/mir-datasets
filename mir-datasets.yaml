@@ -1040,6 +1040,23 @@ MER500:
    contents: 500 clips
    audio: 'yes'
 
+ MidiCaps:
+  url: https://huggingface.co/datasets/amaai-lab/MidiCaps
+  title: MidiCaps
+  metadata:
+    - MIDI
+    - text captions with below attributes
+    - key
+    - tempo
+    - chord sequence
+    - mood
+    - genre
+    - duration
+    - instruments
+    - time signature
+  contents: 168385 MIDI files with text captions
+  audio: 'no'
+
 MIR-1K:
   url: https://sites.google.com/site/unvoicedsoundseparation/mir-1k
   metadata:
