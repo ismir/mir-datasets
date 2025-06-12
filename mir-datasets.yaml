@@ -1049,7 +1049,7 @@ MER500:
    contents: 500 clips
    audio: 'yes'
 
- MidiCaps:
+MidiCaps:
   url: https://huggingface.co/datasets/amaai-lab/MidiCaps
   title: MidiCaps
   metadata:
