@@ -1828,6 +1828,16 @@ RobbieWilliamsAnnotations:
     - beats
   contents: 65 songs
   audio: 'no'
+
+Yambda:
+  url: https://huggingface.co/datasets/yandex/yambda
+  metadata:
+    - user-item interactions
+    - implicit feedback
+    - explicit feedback
+    - organic vs recommendation markers
+  contents: 4.79B interactions, 1M users, 9.39M tracks (slices: 500M, 50M)
+  audio: 'no'
   
 YM2413-MDB:
   url: https://github.com/jech2/YM2413-MDB
