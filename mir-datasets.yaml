@@ -163,7 +163,16 @@ C49ka-C111ka:
   metadata: genres
   contents: 48800/110588 artists
   audio: 'no'
-  
+
+Cadenza CLIP Dataset:
+  url: https://zenodo.org/records/16981327
+  metadata:
+    - Intelligibility
+    - Excerpts
+    - Lyrics
+  contents: "train: 8802, validation: 1175, evaluation: 1095"
+  audio: 'yes'
+
 CadenzaWoodwind:
   url: https://zenodo.org/records/13829624
   metadata: 
