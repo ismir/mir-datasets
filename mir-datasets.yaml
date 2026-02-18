@@ -633,6 +633,7 @@ GTZAN:
     - key labels (li): http://visal.cs.cityu.edu.hk/downloads/#gtzankeys
     - beat/downbeat: http://anasynth.ircam.fr/home/media/GTZAN-rhythm
     - metrical levels: http://www.isophonics.net/content/metrical-structure-annotations-gtzan-dataset
+    - Contents and critique: https://github.com/boblsturm/GTZAN
   contents: 1000 excerpts (30s)
   audio: 'yes'
 
