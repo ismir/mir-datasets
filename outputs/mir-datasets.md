@@ -30,6 +30,7 @@ status| dataset |  metadata |  contents |  with audio
 &#x2705; | <a title="CASD" href="https://github.com/chordify/CASD" target="_blank" rel="noopener">Chordify Annotator Subjectivity Dataset</a> | chords by 4 annotators | 50 songs | no
 &#x2705; | <a title="CBFdataset" href="https://zenodo.org/record/3250223" target="_blank" rel="noopener">CBFdataset</a> | 4 playing techniques (Chinese Bamboo Flute) | 10 performers | yes
 &#x2705; | <a title="CCMixter" href="http://www.loria.fr/~aliutkus/kam/" target="_blank" rel="noopener">CCMixter</a> | vocal track, background track | 50 mixes | yes
+&#x2705; | <a title="ChoCo" href="https://github.com/smashub/choco" target="_blank" rel="noopener">ChoCo, the Chord Corpus</a> | chords, keys, [knowledge graph](https://polifonia.disi.unibo.it/choco/) | 20K+ songs/pieces | no
 &#x2705; | <a title="Chopin22" href="http://iwk.mdw.ac.at/goebl/mp3.html" target="_blank" rel="noopener">Chopin22</a> | aligned MIDI | 44 recordings | yes
 &#x2705; | <a title="ChoralMusicSeparation" href="https://github.com/RetroCirce/Choral_Music_Separation" target="_blank" rel="noopener">ChoralMusicSeparation</a> | JSB chorales, separation | 8.2-hour-long choral music dataset from the JSB Chorales Dataset | yes
 &#x2705; | <a title="Clotho" href="https://zenodo.org/record/3490684" target="_blank" rel="noopener">Clotho</a> | 5 descriptive captions | 4981 snippets | yes

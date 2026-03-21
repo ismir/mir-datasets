@@ -5,7 +5,7 @@
 This repository exists solely for tracking MIR datasets and their corresponding metadata
 in a standardized, structured way. There are multiple consumers of this data:
 
-* [audiocontentanalysis](http://audiocontentanalysis.org/data-sets/)
+* [audiocontentanalysis](https://audiocontentanalysis.org/datasets)
 * [ISMIR datasets page](http://www.ismir.net/resources/datasets/)
 * `<your instance here!>`
 
