@@ -882,6 +882,17 @@ JLSDD:
   contents: 77 duos (Josquin & La Rue)
   audio: 'no'
 
+Karma-MV:
+  title: Karma-MV Dataset
+  url: https://huggingface.co/datasets/amaai-lab/Karma-MV
+  metadata: 
+    - music videos
+    - high level music features
+    - high level video features
+    - causal MCQ questions
+  contents: 2,682 YouTube music videos with features, 37,737 causal MCQ questions
+  audio: 'yes'
+
 KUGDastgahi:
   url: https://phaidra.kug.ac.at/view/o:127195
   metadata: dastgahi music
@@ -1041,6 +1052,15 @@ Medley-solos-DB:
    contents: 21572 excerpts
    audio: 'yes'
 
+MelodySim:
+   title: MelodySim dataset
+   url: https://huggingface.co/datasets/amaai-lab/melodySim
+   metadata: 
+     - audio
+     - positive and negative pairs in terms of melody similarity (10s clips)
+   contents: 191,547 positive and negative 10s pairs in terms of melody similarity, synthesized from 1,710 songs.
+   audio: 'yes'
+
 MeloSol:
   url: https://davidjohnbaker1.github.io/melosol/
   metadata:
@@ -1067,6 +1087,28 @@ MER500:
    metadata: emotion
    contents: 500 clips
    audio: 'yes'
+
+MERIT: 
+   title: MERIT Dataset
+   url: https://huggingface.co/datasets/amaai-lab/merit
+   metadata: 
+     - similarity: melody, timbre, rhythm (metadata)
+     - audio
+   contents: 296,241 audio song triplets, matching in melody, timbre, or rhythm
+   audio: 'yes'
+
+MERP: 
+   title: MERP Dataset
+   url: https://huggingface.co/datasets/amaai-lab/MERP
+   metadata: 
+     - emotion
+     - valence arousal
+     - mood tags
+     - continuous
+     - personalized
+     - audio
+  contents: 54 full-length songs, emotion rated at 10Hz, with rater profiles. 277 high quality raters.
+  audio: 'yes'
 
 MidiCaps:
   url: https://huggingface.co/datasets/amaai-lab/MidiCaps
@@ -1654,6 +1696,12 @@ SongInterpretationDataset:
   url: https://zenodo.org/record/7019124#.Y5yxwux_pTY
   metadata: lyrics 
   contents: 27,834 songs (30 seconds each, recorded at 44.1 kHz)
+  audio: 'yes'
+
+SonicMaster Dataset: 
+  url: https://huggingface.co/datasets/amaai-lab/SonicMasterDataset
+  metadata: 
+  contents: 166,107 music audio pairs pre and post mastering with 19 functions belonging to five enhancement groups: equalization, dynamics, reverb, amplitude, and stereo
   audio: 'yes'
 
 SoundTracks:
