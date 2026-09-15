@@ -1687,6 +1687,16 @@ Su-AMT:
   contents: 10 excerpts
   audio: 'yes'
 
+SunoStyleRecipes:
+  url: https://github.com/samuelgrupolimex-prog/suno-style-recipes
+  metadata:
+    - genre
+    - tempo
+    - text-to-music generation prompts
+    - canonical song section structure
+  contents: 564 music styles (CSV, JSON and Parquet; CC0-1.0)
+  audio: 'no'
+  
 SUPRA-RW:
   url: https://supra.stanford.edu/download/
   metadata: piano roll performances
