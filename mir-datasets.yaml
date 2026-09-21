@@ -3,9 +3,13 @@
   metadata: audio samples
   contents: 7371 one-shots
   audio: 'yes'
-  
 AAM:
-  url: https://zenodo.org/record/5794629
+  url:
+    value: https://zenodo.org/record/5794629
+    date: '2022-06-28'
+    version: v1.1.0
+    source: Zenodo
+    license: cc-by-4.0
   metadata:
     - onsets
     - pitches
@@ -18,72 +22,73 @@ AAM:
     - segments
   contents: 3,000 music tracks (with single instrument multitracks)
   audio: 'yes'
-
 AccoMontage2:
-  url: https://github.com/billyblu2000/accomontage2
+  url:
+    value: https://github.com/billyblu2000/accomontage2
+    date: '2023-05-03'
+    source: GitHub
+    license: MIT
   metadata: song harmonization and accompaniment arrangement based on a lead melody
-  contents: 
+  contents: null
   audio: 'no'
-  
 ACM_MIRUM:
   url: http://www.marsyas.info/tempo
   metadata: tempo
   contents: 1410 excerpts (60s)
   audio: 'yes'
-
-ADC2004:
-  url: http://labrosa.ee.columbia.edu/projects/melody
-  metadata: predominant pitch
-  contents: 20 excerpts
-  audio: 'yes'
-
 AcousticBrainz-Genre:
   url: https://mtg.github.io/acousticbrainz-genre-dataset/
   metadata: 15-31 genres with 265-745 subgenres
   contents: audio features for about 2000000 songs
   audio: 'no'
-
+ADC2004:
+  url: http://labrosa.ee.columbia.edu/projects/melody
+  metadata: predominant pitch
+  contents: 20 excerpts
+  audio: 'yes'
 AED:
   url: https://data.vision.ee.ethz.ch/cvl/ae_dataset/
   title: Acoustic Event Dataset
   metadata: 28 event classes
   contents: 5223 audio snippets
   audio: 'yes'
-
 AIST-Dance-DB:
   url: https://aistdancedb.ongaaccel.jp
   title: AIST Dance Video Database
   metadata: street dance videos
   contents: 13,940 videos for 60 pieces
   audio: 'yes'
-
 Amg1608:
   url: https://amg1608.blogspot.ch
   metadata: valence & arousal
   contents: 1608 excerpts (30s)
   audio: 'no'
-
 AMT-pilot:
-  url: https://github.com/chordify/CASD
+  url:
+    value: https://github.com/chordify/CASD
+    date: '2019-06-14'
+    source: GitHub
+    license: null
   metadata: structure by multiple annotators
   contents: 8 songs
   audio: 'yes'
-
 APL:
   url: https://archive.org/details/Automatic_Practice_Logging
   title: Automatic Practice Logging
   metadata: piano practice
   contents: 620 segments
   audio: 'yes'
-
 artist20:
   url: http://labrosa.ee.columbia.edu/projects/artistid
   metadata: 20 artists
   contents: 1413 songs
   audio: 'no'
-
 ASAP:
-  url: https://github.com/fosfrancesco/asap-dataset
+  url:
+    value: https://github.com/fosfrancesco/asap-dataset
+    date: '2026-04-12'
+    source: GitHub
+    license: null
   metadata:
     - aligned MIDI/audio performances and MIDI/XML scores
     - beats
@@ -92,37 +97,40 @@ ASAP:
     - key signatures
   contents: 1068 MIDI performances, 520 audio performances, 222 scores
   audio: yes (see MAESTRO)
-  
 ATEPP:
-  url: https://zenodo.org/record/6564406#.Y5QnkezP3OQ
-  metadata: 
+  url:
+    value: https://zenodo.org/record/6564406#.Y5QnkezP3OQ
+    date: '2022-05-12'
+    version: 1.0.2
+    source: Zenodo
+  metadata:
     - symbolic music MIDI
     - musicXML
     - classification tasks
     - expressive piano performances
   contents: 1742 performances (~1000 hours) by 49 pianists and covers 1580 movements by 25 composers
   audio: ''
-
 AudioSet:
   url: https://research.google.com/audioset/index.html
   metadata: 632 event classes
   contents: 2084320 clips (10s)
   audio: 'no'
-
 bach10:
   url: https://labsites.rochester.edu/air/resource.html
   metadata: aligned multitrack MIDI
   contents: 10 chorales
   audio: 'yes'
-  
 BAF:
-  url: https://github.com/guillemcortes/baf-dataset/
-  metadata: 
+  url:
+    value: https://github.com/guillemcortes/baf-dataset/
+    date: '2023-03-21'
+    source: GitHub
+    license: Apache-2.0
+  metadata:
     - audio fingerprinting
     - music monitoring in broadcast
   contents: 2,000 tracks from Epidemic Sound and 3,425 TV audio recordings (60s)
   audio: 'yes'
-
 ballroom:
   url: http://mtg.upf.edu/ismir2004/contest/tempoContest/node5.html
   metadata:
@@ -132,71 +140,75 @@ ballroom:
     - bars / downbeats: https://github.com/CPJKU/BallroomAnnotations
   contents: 698 excerpts (30s)
   audio: 'yes'
-
 beatboxset1:
   url: http://archive.org/details/beatboxset1
   metadata: percussion annotation
   contents: 14 clips
   audio: 'yes'
-
 BPS-FH:
   title: BPS-FH Beethoven Piano Sonata with Function Harmony
-  url: https://github.com/Tsung-Ping/functional-harmony
+  url:
+    value: https://github.com/Tsung-Ping/functional-harmony
+    date: '2023-02-21'
+    source: GitHub
+    license: GPL-3.0
   metadata: functional annotation
   contents: 32 sonatas
   audio: 'no'
-
 C224a:
   url: http://www.cp.jku.at/people/schedl/datasets.html
   metadata: 14 genres
   contents: 224 artists
   audio: 'no'
-
 C3ka:
   url: http://www.cp.jku.at/people/schedl/datasets.html
   metadata: 18 genres
   contents: 3000 artists
   audio: 'no'
-
 C49ka-C111ka:
   url: http://www.cp.jku.at/people/schedl/datasets.html
   metadata: genres
   contents: 48800/110588 artists
   audio: 'no'
-
 Cadenza CLIP Dataset:
-  url: https://zenodo.org/records/16981327
+  url:
+    value: https://zenodo.org/records/16981327
+    date: '2025-09-01'
+    version: 1.0.0
+    source: Zenodo
+    license: cc-by-4.0
   metadata:
     - Intelligibility
     - Excerpts
     - Lyrics
-  contents: "train: 8802, validation: 1175, evaluation: 1095"
+  contents: 'train: 8802, validation: 1175, evaluation: 1095'
   audio: 'yes'
-
 CadenzaWoodwind:
-  url: https://zenodo.org/records/13829624
-  metadata: 
+  url:
+    value: https://zenodo.org/records/13829624
+    date: '2024-09-23'
+    version: 1.1.0
+    source: Zenodo
+    license: cc-by-4.0
+  metadata:
     - Flute
     - Clarinet
     - Oboe
     - Alto Saxophone
     - Bassoon
     - Multitrack
-  contents: 19 synthesized quartets with woodwind intruments
+  contents: 19 synthesized quartets with woodwind instruments
   audio: 'yes'
-  
-CAL500:
-  url: http://calab1.ucsd.edu/~datasets/
-  metadata: tags
-  contents: 502 songs
-  audio: 'yes'
-
 CAL10k:
   url: http://calab1.ucsd.edu/~datasets/
   metadata: tags
   contents: 10870 songs
   audio: 'no'
-
+CAL500:
+  url: http://calab1.ucsd.edu/~datasets/
+  metadata: tags
+  contents: 502 songs
+  audio: 'yes'
 CarnaticRhythm:
   url: http://compmusic.upf.edu/carnatic-rhythm-dataset
   metadata:
@@ -204,22 +216,28 @@ CarnaticRhythm:
     - beats
   contents: 176 pieces
   audio: on request
-
 CASD:
   title: Chordify Annotator Subjectivity Dataset
-  url: https://github.com/chordify/CASD
+  url:
+    value: https://github.com/chordify/CASD
+    date: '2019-06-14'
+    source: GitHub
+    license: null
   metadata:
     - chords by 4 annotators
   contents: 50 songs
   audio: 'no'
-
 CBFdataset:
-  url: https://zenodo.org/record/3250223
+  url:
+    value: https://zenodo.org/record/3250223
+    date: '2019-11-04'
+    version: '1.0'
+    source: Zenodo
+    license: cc-by-4.0
   metadata:
     - 4 playing techniques (Chinese Bamboo Flute)
   contents: 10 performers
   audio: 'yes'
-
 CCMixter:
   url: http://www.loria.fr/~aliutkus/kam/
   metadata:
@@ -227,9 +245,12 @@ CCMixter:
     - background track
   contents: 50 mixes
   audio: 'yes'
-
 ChoCo:
-  url: https://github.com/smashub/choco
+  url:
+    value: https://github.com/smashub/choco
+    date: '2025-05-15'
+    source: GitHub
+    license: null
   title: ChoCo, the Chord Corpus
   metadata:
    - chords
@@ -237,29 +258,34 @@ ChoCo:
    - knowledge graph: https://polifonia.disi.unibo.it/choco/
   contents: 20K+ songs/pieces
   audio: 'no'
-
-ChoralMusicSeparation:
-  url: https://github.com/RetroCirce/Choral_Music_Separation
-  metadata: 
-    - JSB chorales
-    - separation
-  contents: 8.2-hour-long choral music dataset from the JSB Chorales Dataset
-  audio: 'yes'
-  
 Chopin22:
   url: http://iwk.mdw.ac.at/goebl/mp3.html
   metadata:
     - aligned MIDI
   contents: 44 recordings
   audio: 'yes'
-
+ChoralMusicSeparation:
+  url:
+    value: https://github.com/RetroCirce/Choral_Music_Separation
+    date: '2022-12-05'
+    source: GitHub
+    license: MIT
+  metadata:
+    - JSB chorales
+    - separation
+  contents: 8.2-hour-long choral music dataset from the JSB Chorales Dataset
+  audio: 'yes'
 Clotho:
-  url: https://zenodo.org/record/3490684
+  url:
+    value: https://zenodo.org/record/3490684
+    date: '2019-10-15'
+    version: '1.0'
+    source: Zenodo
+    license: other-at
   metadata:
     - 5 descriptive captions
   contents: 4981 snippets
   audio: 'yes'
-
 CMMSD:
   url: https://sourceforge.net/projects/segmentationgt/
   metadata:
@@ -268,13 +294,11 @@ CMMSD:
     - vibrato
   contents: 36 excerpts
   audio: 'no'
-
 Coidach:
   url: http://jmir.sourceforge.net/Codaich.html
   metadata: 55 genres
   contents: 26420 songs
   audio: 'no'
-
 corpusCOFLA:
   url: http://www.cofla-project.com/?page_id=170
   metadata:
@@ -282,13 +306,11 @@ corpusCOFLA:
     - predominant melody
   contents: 1800 flamenco recordings
   audio: 'no'
-
 covers80:
   url: http://labrosa.ee.columbia.edu/projects/coversongs/covers80/
   metadata: cover songs
   contents: 80 song pairs
   audio: 'yes'
-
 Cross-Composer:
   url: https://www.audiolabs-erlangen.de/resources/MIR/cross-comp
   metadata:
@@ -299,7 +321,6 @@ Cross-Composer:
     - instrumentation
   contents: 1100 chromagrams and chord labels
   audio: 'no'
-
 Cross-Era:
   url: https://www.audiolabs-erlangen.de/resources/MIR/cross-era
   metadata:
@@ -310,33 +331,47 @@ Cross-Era:
     - instrumentation
   contents: 2000 chromagrams and chord labels
   audio: 'no'
-
 CSD:
-  url: https://zenodo.org/record/2649950
+  url:
+    value: https://zenodo.org/record/2649950
+    date: '2019-04-24'
+    version: ''
+    source: Zenodo
+    license: cc-by-4.0
   title: Choral Singing Dataset
   metadata:
     - f0
     - MIDI
   contents: 48 recordings
   audio: 'yes'
-  
+Da-TACOS:
+  url: https://mtg.github.io/da-tacos/
+  metadata: cover songs
+  contents: 25000 songs
+  audio: 'no'
 dadaGP:
-  url: https://github.com/dada-bots/dadaGP
+  url:
+    value: https://github.com/dada-bots/dadaGP
+    date: '2022-01-23'
+    source: GitHub
+    license: MIT
   title: dadaGP dataset
-  metadata: 
+  metadata:
     - guitarPro tablatures
     - encoder and decoder python tool to and from text and token format
     - symbolic music generation
   contents: a total of 26,181 songs in guitarPro/token format for symbolic music generation
   audio: 'no'
-
 DALI:
-  url: https://github.com/gabolsgabs/DALI
+  url:
+    value: https://github.com/gabolsgabs/DALI
+    date: '2020-06-11'
+    source: GitHub
+    license: null
   title: Dataset of synchronised Audio, LyrIcs and vocal notes
   metadata: aligned notes and lyrics
   contents: 5358 songs
   audio: 'no'
-
 DAMP:
   url: https://ccrma.stanford.edu/damp/
   metadata:
@@ -345,13 +380,6 @@ DAMP:
     - pronunciation assessment: https://drive.google.com/drive/folders/19JPEWSBAM0ssatjBIJzAzjClxi2abt8w
   contents: 34000 monophonic recordings
   audio: 'yes'
-
-Da-TACOS:
-  url: https://mtg.github.io/da-tacos/
-  metadata: cover songs
-  contents: 25000 songs
-  audio: 'no'
-
 DCS:
   url: https://www.audiolabs-erlangen.de/resources/MIR/2020-DagstuhlChoirSet
   title: Dagstuhl ChoirSet
@@ -361,14 +389,12 @@ DCS:
     - F0
   contents: 81 takes
   audio: 'yes'
-
 DEAM:
   url: http://cvml.unige.ch/databases/DEAM
   title: DEAM - The MediaEval Database for Emotional Analysis of Music
   metadata: valence & arousal
   contents: 1802 excerpts
   audio: 'yes'
-
 DEAPDataset:
   url: http://www.eecs.qmul.ac.uk/mmv/datasets/deap/readme.html
   metadata:
@@ -377,13 +403,15 @@ DEAPDataset:
     - physiological data
   contents: 120 music video excerpts
   audio: 'no'
-
 DESED:
-  url: https://github.com/turpaultn/DESED
+  url:
+    value: https://github.com/turpaultn/DESED
+    date: '2024-07-16'
+    source: GitHub
+    license: null
   metadata: 10 audio event classes
   contents: pprox 20k 10s clips (unlabeled, weakly/strongly labeled)
   audio: 'yes'
-
 DREANSS:
   url: http://mtg.upf.edu/download/datasets/dreanss
   metadata:
@@ -391,13 +419,15 @@ DREANSS:
     - percussion instruments
   contents: 18 excerpts
   audio: 'yes'
-
 DrumPt:
-  url: https://github.com/cwu307/DrumPtDataset
+  url:
+    value: https://github.com/cwu307/DrumPtDataset
+    date: '2016-05-26'
+    source: GitHub
+    license: GPL-3.0
   metadata: 4 playing techniques
   contents: app. 2000 annotations
   audio: yes (see ENST)
-
 DSD100:
   url: https://sigsep.github.io/datasets/dsd100.html
   metadata:
@@ -405,40 +435,39 @@ DSD100:
     - stems for vocals, drums, bass and accompaniment
   contents: 100 songs
   audio: 'yes'
-
-emoMusic:
-  url: http://cvml.unige.ch/databases/emoMusic
-  metadata: arousal & valence
-  contents: 744 excerpts (45s)
-  audio: 'yes'
-
-EMusic:
-  url: http://cvml.unige.ch/databases/emoMusic
-  metadata: arousal & valence
-  contents: 100 excerpts (experimental music)
-  audio: 'yes'
-
 EMO-Soundscapes:
   url: http://cvml.unige.ch/databases/emoMusic
   metadata: arousal & valence
   contents: 1213 soundscape recordings
   audio: 'yes'
-
+emoMusic:
+  url: http://cvml.unige.ch/databases/emoMusic
+  metadata: arousal & valence
+  contents: 744 excerpts (45s)
+  audio: 'yes'
 Emotify:
   url: http://www.projects.science.uu.nl/memotion/emotifydata
   metadata: induced emotion
   contents: 400 excerpts
   audio: 'yes'
-  
-EnsembleSet: 
-  url: https://zenodo.org/record/6519024#.Y52xKex_pTZ
+EMusic:
+  url: http://cvml.unige.ch/databases/emoMusic
+  metadata: arousal & valence
+  contents: 100 excerpts (experimental music)
+  audio: 'yes'
+EnsembleSet:
+  url:
+    value: https://zenodo.org/record/6519024#.Y52xKex_pTZ
+    date: '2022-05-04'
+    version: 1.0.0-multitracks
+    source: Zenodo
+    license: cc-by-4.0
   metadata:
     - source separation
     - synthesized with Spitfire BBC Symphony Orchestra Professional Library
     - 20 different mix/microphone configurations
   contents: dataset presents 80 tracks (6+ hours) with a range of string, wind, and brass instruments arranged as chamber ensembles
   audio: 'yes'
-
 ENST-Drums:
   url: http://www.tsi.telecom-paristech.fr/aao/en/2010/02/19/enst-drums-an-extensive-audio-visual-database-for-drum-signals-processing/
   metadata:
@@ -447,7 +476,6 @@ ENST-Drums:
     - playing technique: https://github.com/cwu307/DrumPtDataset
   contents: 318 segments
   audio: 'yes'
-
 Erkomaishvili:
   url: https://www.audiolabs-erlangen.de/resources/MIR/2019-GeorgianMusic-Erkomaishvili
   title: Erkomaishvili Dataset
@@ -458,7 +486,15 @@ Erkomaishvili:
     - note onsets
   contents: 118 tracks
   audio: 'yes'
-
+ExpandedGrooveMD:
+  url: https://g.co/magenta/e-gmd
+  title: Expanded Groove MIDI Dataset
+  metadata:
+    - drummer/session id
+    - drum timing
+    - kit name
+  contents: 45537 midi/audio pairs
+  audio: rendered
 Extendedballroom:
   url: http://anasynth.ircam.fr/home/media/ExtendedBallroom/
   metadata:
@@ -466,19 +502,24 @@ Extendedballroom:
     - tempo
   contents: 4000 excerpts (30s)
   audio: downloadable
-
 ExtraSensory:
   url: http://extrasensory.ucsd.edu/
   metadata: 51 context labels
   contents: 300000 sensor recordings from 60 users
   audio: 'yes'
-
 ffuhrmann:
   url: http://www.dtic.upf.edu/~ffuhrmann/PhD/data
   metadata: 11 predom. instr.
   contents: 6951 excerpts from 220 songs
   audio: yes/no
-
+FifteenSongs:
+  url:
+    value: https://github.com/grateful-dead-live/fifteen-songs-dataset
+    date: '2020-10-13'
+    source: GitHub
+  metadata: Grateful Dead
+  contents: 15 grateful dead songs with leadsheets
+  audio: 'yes'
 FlaBase:
   url: http://mtg.upf.edu/download/datasets/flabase
   title: Flamenco database
@@ -491,50 +532,62 @@ FlaBase:
    - 2860 albums
   contents: 13311 tracks
   audio: 'no'
-  
-FifteenSongs:
-  url: https://github.com/grateful-dead-live/fifteen-songs-dataset
-  metadata: Grateful Dead
-  contents: 15 grateful dead songs with leadsheets
-  audio: 'yes'
-
-FMA-small:
-  url: https://github.com/mdeff/fma
-  metadata: 8 genres
-  contents: 8000 excerpts (30s)
-  audio: 'yes'
-
-FMA-medium:
-  url: https://github.com/mdeff/fma
-  metadata: 16 genres
-  contents: 25000 excerpts (30s)
-  audio: 'yes'
-
-FMA-large:
-  url: https://github.com/mdeff/fma
-  metadata: 161 genres
-  contents: 106574 excerpts (30s)
-  audio: 'yes'
-
 FMA-full:
-  url: https://github.com/mdeff/fma
+  url:
+    value: https://github.com/mdeff/fma
+    date: '2023-01-05'
+    source: GitHub
+    license: MIT
   metadata: 161 genres
   contents: 106574 songs
   audio: 'yes'
-
+FMA-large:
+  url:
+    value: https://github.com/mdeff/fma
+    date: '2023-01-05'
+    source: GitHub
+    license: MIT
+  metadata: 161 genres
+  contents: 106574 excerpts (30s)
+  audio: 'yes'
+FMA-medium:
+  url:
+    value: https://github.com/mdeff/fma
+    date: '2023-01-05'
+    source: GitHub
+    license: MIT
+  metadata: 16 genres
+  contents: 25000 excerpts (30s)
+  audio: 'yes'
+FMA-small:
+  url:
+    value: https://github.com/mdeff/fma
+    date: '2023-01-05'
+    source: GitHub
+    license: MIT
+  metadata: 8 genres
+  contents: 8000 excerpts (30s)
+  audio: 'yes'
 Freesound-Loop-Dataset:
-  url: https://zenodo.org/record/3967852
+  url:
+    value: https://zenodo.org/record/3967852
+    date: '2020-07-30'
+    version: '1.0'
+    source: Zenodo
+    license: cc-by-4.0
   metadata: tempo, key, instrumentation, genre
   contents: 3000 annotated loops, 9455 loops total
   audio: 'yes'
-
-
 FSD-Kaggle2019:
-  url: https://zenodo.org/record/3612637
+  url:
+    value: https://zenodo.org/record/3612637
+    date: '2020-01-20'
+    version: '1.0'
+    source: Zenodo
+    license: other-at
   metadata: 80 tags
   contents: 29000 clips
   audio: 'yes'
-
 Fugue:
   url: http://algomus.fr/data
   title: Fugue Analyses
@@ -544,50 +597,28 @@ Fugue:
     - cadences
   contents: 36 fugues (Bach & Shostakovich)
   audio: 'no'
-
+GiantStepsKey:
+  url:
+    value: https://github.com/GiantSteps/giantsteps-key-dataset
+    date: '2025-03-19'
+    source: GitHub
+  metadata:
+    - key
+  contents: 604 files
+  audio: 'no'
 GiantStepsTempo:
-  url: https://github.com/GiantSteps/giantsteps-tempo-dataset
+  url:
+    value: https://github.com/GiantSteps/giantsteps-tempo-dataset
+    date: '2025-03-19'
+    source: GitHub
   metadata: tempo
   contents: 664 files
   audio: 'no'
-
 GiantStepsTempo:alternate:
   url: http://www.tagtraum.com/download/schreiber_new_giantsteps_tempo.zip
   metadata: tempo
   contents: 664 files
   audio: 'no'
-
-GiantStepsKey:
-  url: https://github.com/GiantSteps/giantsteps-key-dataset
-  metadata:
-    - key
-  contents: 604 files
-  audio: 'no'
-
-GNMID14:
-  url: https://developer.gracenote.com/mid2014
-  title: Gracenote Music Identification 2014
-  metadata:
-    - timestamp
-    - country
-  contents: 110M music ID matches
-  audio: 'no'
-
-GoodSounds:
-  url: http://mtg.upf.edu/download/datasets/good-sounds
-  metadata:
-    - 12 instruments
-    - pitch
-    - sound quality
-  contents: 8750 notes
-  audio: 'yes'
-
-GPT:
-  url: http://mac.citi.sinica.edu.tw/GuitarTranscription
-  metadata: 7 guitar playing techniques
-  contents: 6580 clips
-  audio: 'yes'
-
 GMD:
   url: http://di.ionio.gr/hilab/gmd
   title: Greek Music Dataset
@@ -596,8 +627,28 @@ GMD:
     - valence
     - arousal
   contents: 1400 songs
-  audio: 'downloadable'
-
+  audio: downloadable
+GNMID14:
+  url: https://developer.gracenote.com/mid2014
+  title: Gracenote Music Identification 2014
+  metadata:
+    - timestamp
+    - country
+  contents: 110M music ID matches
+  audio: 'no'
+GoodSounds:
+  url: http://mtg.upf.edu/download/datasets/good-sounds
+  metadata:
+    - 12 instruments
+    - pitch
+    - sound quality
+  contents: 8750 notes
+  audio: 'yes'
+GPT:
+  url: http://mac.citi.sinica.edu.tw/GuitarTranscription
+  metadata: 7 guitar playing techniques
+  contents: 6580 clips
+  audio: 'yes'
 GrooveMD:
   url: https://magenta.tensorflow.org/datasets/groove
   title: Groove MIDI Dataset
@@ -605,25 +656,16 @@ GrooveMD:
     - drummer/session id
     - drum timing
   contents: 1150 MIDI recordings
-  audio: 'rendered'
-
-ExpandedGrooveMD:
-  url: https://g.co/magenta/e-gmd
-  title: Expanded Groove MIDI Dataset
-  metadata:
-    - drummer/session id
-    - drum timing
-    - kit name
-  contents: 45537 midi/audio pairs
-  audio: 'rendered'
-
+  audio: rendered
 GSD:
-  url: https://github.com/ashispati/GuitarSoloDetection/tree/master/Dataset
+  url:
+    value: https://github.com/ashispati/GuitarSoloDetection/tree/master/Dataset
+    date: '2018-01-18'
+    source: GitHub
   title: Guitar Solo Dataset
   metadata: start/stop of guitar solos
   contents: 60 songs
   audio: 'no'
-
 GTZAN:
   url: http://marsyas.info/downloads/datasets.html
   metadata:
@@ -636,7 +678,6 @@ GTZAN:
     - Contents and critique: https://github.com/boblsturm/GTZAN
   contents: 1000 excerpts (30s)
   audio: 'yes'
-
 GuitarSet:
   url: https://guitarset.weebly.com/
   metadata:
@@ -646,28 +687,28 @@ GuitarSet:
     - chords
   contents: 360 guitar excerpts (30s) with hexaphonic audio
   audio: 'yes'
-  
 GZ_IsoTech:
   url: https://ccmusic-database.github.io/en/database/ccm.html#GZTech
   metadata: Guzheng
   contents: 2824
   audio: 'yes'
-
 Hainsworth:
-  url: http://www.marsyas.info/tempo/ # This seems wrong?
+  url: http://www.marsyas.info/tempo/
   metadata: tempo
   contents: 245 excerpts (60s)
   audio: 'yes'
-
 HarmonixSet:
-  url: https://github.com/urinieto/harmonixset
+  url:
+    value: https://github.com/urinieto/harmonixset
+    date: '2024-12-07'
+    source: GitHub
+    license: MIT
   metadata:
     - beats
     - downbeats
     - structure
   contents: 912 pop songs
   audio: 'no'
-  
 HED:
   url: http://coconuts-palm-lab.com/EH/HED.zip
   metadata:
@@ -675,7 +716,6 @@ HED:
     - harmonisation and tempo arrangements
   contents: 4000 tracks with emotion annotations
   audio: 'yes'
-
 HHDS:
   url: http://goo.gl/5Hu51y
   metadata:
@@ -684,34 +724,38 @@ HHDS:
     - tempo
   contents: 18 songs
   audio: 'yes'
-
 holzapfel:onset:
   url: https://kth.box.com/s/o151l3rqtglhmeszah06wmvpcmpat6w9
   metadata: onset times
   contents: 78 excerpts
   audio: 'yes'
-
 homburg:
   url: http://www-ai.cs.uni-dortmund.de/audio.html
   metadata: 9 genres
   contents: 1889 excerpts (10s)
   audio: 'yes'
-  
 HookTheory:
-  url: https://github.com/chrisdonahue/sheetsage
+  url:
+    value: https://github.com/chrisdonahue/sheetsage
+    date: '2025-05-14'
+    source: GitHub
+    license: null
   metadata:
     - aligned melody and harmony annotations
   contents: 50 hours of aligned melody and harmony annotations
   audio: 'yes'
-
 HOTGAME:
-  url: https://zenodo.org/records/14958956
+  url:
+    value: https://zenodo.org/records/14958956
+    date: '2025-03-03'
+    version: '0.1'
+    source: Zenodo
+    license: cc-by-4.0
   metadata:
     - nation
     - year
   contents: recording studio features for >9000 house/techno tracks
   audio: 'no'
-  
 IADS:
   url: http://csea.phhp.ufl.edu/media/iadsmessage.html
   metadata:
@@ -719,46 +763,6 @@ IADS:
     - dominance
   contents: 111 sound snippets
   audio: 'yes'
-  
-IDMT-PIANO-MM:
-  url: https://www.idmt.fraunhofer.de/en/publications/datasets/piano-mm.html
-  metadata:
-    - classical and jazz piano recordings
-  contents: 432 piano recordings (around four hours)
-  audio: 'yes'
-
-IDMT-SMT-Bass:
-  url: http://www.idmt.fraunhofer.de/en/business_units/smt/bass.html
-  metadata: bass performance styles
-  contents: 4300 excerpts
-  audio: 'yes'
-
-IDMT-SMT-Audio-Effects:
-  url: http://www.idmt.fraunhofer.de/en/business_units/smt/audio_effects.html
-  metadata: effects on bass and guitar notes
-  contents: 55044 recordings
-  audio: 'yes'
-
-IDMT-SMT-Bass-SINGLE-TRACK:
-  url: http://www.idmt.fraunhofer.de/en/business_units/smt/bass_lines.html
-  metadata: style annotated bass lines
-  contents: 17 bass lines (?)
-  audio: 'yes'
-
-IDMT-SMT-Drum:
-  url: http://www.idmt.fraunhofer.de/en/business_units/smt/drums.html
-  metadata:
-    - onset times
-    - perc. instruments
-  contents: 518 files
-  audio: 'yes'
-
-IDMT-SMT-Guitar:
-  url: http://www.idmt.fraunhofer.de/en/business_units/smt/guitar.html
-  metadata: 9 guitar playing techniques
-  contents: 4700+400 note events
-  audio: 'yes'
-
 IDMT-MT:
   url: https://www.jyu.fi/hytk/fi/laitokset/mutku/en/research/projects2/past-projects/coe/materials/Multitrack
   title: IDMT Multitrack
@@ -767,7 +771,39 @@ IDMT-MT:
     - style
   contents: 12 songs
   audio: 'yes'
-
+IDMT-PIANO-MM:
+  url: https://www.idmt.fraunhofer.de/en/publications/datasets/piano-mm.html
+  metadata:
+    - classical and jazz piano recordings
+  contents: 432 piano recordings (around four hours)
+  audio: 'yes'
+IDMT-SMT-Audio-Effects:
+  url: http://www.idmt.fraunhofer.de/en/business_units/smt/audio_effects.html
+  metadata: effects on bass and guitar notes
+  contents: 55044 recordings
+  audio: 'yes'
+IDMT-SMT-Bass:
+  url: http://www.idmt.fraunhofer.de/en/business_units/smt/bass.html
+  metadata: bass performance styles
+  contents: 4300 excerpts
+  audio: 'yes'
+IDMT-SMT-Bass-SINGLE-TRACK:
+  url: http://www.idmt.fraunhofer.de/en/business_units/smt/bass_lines.html
+  metadata: style annotated bass lines
+  contents: 17 bass lines (?)
+  audio: 'yes'
+IDMT-SMT-Drum:
+  url: http://www.idmt.fraunhofer.de/en/business_units/smt/drums.html
+  metadata:
+    - onset times
+    - perc. instruments
+  contents: 518 files
+  audio: 'yes'
+IDMT-SMT-Guitar:
+  url: http://www.idmt.fraunhofer.de/en/business_units/smt/guitar.html
+  metadata: 9 guitar playing techniques
+  contents: 4700+400 note events
+  audio: 'yes'
 iKala:
   url: http://mac.citi.sinica.edu.tw/ikala/
   metadata:
@@ -775,45 +811,36 @@ iKala:
     - background tracks
   contents: 252 excerpts (30s)
   audio: 'yes'
-
 INRIA:EuroVision:
   url: http://musicdata.gforge.inria.fr/structureAnnotation.html
   metadata: structure
   contents: 124 songs
   audio: 'no'
-
 INRIA:Quaero:
   url: http://musicdata.gforge.inria.fr/structureAnnotation.html
   metadata: structure
   contents: 159 songs
   audio: 'no'
-
-UIOWA:MIS:
-  url: http://theremin.music.uiowa.edu/MIS.html
-  metadata: single instrument notes
-  contents: many
-  audio: 'yes'
-
 IRMAS:
   url: http://www.mtg.upf.edu/download/datasets/irmas
   metadata: 11 instruments
   contents: 2874 excerpts
   audio: 'yes'
-
 ISMIR2004Genre:
   url: http://ismir2004.ismir.net/genre_contest/index.html
   metadata: 6 genres
   contents: 729 excerpts (30s)
   audio: 'yes'
-
 ISMIR2004Tempo:
   url: http://mtg.upf.edu/ismir2004/contest/tempoContest/node6.html
   metadata: tempo
   contents: 465 excerpts (20s)
   audio: 'yes'
-
 JAAH:
-  url: https://github.com/MTG/JAAH
+  url:
+    value: https://github.com/MTG/JAAH
+    date: '2022-01-07'
+    source: GitHub
   title: Jazz Audio-Aligned Harmony Dataset
   metadata:
     - structure
@@ -822,7 +849,6 @@ JAAH:
     - beats
   contents: 113 songs
   audio: 'no'
-
 jaCappella:
   url: https://tomohikonakamura.github.io/jaCappella_corpus/
   title: jaCappella corpus, Japanese a cappella vocal ensemble corpus
@@ -832,21 +858,22 @@ jaCappella:
     - singer ID
   contents: 50 songs (6 voices), audio recordings of each voice part and mixture
   audio: 'yes'
-  
-JamendoMaxCaps:
-  url: https://huggingface.co/datasets/amaai-lab/JamendoMaxCaps
-  metadata:
-    - genre
-    - speed
-    - variable tags
-  content: 362,238 songs with captions generated by Qwen2-Audio
-
 Jamendo-VAD:
   url: https://jobim.ofai.at/download/jamendo.tgz
   metadata: voice activity
   contents: 61+16+16 songs
   audio: 'yes'
-
+JamendoMaxCaps:
+  url:
+    value: https://huggingface.co/datasets/amaai-lab/JamendoMaxCaps
+    date: '2026-05-25'
+    source: HuggingFace
+    license: cc-by-sa-3.0
+  metadata:
+    - genre
+    - speed
+    - variable tags
+  content: 362,238 songs with captions generated by Qwen2-Audio
 JGDB:
   url: https://ccrma.stanford.edu/~jga/ismir2010/ismir2010.html
   metadata:
@@ -854,7 +881,6 @@ JGDB:
     - MIDI
   contents: random generated excerpts
   audio: 'yes'
-
 JKU-ScoFo:
   url: http://www.cp.jku.at/resources/2019_RLScoFo_TISMIR
   metadata:
@@ -862,38 +888,36 @@ JKU-ScoFo:
     - MIDI
   contents: 16 recordings
   audio: 'yes'
-
+JLSDD:
+  url:
+    value: https://github.com/ELVIS-Project/mass-duos-corpus-josquin-larue/tree/Methodologies-for-Creating-Symbolic-Music-Corpora
+    date: '2019-04-10'
+    source: GitHub
+    license: GPL-3.0
+  title: Josquin La Rue Secure Duo Dataset
+  metadata: symbolic scores
+  contents: 77 duos (Josquin & La Rue)
+  audio: 'no'
 Jordan:Classical:
   url: http://jblsmith.github.io/projects/masters-thesis/
   metadata: structure
   contents: 15 pieces
   audio: 'yes'
-
 Jordan:Jazz:
   url: http://jblsmith.github.io/projects/masters-thesis/
   metadata: structure
   contents: 15 pieces
   audio: 'yes'
-
-JLSDD:
-  url: https://github.com/ELVIS-Project/mass-duos-corpus-josquin-larue/tree/Methodologies-for-Creating-Symbolic-Music-Corpora
-  title: Josquin La Rue Secure Duo Dataset
-  metadata: symbolic scores
-  contents: 77 duos (Josquin & La Rue)
-  audio: 'no'
-
 KUGDastgahi:
   url: https://phaidra.kug.ac.at/view/o:127195
   metadata: dastgahi music
   contents: 213 solo recordings by four professional musicians
-  audio: 'audio'
-
+  audio: audio
 LabROSA:APT:
   url: http://labrosa.ee.columbia.edu/projects/piano/
   metadata: MIDI
   contents: 29 piano excerpts
   audio: 'yes'
-
 LabROSA:MIDI:
   url: http://labrosa.ee.columbia.edu/sounds/music/
   metadata:
@@ -901,27 +925,28 @@ LabROSA:MIDI:
     - MIDI
   contents: 4 songs
   audio: 'yes'
-
 last.fm:
-  url: https://zenodo.org/record/6090214
+  url:
+    value: https://zenodo.org/record/6090214
+    date: '2010-03-01'
+    version: '1.2'
+    source: Zenodo
+    license: other-nc
   title: last.fm-1K and last.fm-360K
   metadata: user listening habits from last.fm
   contents: 992 users
   audio: 'no'
-
+LFM-1b:
+  url: http://www.cp.jku.at/datasets/LFM-1b
+  metadata: listening habits
+  contents: 120000 users
+  audio: 'no'
 LIND:
   url: https://purl.stanford.edu/zy061bp9773
   title: Lyrical Influence Networks Dataset
   metadata: lyrics-based artist and genre graphs
   contents: 42802 artists/214 genres
   audio: 'no'
-
-LFM-1b:
-  url: http://www.cp.jku.at/datasets/LFM-1b
-  metadata: listening habits
-  contents: 120000 users
-  audio: 'no'
-
 LMD:
   url: https://colinraffel.com/projects/lmd/
   title: Lakh MIDI Dataset
@@ -931,33 +956,39 @@ LMD:
     - key: http://www.tagtraum.com/download/lmd-key.zip
   contents: 176581 MIDI files
   audio: 'no'
-
 LMD - Latin:
   url: http://www.ppgia.pucpr.br/~silla/lmd/
   metadata: 10 genres
   contents: 3160 songs
   audio: 'no'
-  
 LocalifyMusicEvents-USA-2019:
-  url: https://github.com/JimiLab/LocalifyMusicEventData
-  metadata: 
+  url:
+    value: https://github.com/JimiLab/LocalifyMusicEventData
+    date: '2022-12-07'
+    source: GitHub
+    license: MIT
+  metadata:
     - music events
     - socioeconomic indicators
   contents: 308051 music events that took place in 2019 and from 1139 US cities
   audio: 'no'
-  
 Lyra:
-  url: https://github.com/pxaris/lyra-dataset
+  url:
+    value: https://github.com/pxaris/lyra-dataset
+    date: '2023-06-27'
+    source: GitHub
   metadata: a dataset for Greek Traditional and Folk music that includes 1570 pieces
   contents: 1570 songs
   audio: 'yes'
-
 M-DJCUE:
-  url: https://github.com/MZehren/M-DJCUE
+  url:
+    value: https://github.com/MZehren/M-DJCUE
+    date: '2019-11-05'
+    source: GitHub
+    license: GPL-3.0
   metadata: cue points
   contents: 134 tracks
   audio: 'no'
-
 MAESTRO:
   url: https://magenta.tensorflow.org/datasets/maestro
   metadata:
@@ -966,7 +997,6 @@ MAESTRO:
     - sustain
   contents: 172 hours of piano
   audio: 'yes'
-
 magnatagatune:
   url: http://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset
   metadata:
@@ -974,7 +1004,6 @@ magnatagatune:
     - tags
   contents: 25863 excerpts (30s)
   audio: 'yes'
-
 MAPS:
   url: http://www.tsi.telecom-paristech.fr/aao/en/2010/07/08/maps-database-a-piano-database-for-multipitch-estimation-and-automatic-transcription-of-music/
   metadata:
@@ -982,13 +1011,11 @@ MAPS:
     - tempo/key: http://c4dm.eecs.qmul.ac.uk/ycart/a-maps.html
   contents: 238 pieces
   audio: 'yes'
-
 MARD:
   url: http://mtg.upf.edu/download/datasets/mard
   metadata: album reviews
   contents: 66566 songs
   audio: 'no'
-
 MARG-AMT:
   url: http://marg.snu.ac.kr/?page_id=767
   metadata:
@@ -996,34 +1023,52 @@ MARG-AMT:
     - onset/offset times
   contents: 30 melodies
   audio: 'yes'
-
 MAST:
-  url: https://github.com/barisbozkurt/MASTmelody_dataset
+  url:
+    value: https://github.com/barisbozkurt/MASTmelody_dataset
+    date: '2023-06-05'
+    source: GitHub
+    license: null
   metadata: vocal performance assessment
   contents: 1018 performances
   audio: 'no'
-
 MAST-Rhythm:
-  url: https://zenodo.org/record/2620357
+  url:
+    value: https://zenodo.org/record/2620357
+    date: '2019-04-01'
+    version: '1.0'
+    source: Zenodo
+    license: cc-by-4.0
   metadata: rhythm performance assessment
   contents: 3721 performances
   audio: 'yes'
-
 McGill Billboard:
   url: http://ddmal.music.mcgill.ca/billboard
   metadata: chords
   contents: 740 songs
   audio: 'no'
-
 MDBDrums:
-  url: https://github.com/CarlSouthall/MDBDrums
+  url:
+    value: https://github.com/CarlSouthall/MDBDrums
+    date: '2018-03-12'
+    source: GitHub
   metadata:
     - onset times
     - perc. instrument
     - playing technique
   contents: 23 excerpts
   audio: 'yes'
-
+Medley-solos-DB:
+  title: 'Medley-solos-DB: a cross-collection dataset for musical instrument recognition'
+  url:
+    value: https://zenodo.org/record/2582103
+    date: '2018-09-28'
+    version: '1.1'
+    source: Zenodo
+    license: cc-by-4.0
+  metadata: 8 instruments
+  contents: 21572 excerpts
+  audio: 'yes'
 MedleyDB:
   url: http://medleydb.weebly.com
   metadata:
@@ -1033,14 +1078,15 @@ MedleyDB:
     - instrument activation
   contents: 122 songs
   audio: 'yes'
-
-Medley-solos-DB:
-   title: "Medley-solos-DB: a cross-collection dataset for musical instrument recognition"
-   url: https://zenodo.org/record/2582103
-   metadata: 8 instruments
-   contents: 21572 excerpts
-   audio: 'yes'
-
+MelonPlaylistDataset:
+  url: https://mtg.github.io/melon-playlist-dataset/
+  title: Melon Playlist Dataset
+  metadata:
+    - 148826 playlists
+    - 30 genres, 219 subgenres
+    - 30652 playlist tags
+  contents: mel-spectrograms for 649091 songs (20-50s segments)
+  audio: 'no'
 MeloSol:
   url: https://davidjohnbaker1.github.io/melosol/
   metadata:
@@ -1051,25 +1097,17 @@ MeloSol:
     - key
   contents: 783 melodies
   audio: 'no'
-
-MelonPlaylistDataset:
-  url: https://mtg.github.io/melon-playlist-dataset/
-  title: Melon Playlist Dataset
-  metadata:
-  - 148826 playlists
-  - 30 genres, 219 subgenres
-  - 30652 playlist tags
-  contents: mel-spectrograms for 649091 songs (20-50s segments)
-  audio: 'no'
-
 MER500:
-   url: https://www.kaggle.com/makvel/mer500
-   metadata: emotion
-   contents: 500 clips
-   audio: 'yes'
-
+  url: https://www.kaggle.com/makvel/mer500
+  metadata: emotion
+  contents: 500 clips
+  audio: 'yes'
 MidiCaps:
-  url: https://huggingface.co/datasets/amaai-lab/MidiCaps
+  url:
+    value: https://huggingface.co/datasets/amaai-lab/MidiCaps
+    date: '2025-03-15'
+    source: HuggingFace
+    license: cc-by-sa-4.0
   title: MidiCaps
   metadata:
     - MIDI
@@ -1084,7 +1122,6 @@ MidiCaps:
     - time signature
   contents: 168385 MIDI files with text captions
   audio: 'no'
-
 MIR-1K:
   url: https://sites.google.com/site/unvoicedsoundseparation/mir-1k
   metadata:
@@ -1092,13 +1129,11 @@ MIR-1K:
     - background tracks
   contents: 1000 excerpts
   audio: 'yes'
-
 mirex05Train:
   url: http://labrosa.ee.columbia.edu/projects/melody/
   metadata: predominant pitch
   contents: 13 excerpts
   audio: 'yes'
-
 mirex06Train:
   url: http://www.music-ir.org/mirex/wiki/2006:Audio_Tempo_Extraction#Practice_Data
   metadata:
@@ -1106,61 +1141,78 @@ mirex06Train:
     - beats
   contents: 20 excerpts (30s)
   audio: 'yes'
-
-MMTD:
-  url: http://www.cp.jku.at/datasets/MMTD/
-  title: Million Musical Tweets
-  metadata: listening behavior
-  contents: 1086808 tweets
-  audio: 'no'
-
-Modal:
-  url: https://github.com/johnglover/modal
-  metadata: onset times
-  contents: 71 snippets
-  audio: 'yes'
-
-MOODetector:Bi-Modal:
-  url: https://github.com/johnglover/modal
-  metadata:
-    - lyrics
-    - valence & arousal
-  contents: 133 excerpts
-  audio: 'yes'
-
-MOODetector:Multi-Modal:
-  url: https://github.com/johnglover/modal
-  metadata:
-    - lyrics
-    - MIDI
-    - mood
-  contents: 903 excerpts (30s)
-  audio: 'yes'
-
-moodswings:
-  url: http://music.ece.drexel.edu/research/emotion/moodswingsturk
-  metadata: arousal & valence
-  contents: 240 excerpts (30s)
-  audio: 'no'
-
 MLPMF:
   url: https://osf.io/5aupt
   title: Mid Level Perceptual Music Features
   metadata: 7 perceptual features
   contents: 5000 audio files
   audio: 'yes'
-
+MMTD:
+  url: http://www.cp.jku.at/datasets/MMTD/
+  title: Million Musical Tweets
+  metadata: listening behavior
+  contents: 1086808 tweets
+  audio: 'no'
+Modal:
+  url:
+    value: https://github.com/johnglover/modal
+    date: '2018-08-10'
+    source: GitHub
+    license: null
+  metadata: onset times
+  contents: 71 snippets
+  audio: 'yes'
+MOODetector:Bi-Modal:
+  url:
+    value: https://github.com/johnglover/modal
+    date: '2018-08-10'
+    source: GitHub
+    license: null
+  metadata:
+    - lyrics
+    - valence & arousal
+  contents: 133 excerpts
+  audio: 'yes'
+MOODetector:Multi-Modal:
+  url:
+    value: https://github.com/johnglover/modal
+    date: '2018-08-10'
+    source: GitHub
+    license: null
+  metadata:
+    - lyrics
+    - MIDI
+    - mood
+  contents: 903 excerpts (30s)
+  audio: 'yes'
+moodswings:
+  url: http://music.ece.drexel.edu/research/emotion/moodswingsturk
+  metadata: arousal & valence
+  contents: 240 excerpts (30s)
+  audio: 'no'
 MozartStringQuartets:
-    url: http://algomus.fr/data
-    title: Mozart's String Quartets
-    metadata:
-      - structure
-      - cadences
-    contents: 32 movements
-    audio: 'no'
-
+  url: http://algomus.fr/data
+  title: Mozart's String Quartets
+  metadata:
+    - sonata from structure
+    - cadences
+  contents: 32 movements
+  audio: 'no'
+MSD:
+  url: http://labrosa.ee.columbia.edu/millionsong/
+  title: Million Song Dataset
+  metadata:
+    - metadata: http://www.tagtraum.com/msd_genre_datasets.html
+    - proprietary features
+  contents: 1000000 songs
+  audio: 'no'
 MSMD:
-  url: https://zenodo.org/record/2597505/
+  url:
+    value: https://zenodo.org/record/2597505/
+    date: '2019-06-17'
+    version: '1.1'
+    source: Zenodo
+    license: cc-by-4.0
   title: Multimodal Sheet Music Dataset
   metadata:
     - piano notes/chords/pieces
@@ -1170,25 +1222,6 @@ MSMD:
     - OMR
   contents: 497 pieces
   audio: 'no'
-
-MozartStringQuartets:
-    url: http://algomus.fr/data
-    title: Mozart's String Quartets
-    metadata:
-      - sonata from structure
-      - cadences
-    contents: 32 movements
-    audio: 'no'
-
-MSD:
-  url: http://labrosa.ee.columbia.edu/millionsong/
-  title: Million Song Dataset
-  metadata:
-    - metadata: http://www.tagtraum.com/msd_genre_datasets.html
-    - proprietary features
-  contents: 1000000 songs
-  audio: 'no'
-
 MTC:
   url: http://www.liederenbank.nl/mtc/
   title: The Meertens Tune Collections
@@ -1197,8 +1230,7 @@ MTC:
     - key
     - meter
   contents: 18000 melodies
-  audio: 'partially'
-
+  audio: partially
 MTD:
   url: https://www.audiolabs-erlangen.de/resources/MIR/MTD
   title: A Multimodal Dataset of Musical Themes for MIR Research
@@ -1210,14 +1242,12 @@ MTD:
     - composer, work, recording, and theme characteristics
   contents: 2067 Themes
   audio: 'yes'
-
 MTG-Jamendo:
   url: https://mtg.github.io/mtg-jamendo-dataset/
   title: MTG-Jamendo
   metadata: tags (genre, instruments, mood)
   contents: 55000 tracks
   audio: 'yes'
-
 MTG-QBH:
   url: http://mtg.upf.edu/download/datasets/mtg-qbh
   title: MTG-Query by Humming
@@ -1225,14 +1255,7 @@ MTG-QBH:
     - title
     - artist
   contents: 118 queries/481 songs
-  audio: 'yes/no'
-  
-MusAV:
-  url: https://mtg.github.io/musav-dataset/
-  metadata: arousal and valence
-  contents: 2,092 track previews covering 1,404 genres, with pairwise relative AV judgments by 20 annotators
-  audio: 'yes'
-
+  audio: yes/no
 MusAV:
   url: https://mtg.github.io/musav-dataset/
   title: MusAV
@@ -1240,7 +1263,15 @@ MusAV:
     - arousal & valence (relative annotations)
   contents: 2092 excerpts (30s)
   audio: 'yes'
-
+musdb-XL:
+  url:
+    value: https://github.com/jeonchangbin49/musdb-XL
+    date: '2022-09-07'
+    source: GitHub
+    license: MIT
+  metadata: source separation
+  contents: musdb-XL is an eXtremely Loud version of musdb-hq evaluation dataset
+  audio: 'yes'
 MUSDB18:
   url: https://sigsep.github.io/datasets/musdb.html
   metadata:
@@ -1248,23 +1279,19 @@ MUSDB18:
     - stems for vocals, drums, bass and accompaniment
   contents: 150 songs
   audio: 'yes'
-  
-musdb-XL:
-  url: https://github.com/jeonchangbin49/musdb-XL
-  metadata: source separation
-  contents: musdb-XL is an eXtremely Loud version of musdb-hq evaluation dataset
-  audio: 'yes'
-
 MUSIC4ALL:
   url: https://sites.google.com/view/contact4music4all
   metadata:
     - tags
     - lyrics
   contents: 109,269 excerpts (30s)
-  audio: 'on request'
-
+  audio: on request
 MusicBench:
-  url: https://huggingface.co/datasets/amaai-lab/MusicBench
+  url:
+    value: https://huggingface.co/datasets/amaai-lab/MusicBench
+    date: '2025-03-20'
+    source: HuggingFace
+    license: cc-by-sa-3.0
   metadata:
     - Augmented MusicCaps
     - wav files
@@ -1273,19 +1300,16 @@ MusicBench:
     - chords, beats, tempo, and key
   contents: 52,768 training and 400 test samples
   audio: 'yes'
-
 musiclef2012:
   url: http://www.cp.jku.at/datasets/musiclef/index.html
   metadata: tags
   contents: 1355 songs
   audio: 'no'
-
 MusicMicro:
   url: http://www.cp.jku.at/datasets/musicmicro/index.html
   metadata: music listening patterns
   contents: 136866 users
   audio: 'no'
-
 MusicNet:
   url: https://homes.cs.washington.edu/~thickstn/musicnet.html
   metadata:
@@ -1293,10 +1317,14 @@ MusicNet:
     - onsets
   contents: 330 recordings
   audio: implicitly
-
 MuVi-Sync:
   title: Multi-modal Dataset of Music Video
-  url: https://zenodo.org/records/10057093
+  url:
+    value: https://zenodo.org/records/10057093
+    date: '2023-10-31'
+    version: ''
+    source: Zenodo
+    license: cc-by-4.0
   metadata:
     - chords / keys (music feature)
     - note density (music feature)
@@ -1307,43 +1335,41 @@ MuVi-Sync:
     - scene offset (video feature)
   contents: 748 music videos
   audio: on request
-
 NES-MDB:
-  url: https://github.com/chrisdonahue/nesmdb
+  url:
+    value: https://github.com/chrisdonahue/nesmdb
+    date: '2024-12-22'
+    source: GitHub
+    license: MIT
   metadata:
     - multi-track MIDI
     - aligned audio
   contents: 5000 songs
   audio: on request
-
 NIN:
   url: http://ninremixes.com/8/multitracks.php
   title: Nine Inch Nails Multitracks
   metadata: multitrack
   contents: 66 songs
   audio: 'yes'
-
 NMED-H:
   url: http://purl.stanford.edu/sd922db3535
   title: NMED-H - Naturalistic Music EEG Dataset Hindi
   metadata: EEG
   contents: 24 trials x 16 excerpts (4.5min)
   audio: 'no'
-
 NMED-RP:
   title: Naturalistic Music EEG Dataset – Rhythm Pilot
   url: https://purl.stanford.edu/rz763kn3821
   metadata: EEG
   contents: 20 trials x 10 excerpts (4.5min)
   audio: 'no'
-
 NMED-T:
   title: Naturalistic Music EEG Dataset - Tempo
   url: https://purl.stanford.edu/jn859kj8079
   metadata: EEG
   contents: 30 trials x 16 excerpts (30sec)
   audio: 'no'
-
 NSynth:
   url: https://magenta.tensorflow.org/datasets/nsynth
   metadata:
@@ -1351,52 +1377,45 @@ NSynth:
     - pitch
   contents: 305979 single notes
   audio: 'yes'
-
 NUS-48E:
   url: https://www.smcnus.org/nus-48e-sung-and-spoken-lyrics-corpus/
   metadata: aligned phonemes
   contents: 48 pairs of sung and spoken
   audio: 'yes'
-
 ODB:
   url: http://grfia.dlsi.ua.es/cm/worklines/pertusa/onset/ODB/
   metadata: onset times
   contents: 19 excerpts
   audio: 'yes'
-
 Onset_Leveau:
   url: http://www.tsi.telecom-paristech.fr/aao/en/2011/07/13/onset_leveau-a-database-for-onset-detection/
   metadata: onset times
   contents: 21 excerpts
   audio: 'yes'
-
 OpenBMAT:
-  url: https://zenodo.org/record/3381249
+  url:
+    value: https://zenodo.org/record/3381249
+    date: '2019-08-28'
+    version: 1.0.0
+    source: Zenodo
   title: Open Broadcast Media Audio from TV
   metadata: 6 classes for music presence
   contents: 1647 excerpts (60s)
   audio: 'yes'
-
 OpenMIC-2018:
-  url: https://github.com/cosmir/openmic-2018
+  url:
+    value: https://github.com/cosmir/openmic-2018
+    date: '2022-06-01'
+    source: GitHub
+    license: MIT
   metadata: 20 instruments
   contents: 20000 excerpts (10s)
   audio: 'yes'
-
 Orchset:
   url: http://mtg.upf.edu/download/datasets/orchset
   metadata: predominant pitch
   contents: 64 excerpts
   audio: 'yes'
-
-Phenicx-Anechoic:
-  url: http://mtg.upf.edu/download/datasets/phenicx-anechoic
-  metadata:
-    - multi-track audio (orchestral music)
-    - aligned MIDI
-  contents: 4 pieces
-  audio: 'yes'
-
 PGD:
   url: https://gitlab.doc.gold.ac.uk/expressive-musical-gestures/dataset/-/tree/master/piano
   title: Piano Gestures Dataset
@@ -1406,7 +1425,13 @@ PGD:
     - audio
   contents: 210 clips
   audio: 'yes'
-
+Phenicx-Anechoic:
+  url: http://mtg.upf.edu/download/datasets/phenicx-anechoic
+  metadata:
+    - multi-track audio (orchestral music)
+    - aligned MIDI
+  contents: 4 pieces
+  audio: 'yes'
 Phonation:
   url: https://osf.io/pa3ha
   metadata:
@@ -1415,19 +1440,16 @@ Phonation:
     - phonation mode
   contents: 900 monophonic snippets
   audio: 'yes'
-
 PlaylistDataset:
   url: http://www.cs.cornell.edu/~shuochen/lme/data_page.html
   metadata: playlists
   contents: 75262 songs/2840553 transitions
   audio: 'no'
-
 QBT-Extended:
   url: https://ccrma.stanford.edu/groups/qbtextended/index.html
   metadata: taps
   contents: 3365 queries/51 songs
   audio: MIDI
-
 QMUL:Beatles:
   url: http://isophonics.net/content/reference-annotations-beatles
   metadata:
@@ -1437,7 +1459,6 @@ QMUL:Beatles:
     - beats
   contents: 181 songs
   audio: 'no'
-
 QMUL:King:
   url: http://isophonics.net/content/reference-annotations-carole-king
   metadata:
@@ -1446,13 +1467,11 @@ QMUL:King:
     - chords
   contents: 14 songs
   audio: 'no'
-
 QMUL:MichaelJackson:
   url: http://isophonics.net/content/reference-annotations-michael-jackson
   metadata: structure
   contents: 38 songs
   audio: 'no'
-
 QMUL:MixEvaluation:
   url: http://c4dm.eecs.qmul.ac.uk/multitrack/MixEvaluation/
   metadata:
@@ -1460,7 +1479,6 @@ QMUL:MixEvaluation:
     - mixes
   contents: 18 songs/180 mixes
   audio: 'yes'
-
 QMUL:Queen:
   url: http://isophonics.net/content/reference-annotations-queen
   metadata:
@@ -1469,13 +1487,11 @@ QMUL:Queen:
     - chords
   contents: 51/31 songs
   audio: 'no'
-
 QMUL:RSS:
   url: http://c4dm.eecs.qmul.ac.uk/downloads/
   metadata: structure
   contents: 60 songs
   audio: 'no'
-
 QMUL:Zweieck:
   url: http://isophonics.net/content/reference-annotations-zweieck
   metadata:
@@ -1485,13 +1501,19 @@ QMUL:Zweieck:
     - beats
   contents: 18 songs
   audio: 'no'
-
 QUASI:
   url: http://www.tsi.telecom-paristech.fr/aao/en/2012/03/12/quasi/
   metadata: multitrack
   contents: 11 songs
   audio: 'yes'
-
+RobbieWilliamsAnnotations:
+  url: http://ispg.deib.polimi.it/mir-software.html
+  metadata:
+    - chords
+    - keys
+    - beats
+  contents: 65 songs
+  audio: 'no'
 RockCorpus:
   url: http://rockcorpus.midside.com
   metadata:
@@ -1500,7 +1522,6 @@ RockCorpus:
     - bars
   contents: 200 songs
   audio: 'no'
-
 RWC:
   url: http://staff.aist.go.jp/m.goto/RWC-MDB/
   metadata:
@@ -1512,13 +1533,11 @@ RWC:
     - aligned MIDI: https://staff.aist.go.jp/m.goto/RWC-MDB/AIST-Annotation/SyncRWC/
   contents: 115 songs/50 classical/100 songs
   audio: 'yes'
-
 SALAMI:
   url: http://ddmal.music.mcgill.ca/research/salami/annotations
   metadata: structure
   contents: 1447 songs
   audio: 'no'
-
 SAMBASET:
   url: http://www02.smt.ufrj.br/~starel/sambaset/
   metadata:
@@ -1527,42 +1546,15 @@ SAMBASET:
     - beats
   contents: 392
   audio: 'no'
-
 Sargon:
-  url: https://github.com/urinieto/msaf-data/tree/cbf0ad50aa5c179c1ab7ac0f25031581f595847e/Sargon
+  url:
+    value: https://github.com/urinieto/msaf-data/tree/cbf0ad50aa5c179c1ab7ac0f25031581f595847e/Sargon
+    date: '2016-09-18'
+    source: GitHub
+    license: MIT
   metadata: structure
   contents: 4 songs
   audio: 'yes'
-
-Schenker:
-  url: http://www.cs.rhodes.edu/~kirlinp/diss.html
-  title: Schenker Anayses
-  metadata:
-    - MusicXML
-    - Schenker analysis
-  contents: 41 pieces
-  audio: 'no'
-
-SCP:
-  title: SCP - EEG-Recorded Responses to Short Chord Progressions
-  url: http://purl.stanford.edu/js383fs8244
-  metadata: EEG
-  contents: 108/648 trials x 12 stimuli (5s)
-  audio: 'yes'
-
-SDD:
-  title: Sample detection dataset
-  url: https://github.com/SiddGururani/sample_detection
-  metadata: start of samples
-  contents: 80 songs, 80 samples
-  audio: 'no'
-
-SEILS:
-  url: https://github.com/SEILSdataset/SEILSdataset
-  metadata: scores in different symbolic formats
-  contents: 30 madrigals
-  audio: 'no'
-
 SASD:
   title: Semantic Artist Similarity
   url: http://mtg.upf.edu/download/datasets/semantic-similarity
@@ -1571,37 +1563,66 @@ SASD:
     - similarity
   contents: 268+2336 artists
   audio: 'no'
-
+Schenker:
+  url: http://www.cs.rhodes.edu/~kirlinp/diss.html
+  title: Schenker Anayses
+  metadata:
+    - MusicXML
+    - Schenker analysis
+  contents: 41 pieces
+  audio: 'no'
+SCP:
+  title: SCP - EEG-Recorded Responses to Short Chord Progressions
+  url: http://purl.stanford.edu/js383fs8244
+  metadata: EEG
+  contents: 108/648 trials x 12 stimuli (5s)
+  audio: 'yes'
+SDD:
+  title: Sample detection dataset
+  url:
+    value: https://github.com/SiddGururani/sample_detection
+    date: '2019-10-14'
+    source: GitHub
+  metadata: start of samples
+  contents: 80 songs, 80 samples
+  audio: 'no'
+SEILS:
+  url:
+    value: https://github.com/SEILSdataset/SEILSdataset
+    date: '2021-10-24'
+    source: GitHub
+    license: null
+  metadata: scores in different symbolic formats
+  contents: 30 madrigals
+  audio: 'no'
 Seyerlehner:1517-Artists:
   url: http://www.seyerlehner.info/index.php?p=1_3_Download
   metadata: 19 genres
   contents: 3180 songs
   audio: 'yes'
-
 Seyerlehner:Annotated:
   url: http://www.seyerlehner.info/index.php?p=1_3_Download
   metadata: 19 genres
   contents: 190 songs
   audio: 'yes'
-
 Seyerlehner:Pop:
   url: http://www.seyerlehner.info/index.php?p=1_3_Download
   metadata: tempo
   contents: 1105 songs
   audio: 'yes'
-
 Seyerlehner:Unique:
   url: http://www.seyerlehner.info/index.php?p=1_3_Download
   metadata: 14 genres
   contents: 3115 excerpts (30s)
   audio: 'yes'
-
 SHS100K:
-  url: https://github.com/NovaFrost/SHS100K
+  url:
+    value: https://github.com/NovaFrost/SHS100K
+    date: '2017-12-25'
+    source: GitHub
   metadata: cover songs
   contents: ca. 10,000 songs with 100,000 tracks
   audio: 'no'
-
 SISEC2013:
   url: http://sisec2011.wiki.irisa.fr/tiki-index165d.html?page=Professionally+produced+music+recordings
   metadata:
@@ -1609,17 +1630,6 @@ SISEC2013:
     - mix
   contents: 5 excerpts
   audio: 'yes'
-
-SLAKH:
-  url: http://www.slakh.com/
-  title: Synthesized Lakh Dataset (Slakh)
-  metadata:
-    - MIDI
-    - audio
-    - transcription
-  contents: 2100 songs, midi files, 145 hours
-  audio: 'yes'
-
 SLAKH:
   url: http://www.slakh.com/
   metadata:
@@ -1627,7 +1637,6 @@ SLAKH:
     - synthesized audio (tracks + mix)
   contents: 2100 mixes
   audio: 'yes'
-
 SMC:MIREX:
   url: http://smc.inescporto.pt/research/data-2/
   metadata:
@@ -1635,7 +1644,6 @@ SMC:MIREX:
     - beats
   contents: 217 excerpts
   audio: 'yes'
-
 SMD:
   url: http://www.mpi-inf.mpg.de/resources/SMD/SMD_MIDI-Audio-Piano-Music.html
   metadata:
@@ -1643,19 +1651,26 @@ SMD:
     - aligned MIDI
   contents: 50 recordings
   audio: 'yes'
-
 SongDescriberDataset:
-  url: https://doi.org/10.5281/zenodo.10072001
+  url:
+    value: https://doi.org/10.5281/zenodo.10072001
+    date: '2023-11-16'
+    version: 1.0.0
+    source: Zenodo
+    license: cc-by-sa-4.0
   metadata: descriptive captions
   contents: 706 music recordings (2 min)
   audio: 'yes'
-
 SongInterpretationDataset:
-  url: https://zenodo.org/record/7019124#.Y5yxwux_pTY
-  metadata: lyrics 
+  url:
+    value: https://zenodo.org/record/7019124#.Y5yxwux_pTY
+    date: '2022-05-05'
+    version: '1.1'
+    source: Zenodo
+    license: cc-by-4.0
+  metadata: lyrics
   contents: 27,834 songs (30 seconds each, recorded at 44.1 kHz)
   audio: 'yes'
-
 SoundTracks:
   url: https://www.jyu.fi/hytk/fi/laitokset/mutku/en/research/projects2/past-projects/coe/materials/emotion/soundtracks/Index
   metadata:
@@ -1665,20 +1680,21 @@ SoundTracks:
     - mood
   contents: 360+110 excerpts
   audio: 'yes'
-
 SPAM:
-  url: https://github.com/urinieto/msaf-data/tree/master/SPAM/references
+  url:
+    value: https://github.com/urinieto/msaf-data/tree/master/SPAM/references
+    date: '2016-09-18'
+    source: GitHub
+    license: MIT
   metadata: structure
   contents: 50 songs
   audio: 'no'
-
 SRD-O:
   title: Shazam Research Dataset Offsets
   url: https://purl.stanford.edu/fj396zz8014
   metadata: in-song query times
   contents: 188M queries over 20 songs
   audio: 'no'
-
 Su-AMT:
   url: https://sites.google.com/site/lisupage/research/new-methodology-of-building-polyphonic-datasets-for-amt
   metadata:
@@ -1686,15 +1702,18 @@ Su-AMT:
     - pitch
   contents: 10 excerpts
   audio: 'yes'
-
 SUPRA-RW:
   url: https://supra.stanford.edu/download/
   metadata: piano roll performances
   contents: 478 performances
   audio: 'yes'
-
 SWD:
-  url: https://zenodo.org/record/4122060#.YPkxv-gzaUl
+  url:
+    value: https://zenodo.org/record/4122060#.YPkxv-gzaUl
+    date: '2020-07-31'
+    version: '1.1'
+    source: Zenodo
+    license: cc-by-3.0
   title: Schubert Winterreise Dataset (SWD)
   metadata:
     - lyrics
@@ -1704,14 +1723,12 @@ SWD:
     - chords, local keys, global keys, structure
   contents: 24 songs, 9 performances
   audio: 'yes'
-
 SymbolicTextureMozartSonatas:
   url: https://gitlab.com/algomus.fr/algomus-data/tree/master/quartets/mozart
   metadata:
     - symbolic music
   contents: 9 movements of Mozart Piano Sonatas totaling a set of 1164 annotated measures
   audio: 'no'
-  
 SymphonyMIDI:
   url: https://symphonynet.github.io/
   metadata:
@@ -1719,14 +1736,12 @@ SymphonyMIDI:
     - symphonic
   contents: 46187 MIDI scores
   audio: 'no'
-  
 TextureStringQuartets:
   url: http://algomus.fr/data
   title: Texture in String Quartets
   metadata: texture
   contents: 11 movements
   audio: 'no'
-
 TFD:
   title: Traditional Flute Dataset
   url: https://www.kaggle.com/jbraga/traditional-flute-dataset
@@ -1735,7 +1750,6 @@ TFD:
     - aligned MIDI
   contents: 30 excerpts
   audio: 'yes'
-
 ThisIsMyJam:
   url: https://archive.org/details/thisismyjam-datadump
   metadata:
@@ -1743,9 +1757,13 @@ ThisIsMyJam:
     - artists
   contents: 131k users
   audio: 'no'
-
 TinySOL:
-  url: https://zenodo.org/record/3632192
+  url:
+    value: https://zenodo.org/record/3632192
+    date: '2020-01-31'
+    version: '6.0'
+    source: Zenodo
+    license: cc-by-4.0
   title: TinySOL, an audio dataset of isolated musical notes
   metadata:
     - instrument
@@ -1754,20 +1772,17 @@ TinySOL:
     - string number (if applicable)
   contents: 2913 isolated notes
   audio: 'yes'
-
 TONAS:
   url: http://mtg.upf.edu/download/datasets/tonas
   metadata: pitch
   contents: 72 single-voiced excerpts
   audio: 'yes'
-
 TPD:
   title: Track Popularity
   url: http://mir.ilsp.gr/track_popularity.html
   metadata: popularity rating
   contents: 23385 songs
   audio: 'no'
-
 Tunebot:
   url: http://music.cs.northwestern.edu/data/tunebot
   metadata:
@@ -1775,38 +1790,42 @@ Tunebot:
     - artist
   contents: 10000 queries/? songs
   audio: yes/no
-
+UIOWA:MIS:
+  url: http://theremin.music.uiowa.edu/MIS.html
+  metadata: single instrument notes
+  contents: many
+  audio: 'yes'
 UMA-Piano:
   url: http://extras.springer.com/2013/978-1-4614-7475-3
   metadata: piano chords
   contents: 275040 recordings
   audio: 'yes'
-
 UnmixDB:
-  url: https://zenodo.org/record/1422385#.W7R5zxMzYWo
+  url:
+    value: https://zenodo.org/record/1422385#.W7R5zxMzYWo
+    date: '2018-09-20'
+    version: '1'
+    source: Zenodo
+    license: cc-by-nc-nd-4.0
   metadata: DJ mix parameters
   contents: 37 playlists
   audio: 'yes'
-
-UrbanSound8k:
-  url: http://urbansounddataset.weebly.com/
-  metadata: 10 event classes
-  contents: 8732 slices
-  audio: 'yes'
-
 URBAN-SED:
   url: http://urbansed.weebly.com/
   metadata: 9 event classes
   contents: 10000 recordings
   audio: 'yes'
-
+UrbanSound8k:
+  url: http://urbansounddataset.weebly.com/
+  metadata: 10 event classes
+  contents: 8732 slices
+  audio: 'yes'
 URMP:
   title: Multi-modal Music Performance
   url: http://www2.ece.rochester.edu/projects/air/projects/URMP.html
   metadata: score-aligned video and audio
   contents: 44 recordings
   audio: 'yes'
-
 uspop2002:
   url: http://labrosa.ee.columbia.edu/projects/musicsim/uspop2002.html
   metadata:
@@ -1815,13 +1834,6 @@ uspop2002:
     - chords: https://github.com/tmc323/Chord-Annotations
   contents: 8752 songs
   audio: 'no'
-  
-ViolinEtudesf0Estimation:
-  url: https://zenodo.org/record/6564408#.Y52slux_pTZ
-  metadata: f0 estimation for Violin Etudes
-  contents: 27.8-hours violin performance
-  audio: 'yes'
-
 VGD:
   url: https://gitlab.doc.gold.ac.uk/expressive-musical-gestures/dataset/-/tree/master/violin
   title: Violin Gestures Dataset
@@ -1831,41 +1843,49 @@ VGD:
     - audio
   contents: 960 recordings
   audio: 'yes'
-
+ViolinEtudesf0Estimation:
+  url:
+    value: https://zenodo.org/record/6564408#.Y52slux_pTZ
+    date: '2022-05-19'
+    version: ''
+    source: Zenodo
+  metadata: f0 estimation for Violin Etudes
+  contents: 27.8-hours violin performance
+  audio: 'yes'
 VocalSet:
-  url: https://zenodo.org/record/1442513#.W7OaFBNKjx4
+  url:
+    value: https://zenodo.org/record/1442513#.W7OaFBNKjx4
+    date: '2018-03-08'
+    version: '1.2'
+    source: Zenodo
+    license: cc-by-4.0
   title: VocalSet
   metadata: 17 vocal techniques
   contents: 3560 recordings
   audio: 'yes'
-
-RobbieWilliamsAnnotations:
-  url: http://ispg.deib.polimi.it/mir-software.html
-  metadata:
-    - chords
-    - keys
-    - beats
-  contents: 65 songs
-  audio: 'no'
-
 Yambda:
-  url: https://huggingface.co/datasets/yandex/yambda
+  url:
+    value: https://huggingface.co/datasets/yandex/yambda
+    date: '2026-04-06'
+    source: HuggingFace
+    license: apache-2.0
   metadata:
     - user-item interactions
     - implicit feedback
     - explicit feedback
     - organic vs recommendation markers
-  contents: 4.79B interactions, 1M users, 9.39M tracks (slices: 500M, 50M)
+  contents: 4.79B interactions, 1M users, 9.39M tracks (slices 500M, 50M)
   audio: 'no'
-  
 YM2413-MDB:
-  url: https://github.com/jech2/YM2413-MDB
-  metadata: 
+  url:
+    value: https://github.com/jech2/YM2413-MDB
+    date: '2023-01-10'
+    source: GitHub
+  metadata:
     - retro video game symbolic music dataset with emotion annotations
     - ismir 2022
   contents: 669 songs
   audio: 'no'
-  
 YousicianUkulele:
   url: https://yousician.com/open-data
   metadata: evaluated notes and chords

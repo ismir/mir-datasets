@@ -31,7 +31,10 @@ key1:
 
 # Multiple metadata fields
 key2:
-  url: http://path/to/something.html
+  url:
+    value: https://the.url
+    date: '2026-09-21'
+    source: GitHub
   metadata:
    - tempo
    - lyrics: http://my/lyrics/page
@@ -39,7 +42,9 @@ key2:
   audio: yes
 ```
 
-Note that multiple metadata fields additionally support providing URLs for each metadata field.
+Note that
+- the expanded `url` data is populated automatically with API search of the given URL.
+- multiple `metadata` fields are added manually and support providing URLs for each such field.
 
 
 ## Contributing
