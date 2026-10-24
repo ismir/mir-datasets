@@ -952,6 +952,14 @@ Lyra:
   contents: 1570 songs
   audio: 'yes'
 
+LyricsWeb Research:
+  url: https://lyricsweb.com/research
+  metadata:
+    - song title structure and length trends: https://doi.org/10.5281/zenodo.23624636
+    - title originality and reuse: https://doi.org/10.5281/zenodo.23559663
+  contents: versioned aggregate measurements derived from 7,096,331 eligible catalog records covering 1800-2026
+  audio: 'no'
+
 M-DJCUE:
   url: https://github.com/MZehren/M-DJCUE
   metadata: cue points
