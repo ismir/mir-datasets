@@ -1848,6 +1848,19 @@ RobbieWilliamsAnnotations:
   contents: 65 songs
   audio: 'no'
 
+XIMAudio:
+  title: XIM Audio music production datasets
+  url: https://ximaudio.com/data
+  metadata:
+    - DAW session files (Logic, Ableton, FL Studio, Cubase)
+    - stems (one WAV per lane, instrument labels)
+    - MIDI
+    - synth presets
+    - timed transcripts (tutorial sessions)
+    - tempo, key, duration, sample rate per item
+  contents: 3,923 songs as stems (98,246 lanes), 3,267 paired sets (session, stems, MIDI, masters), 2,006 vocal/instrumental pairs, 9,466 DAW sessions, 378 tutorial sessions, 287,347 MIDI files (about 16,000 h, measured 31 Oct 2026)
+  audio: on request
+
 Yambda:
   url: https://huggingface.co/datasets/yandex/yambda
   metadata:
