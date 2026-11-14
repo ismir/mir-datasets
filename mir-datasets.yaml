@@ -529,6 +529,17 @@ Freesound-Loop-Dataset:
   audio: 'yes'
 
 
+Fretwork:
+  url: https://guitarfretwork.com/data/
+  metadata:
+    - chord shapes (fret positions, standard tuning)
+    - chord tones and intervals
+    - scales with fretboard positions
+    - song keys and time signatures
+    - chords used per song
+  contents: 373 verified guitar chord shapes (219 chords), 156 scales, 87 public-domain songs (metadata only); CC BY 4.0
+  audio: 'no'
+
 FSD-Kaggle2019:
   url: https://zenodo.org/record/3612637
   metadata: 80 tags
